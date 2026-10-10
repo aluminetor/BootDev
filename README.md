@@ -6,19 +6,28 @@
 
 > *"Code is the most powerful magic governing the realms of the web."*
 
-[![Boot.dev Profile](https://img.shields.io/badge/Boot.dev-Adventurer%20Profile-blueviolet?style=for-the-badge&logo=shield)](https://www.boot.dev)
-[![Status](https://img.shields.io/badge/Rank-Apprentice%20Wizard-orange?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/License-Open%20Scroll-green?style=for-the-badge)](#)
+[![Boot.dev Profile](https://img.shields.io/badge/Boot.dev-aluminetor-8B5CF6?style=for-the-badge&logo=shield&logoColor=white)](https://www.boot.dev/u/aluminetor)
+[![Adventurer Rank](https://img.shields.io/badge/Rank-Backend%20Apprentice-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.boot.dev/u/aluminetor)
+[![Status](https://img.shields.io/badge/Quest%20Status-Active%20Grind-10B981?style=for-the-badge)](#)
 
 </div>
 
 ---
 
+## 🧙‍♂️ Adventurer Profile
+
+- **Hero Handle:** [`@aluminetor`](https://www.boot.dev/u/aluminetor)
+- **Guild:** [Boot.dev](https://www.boot.dev)
+- **Path / Class:** Backend Sorcerer (*Python, Go, Linux & Architecture*)
+- **Tome of Quests:** [boot.dev/u/aluminetor](https://www.boot.dev/u/aluminetor)
+
+---
+
 ## 📜 Quest Prologue
 
-Welcome, traveler, to this digital tome. Here lie the logs, incantations, and artifacts forged throughout my journey across the realms of **[Boot.dev](https://www.boot.dev)**.
+Welcome, traveler, to this digital grimoire. Here lie the battle logs, incantations, and artifacts forged throughout my journey across the realms of **[Boot.dev](https://www.boot.dev)**.
 
-My quest is to master the arcane arts of **Backend Development**, conquering system architecture, concurrency, and core computational foundations.
+My objective is to conquer the core disciplines of **Backend Development**—unraveling algorithms, building distributed servers, and mastering the low-level foundations of modern systems.
 
 ---
 
@@ -39,7 +48,7 @@ My quest is to master the arcane arts of **Backend Development**, conquering sys
 
 ---
 
-## 🛡️ Unlocked Spells & Skills
+## 🛡️ Unlocked Spells & Arsenal
 
 <div align="center">
 
@@ -57,7 +66,7 @@ My quest is to master the arcane arts of **Backend Development**, conquering sys
 
 ```text
 .
-├── 📁 01_python/            # Early incantations & basic trials
+├── 📁 01_python/            # Early incantations & foundational trials
 ├── 📁 02_oop/               # Class rituals, polymorphism & encapsulation
 ├── 📁 03_dsa/               # Ancient trees, graphs & sorting algorithms
 ├── 📁 04_go/                # Concurrent routines & static typing
