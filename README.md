@@ -66,10 +66,16 @@ My objective is to conquer the core disciplines of **Backend Development**—unr
 
 ```text
 .
-├── 📁 01_python/            # Early incantations & foundational trials
-├── 📁 02_oop/               # Class rituals, polymorphism & encapsulation
-├── 📁 03_dsa/               # Ancient trees, graphs & sorting algorithms
-├── 📁 04_go/                # Concurrent routines & static typing
-└── 📁 projects/             # Conquered Dungeons (Completed Projects)
-    ├── 🏹 bookbot/          # Text analysis engine in Python
-    └── 🛡️ blog_aggregator/  # RSS feed aggregator in Go
+├── 📁 PythonBeginners/      # Python lessons, chapters & challenges
+│   ├── 📜 CH01_firstbug.py
+│   ├── 📜 CH02_variables.py
+│   ├── 📜 CH03_functions.py
+│   └── ⚔️ Desafios.py
+├── 📁 viewer/               # Local, read-only learning dashboard
+│   ├── 🌐 index.html        # Viewer entry point
+│   ├── ⚙️ app.js            # Navigation and content rendering
+│   ├── 🛠️ build_index.py    # Generates viewer/data/index.json
+│   ├── 🎨 styles.css        # Dashboard styles
+│   └── 📁 data/             # Generated course index
+├── 📜 AGENTS.md             # Repository working guidelines
+└── 📜 README.md             # Project overview and progress
