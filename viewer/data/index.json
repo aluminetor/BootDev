@@ -1,0 +1,1140 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-10T16:09:52-05:00",
+  "home": {
+    "path": "README.md",
+    "markdown": "<div align=\"center\">\r\n\r\n# ⚔️ Chronicles of a Backend Apprentice ⚔️\r\n\r\n<img src=\"https://www.boot.dev/img/boots_running.gif\" alt=\"Boots Running\" width=\"220\"/>\r\n\r\n> *\"Code is the most powerful magic governing the realms of the web.\"*\r\n\r\n[![Boot.dev Profile](https://img.shields.io/badge/Boot.dev-aluminetor-8B5CF6?style=for-the-badge&logo=shield&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Adventurer Rank](https://img.shields.io/badge/Rank-Backend%20Apprentice-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Status](https://img.shields.io/badge/Quest%20Status-Active%20Grind-10B981?style=for-the-badge)](#)\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 🧙‍♂️ Adventurer Profile\r\n\r\n- **Hero Handle:** [`@aluminetor`](https://www.boot.dev/u/aluminetor)\r\n- **Guild:** [Boot.dev](https://www.boot.dev)\r\n- **Path / Class:** Backend Sorcerer (*Python, Go, Linux & Architecture*)\r\n- **Tome of Quests:** [boot.dev/u/aluminetor](https://www.boot.dev/u/aluminetor)\r\n\r\n---\r\n\r\n## 📜 Quest Prologue\r\n\r\nWelcome, traveler, to this digital grimoire. Here lie the battle logs, incantations, and artifacts forged throughout my journey across the realms of **[Boot.dev](https://www.boot.dev)**.\r\n\r\nMy objective is to conquer the core disciplines of **Backend Development**—unraveling algorithms, building distributed servers, and mastering the low-level foundations of modern systems.\r\n\r\n---\r\n\r\n## 🗺️ Quest Board & Progression\r\n\r\n| Quest / Course | Difficulty Rank | Grimoire (Language / Focus) | Status |\r\n| :--- | :---: | :---: | :---: |\r\n| **Learn Python** | 🟢 Novice | Python | 🛡️ Cleared |\r\n| **Learn Shell Scripting** | 🟢 Novice | Bash / Terminal | ⚔️ In Battle |\r\n| **Learn Git** | 🟢 Novice | Git / GitHub | 🛡️ Cleared |\r\n| **Learn Object-Oriented Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Functional Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Data Structures & Algorithms** | 🔴 Advanced | Python | ⏳ Queued |\r\n| **Learn Go** | 🟡 Intermediate | Golang | ⏳ Queued |\r\n| **Build HTTP Servers** | 🔴 Advanced | Go / REST APIs | ⏳ Queued |\r\n| **Learn SQL & Databases** | 🟡 Intermediate | PostgreSQL | ⏳ Queued |\r\n| **Learn Docker & Containers** | 🔴 Advanced | Docker | ⏳ Queued |\r\n\r\n---\r\n\r\n## 🛡️ Unlocked Spells & Arsenal\r\n\r\n<div align=\"center\">\r\n\r\n<img src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black\" />\r\n<img src=\"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white\" />\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 📂 Grimoire Directory Structure\r\n\r\n```text\r\n.\r\n├── 📁 01_python/            # Early incantations & foundational trials\r\n├── 📁 02_oop/               # Class rituals, polymorphism & encapsulation\r\n├── 📁 03_dsa/               # Ancient trees, graphs & sorting algorithms\r\n├── 📁 04_go/                # Concurrent routines & static typing\r\n└── 📁 projects/             # Conquered Dungeons (Completed Projects)\r\n    ├── 🏹 bookbot/          # Text analysis engine in Python\r\n    └── 🛡️ blog_aggregator/  # RSS feed aggregator in Go\r\n"
+  },
+  "glossary": [
+    {
+      "id": "variable",
+      "term": "Variable",
+      "category": "Variables y tipos",
+      "definition": "Nombre que guarda un valor para reutilizarlo. Se crea con = (asignación) y se puede reasignar más tarde."
+    },
+    {
+      "id": "multiple-assignment",
+      "term": "Declaración multivariable",
+      "category": "Variables y tipos",
+      "definition": "Asignar varias variables en una sola línea separando nombres y valores con comas: a, b = 5, 3."
+    },
+    {
+      "id": "snake-case",
+      "term": "snake_case",
+      "category": "Variables y tipos",
+      "definition": "Convención de Python para nombrar variables y funciones: todo en minúsculas y palabras separadas por guiones bajos (num_new_users)."
+    },
+    {
+      "id": "string",
+      "term": "Cadena (str)",
+      "category": "Variables y tipos",
+      "definition": "Texto entre comillas simples o dobles. En Python se prefieren las comillas dobles."
+    },
+    {
+      "id": "integer",
+      "term": "Entero (int)",
+      "category": "Variables y tipos",
+      "definition": "Número sin parte decimal, positivo o negativo: 10, -1, 9000."
+    },
+    {
+      "id": "float",
+      "term": "Decimal (float)",
+      "category": "Variables y tipos",
+      "definition": "Número con parte decimal, escrito con punto: 3.14, 10.5."
+    },
+    {
+      "id": "boolean",
+      "term": "Booleano (bool)",
+      "category": "Variables y tipos",
+      "definition": "Valor lógico que solo puede ser True o False."
+    },
+    {
+      "id": "none",
+      "term": "None",
+      "category": "Variables y tipos",
+      "definition": "Valor especial que representa la ausencia de valor. Es lo que devuelve una función que no tiene return."
+    },
+    {
+      "id": "dynamic-typing",
+      "term": "Tipado dinámico",
+      "category": "Variables y tipos",
+      "definition": "Una variable puede guardar cualquier tipo y ese tipo puede cambiar durante la ejecución. Aun así, conviene crear una variable nueva en lugar de cambiar el tipo."
+    },
+    {
+      "id": "static-typing",
+      "term": "Tipado estático",
+      "category": "Variables y tipos",
+      "definition": "Lenguajes como Go o TypeScript fijan el tipo de cada variable; asignar un valor de otro tipo da un error de compilación."
+    },
+    {
+      "id": "type-function",
+      "term": "type()",
+      "category": "Variables y tipos",
+      "definition": "Función integrada que devuelve el tipo de un valor. type(x).__name__ da el nombre como texto: 'int', 'str'…"
+    },
+    {
+      "id": "f-string",
+      "term": "f-string",
+      "category": "Cadenas",
+      "definition": "Cadena con f delante de las comillas. Inserta el valor de las expresiones escritas entre llaves: f\"Hola, {name}\"."
+    },
+    {
+      "id": "concatenation",
+      "term": "Concatenación",
+      "category": "Cadenas",
+      "definition": "Unir cadenas con el operador +. Para mezclar texto y valores suele ser mejor usar f-strings."
+    },
+    {
+      "id": "comment",
+      "term": "Comentario",
+      "category": "Fundamentos",
+      "definition": "Texto que Python ignora. # comenta el resto de la línea; las comillas triples se usan para bloques de texto largos."
+    },
+    {
+      "id": "print",
+      "term": "print()",
+      "category": "Fundamentos",
+      "definition": "Función integrada que muestra valores en la consola. Acepta varios argumentos separados por comas."
+    },
+    {
+      "id": "arithmetic",
+      "term": "Operadores aritméticos",
+      "category": "Fundamentos",
+      "definition": "Operaciones matemáticas: + suma, - resta, * multiplicación, / división (siempre devuelve float)."
+    },
+    {
+      "id": "round",
+      "term": "round()",
+      "category": "Fundamentos",
+      "definition": "Redondea un número: round(x) al entero más cercano y round(x, 2) a dos decimales."
+    },
+    {
+      "id": "is-operator",
+      "term": "Operador is",
+      "category": "Fundamentos",
+      "definition": "Comprueba si dos valores son el mismo objeto. Es la forma recomendada de comparar con None: x is None."
+    },
+    {
+      "id": "syntax-error",
+      "term": "Error de sintaxis",
+      "category": "Fundamentos",
+      "definition": "El código no sigue las reglas del lenguaje y Python no puede ejecutarlo."
+    },
+    {
+      "id": "debugging",
+      "term": "Depuración",
+      "category": "Fundamentos",
+      "definition": "Buscar y corregir errores. Imprimir valores intermedios con print() es una forma sencilla de ver qué hace cada línea."
+    },
+    {
+      "id": "function-def",
+      "term": "Definir una función (def)",
+      "category": "Funciones",
+      "definition": "def nombre(parámetros): crea una función. Las líneas con sangría que siguen forman su cuerpo, que se ejecuta cada vez que se llama."
+    },
+    {
+      "id": "function-call",
+      "term": "Llamar a una función",
+      "category": "Funciones",
+      "definition": "Ejecutar una función escribiendo su nombre seguido de paréntesis con los argumentos: area_of_circle(5)."
+    },
+    {
+      "id": "parameter",
+      "term": "Parámetro",
+      "category": "Funciones",
+      "definition": "Nombre que recibe una entrada en la definición de la función: en def add(a, b), a y b son parámetros."
+    },
+    {
+      "id": "argument",
+      "term": "Argumento",
+      "category": "Funciones",
+      "definition": "Valor real que se pasa al llamar a la función: en add(5, 6), 5 y 6 son argumentos."
+    },
+    {
+      "id": "return",
+      "term": "return",
+      "category": "Funciones",
+      "definition": "Termina la función y entrega un valor a quien la llamó. A diferencia de print(), no muestra nada en la consola."
+    },
+    {
+      "id": "multiple-return",
+      "term": "Retorno múltiple",
+      "category": "Funciones",
+      "definition": "Una función puede devolver varios valores separados por comas; se recogen en el mismo orden: damage, mana = cast_iceblast(5, 100)."
+    },
+    {
+      "id": "entrypoint",
+      "term": "Función main (punto de entrada)",
+      "category": "Funciones",
+      "definition": "Función que arranca el programa. Se llama al final del fichero para que todas las funciones ya estén definidas cuando se usen."
+    }
+  ],
+  "courses": [
+    {
+      "id": "PythonBeginners",
+      "title": "Python Beginners",
+      "path": "PythonBeginners",
+      "chapters": [
+        {
+          "id": "CH01_firstbug",
+          "kind": "chapter",
+          "number": 1,
+          "title": "Firstbug",
+          "path": "PythonBeginners/CH01_firstbug.py",
+          "modifiedAt": "2026-10-10T12:53:14-05:00",
+          "lineCount": 24,
+          "exerciseCount": 3,
+          "warnings": [],
+          "exercises": [
+            {
+              "index": 1,
+              "title": "Ejercicio 1",
+              "hasOwnTitle": false,
+              "startLine": 1,
+              "endLine": 10,
+              "concepts": [
+                "variable",
+                "integer",
+                "arithmetic"
+              ],
+              "segments": [
+                {
+                  "type": "code",
+                  "startLine": 1,
+                  "endLine": 10,
+                  "text": "sword_damage = 10\nstart_health = 100\nend_health = start_health - sword_damage\n\n# Don't touch below this line\nprint(f\"Sam's health is: {start_health}\")\nprint(f\"Sam takes {sword_damage} damage...\")\nprint(f\"Sam's health is: {end_health}\")\n\nprint(\"Greetings, adventurer!\")",
+                  "boilerplateLines": [
+                    5
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "¿Qué es el código?",
+              "hasOwnTitle": true,
+              "startLine": 12,
+              "endLine": 14,
+              "concepts": [
+                "integer",
+                "print",
+                "arithmetic"
+              ],
+              "segments": [
+                {
+                  "type": "code",
+                  "startLine": 14,
+                  "endLine": 14,
+                  "text": "print(250 + 75)",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Instrucciones múltiples",
+              "hasOwnTitle": true,
+              "startLine": 16,
+              "endLine": 23,
+              "concepts": [
+                "syntax-error"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 19,
+                  "endLine": 23,
+                  "text": "Errores de sintaxis\n\n\"Sintaxis\" es un término técnico para referirse al\n\"código válido que la computadora puede entender\".\nPor ejemplo, el siguiente código tiene una sintaxis inválida :"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "CH02_variables",
+          "kind": "chapter",
+          "number": 2,
+          "title": "Variables",
+          "path": "PythonBeginners/CH02_variables.py",
+          "modifiedAt": "2026-10-10T12:53:14-05:00",
+          "lineCount": 151,
+          "exerciseCount": 9,
+          "warnings": [],
+          "exercises": [
+            {
+              "index": 1,
+              "title": "Ejercicio 1",
+              "hasOwnTitle": false,
+              "startLine": 1,
+              "endLine": 17,
+              "concepts": [
+                "variable",
+                "integer",
+                "print"
+              ],
+              "segments": [
+                {
+                  "type": "code",
+                  "startLine": 1,
+                  "endLine": 1,
+                  "text": "player_health = 1000",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 3,
+                  "endLine": 3,
+                  "text": "reduce by 100 here"
+                },
+                {
+                  "type": "code",
+                  "startLine": 4,
+                  "endLine": 5,
+                  "text": "player_health = 900\nprint(player_health)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 7,
+                  "endLine": 7,
+                  "text": "and here"
+                },
+                {
+                  "type": "code",
+                  "startLine": 8,
+                  "endLine": 9,
+                  "text": "player_health = 800\nprint(player_health)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 11,
+                  "endLine": 11,
+                  "text": "and here"
+                },
+                {
+                  "type": "code",
+                  "startLine": 12,
+                  "endLine": 13,
+                  "text": "player_health = 700\nprint(player_health)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 15,
+                  "endLine": 15,
+                  "text": "and here"
+                },
+                {
+                  "type": "code",
+                  "startLine": 16,
+                  "endLine": 17,
+                  "text": "player_health = 600\nprint(player_health)",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "Ejercicio 2",
+              "hasOwnTitle": false,
+              "startLine": 19,
+              "endLine": 25,
+              "concepts": [
+                "variable",
+                "integer",
+                "print",
+                "arithmetic"
+              ],
+              "segments": [
+                {
+                  "type": "code",
+                  "startLine": 21,
+                  "endLine": 25,
+                  "text": "player_health = 1000\narmor_multiplier = 2\narmored_health = player_health * armor_multiplier\n\nprint(armored_health)",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Comentario de una sola línea",
+              "hasOwnTitle": true,
+              "startLine": 27,
+              "endLine": 47,
+              "concepts": [
+                "variable",
+                "snake-case",
+                "string",
+                "integer",
+                "boolean",
+                "type-function",
+                "comment",
+                "print"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 28,
+                  "endLine": 39,
+                  "text": "Un solo verso #convierte el resto de la línea en un comentario:\n\n# speed describes how fast the player\n# moves in meters per second\n\nNombre\tDescripción\tCódigo\tIdioma(s) que lo recomiendan\nCaso de serpiente\tTodas las palabras están en minúsculas y separadas por guiones bajos.\nnum_new_users\tPython, Ruby, Rust\n\nDicho esto, se prefieren las comillas dobles ."
+                },
+                {
+                  "type": "code",
+                  "startLine": 41,
+                  "endLine": 47,
+                  "text": "player_health = 100\n\nplayer_has_magic = True\n\n# don't touch below this line\nprint(\"player_health is a/an\", type(player_health).__name__)\nprint(\"player_has_magic is a/an\", type(player_has_magic).__name__)",
+                  "boilerplateLines": [
+                    45
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "title": "Cadenas F en Python",
+              "hasOwnTitle": true,
+              "startLine": 49,
+              "endLine": 60,
+              "concepts": [
+                "variable",
+                "string",
+                "none",
+                "f-string",
+                "print",
+                "is-operator"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 50,
+                  "endLine": 56,
+                  "text": "¿Alguna vez has jugado al Pokémon clásico y has elegido un nombre gracioso para que los mensajes del juego resultaran divertidos?\n\nAgregue un f al principio de las comillas para crear una cadena f:f\"this is easy!\"\nUtilice llaves {}alrededor de una variable para interpolar (insertar) su valor en la cadena.\n\ncreate the empty \"enemy\" variable here"
+                },
+                {
+                  "type": "code",
+                  "startLine": 57,
+                  "endLine": 60,
+                  "text": "enemy = None\n\n# don't touch below this line\nprint(enemy is None)",
+                  "boilerplateLines": [
+                    59
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "title": "Tipografía dinámica",
+              "hasOwnTitle": true,
+              "startLine": 62,
+              "endLine": 76,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "dynamic-typing",
+                "print"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 63,
+                  "endLine": 65,
+                  "text": "Python es de tipado dinámico , lo que significa que una variable puede almacenar cualquier tipo, y ese tipo puede cambiar .\n\nPor ejemplo, si creo una variable numérica, posteriormente puedo cambiar esa variable a una cadena de texto:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 67,
+                  "endLine": 70,
+                  "text": "speed = 5\nspeed = \"five\"\n\nprint(speed)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 72,
+                  "endLine": 73,
+                  "text": "Pero, bueno, tal vez no.\nEn casi todas las circunstancias, es una mala idea cambiar el tipo de una variable. Lo \"correcto\" es simplemente crear una nueva. Por ejemplo:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 75,
+                  "endLine": 76,
+                  "text": "speed = 5\nspeed_description = \"five\"",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 6,
+              "title": "¿Qué es la tipificación no dinámica?",
+              "hasOwnTitle": true,
+              "startLine": 79,
+              "endLine": 90,
+              "concepts": [
+                "variable",
+                "string",
+                "dynamic-typing",
+                "static-typing"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 79,
+                  "endLine": 90,
+                  "text": "Los lenguajes que no son de tipado dinámico son de tipado estático ,\nomo Go y TypeScript (uno de los cuales aprenderás en un curso posterior,\ndependiendo de la especialización que elijas). En un lenguaje de tipado estático\n, si intentas asignar un valor a una variable de tipo incorrecto, obtendrás un\nerror de compilación y el programa no se ejecutará.\n\nSi Python fuera de tipado estático, el primer ejemplo anterior no permitiría\nla segunda línea, speed = \"five\". El ordenador daría un error del tipo you can't\n assign a string value (\"five\") to a number variable (speed)."
+                }
+              ]
+            },
+            {
+              "index": 7,
+              "title": "Matemáticas con cadenas de caracteres",
+              "hasOwnTitle": true,
+              "startLine": 92,
+              "endLine": 105,
+              "concepts": [
+                "variable",
+                "string",
+                "f-string",
+                "concatenation",
+                "print",
+                "arithmetic"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 93,
+                  "endLine": 95,
+                  "text": "Al trabajar con cadenas, el +operador realiza una \" concatenación \", que es una palabra elegante que significa \"unir dos cadenas\". En general, es mejor usar la interpolación de cadenas en f-stringslugar de +la concatenación .\n\nejemplo"
+                },
+                {
+                  "type": "code",
+                  "startLine": 96,
+                  "endLine": 105,
+                  "text": "sentence_start = \"You have \"\nsentence_end = \" health\"\n\nplayer1_health = \"1200\"\nplayer2_health = \"1100\"\n\n# Don't edit above this line\n\nprint(sentence_start + player1_health + sentence_end)\nprint(sentence_start + player2_health + sentence_end)",
+                  "boilerplateLines": [
+                    102
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 8,
+              "title": "Declaración multivariable",
+              "hasOwnTitle": true,
+              "startLine": 108,
+              "endLine": 118,
+              "concepts": [
+                "variable",
+                "multiple-assignment",
+                "string",
+                "integer"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 109,
+                  "endLine": 109,
+                  "text": "Podemos ahorrar espacio al crear muchas variables nuevas declarándolas en la misma línea:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 111,
+                  "endLine": 111,
+                  "text": "sword_name, sword_damage, sword_length = \"Excalibur\", 10, 200",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 114,
+                  "endLine": 114,
+                  "text": "Lo cual es lo mismo que:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 116,
+                  "endLine": 118,
+                  "text": "sword_name = \"Excalibur\"\nsword_damage = 10\nsword_length = 200",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 9,
+              "title": "Botas",
+              "hasOwnTitle": true,
+              "startLine": 120,
+              "endLine": 148,
+              "concepts": [
+                "variable",
+                "string",
+                "print",
+                "arithmetic"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 122,
+                  "endLine": 136,
+                  "text": "Quizás ya lo hayas adivinado, pero debajo de la explicación de la lección, hay un adorable oso mago llamado Botas . Su trabajo es ayudarte si te quedas atascado.\n\nBoots es un chatbot de IA (como ChatGPT) que tiene acceso a tu lección. Cuando le haces una pregunta, él ya sabe:\nLa solución oficial\nLo que te han pedido que hagas\nCambios que has realizado en el código\nHa sido entrenado para no darte la respuesta. Utiliza el método socrático para simplemente orientarte en la dirección correcta.\nIniciar una conversación con Boots antes de completar una lección cuesta 1 salmón al horno (es un tipo hambriento) o, si no tienes uno, el 50% de la XP de la lección.\nSolo para esta lección, podrás conseguir suficientes gemas para comprar un salmón al horno .\nConversar con Boots después de completar una lección es gratuito y se recomienda para profundizar en tu comprensión .\n\nEl método socrático es una forma de diálogo argumentativo en la que un individuo interroga a su interlocutor sobre un tema, mediante preguntas y aclaraciones, hasta que este se ve obligado a llegar a una conclusión por sí mismo, o bien su razonamiento se desmorona y se ve forzado a admitir su ignorancia."
+                },
+                {
+                  "type": "code",
+                  "startLine": 137,
+                  "endLine": 148,
+                  "text": "player_name = \"Charles\"\ngreeting = \"Well met,\"\nquest_start = \"The local mine has been taken over by orcs!\"\nquest_end = \"We need your help taking it back.\"\nspace = \" \"\n\n# don't touch above this line\n\ncomplete_greeting = greeting + space + player_name\nprint(complete_greeting)\nprint(quest_start)\nprint(quest_end)",
+                  "boilerplateLines": [
+                    143
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "CH03_functions",
+          "kind": "chapter",
+          "number": 3,
+          "title": "Functions",
+          "path": "PythonBeginners/CH03_functions.py",
+          "modifiedAt": "2026-10-10T14:54:16-05:00",
+          "lineCount": 339,
+          "exerciseCount": 8,
+          "warnings": [],
+          "exercises": [
+            {
+              "index": 1,
+              "title": "FUNCTIONS",
+              "hasOwnTitle": true,
+              "startLine": 1,
+              "endLine": 88,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "float",
+                "print",
+                "arithmetic",
+                "round",
+                "function-def",
+                "function-call",
+                "parameter",
+                "argument",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 2,
+                  "endLine": 4,
+                  "text": "Pero queremos reutilizar nuestro código! ¿Quién quiere rehacer el mismo trabajo? ¿Y si quisiéramos calcular el área de miles de círculos? Ahí es donde las funciones resultan útiles.\n\nEn cambio, definamos una nueva función llamada area_of_circleusando la defpalabra clave:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 6,
+                  "endLine": 17,
+                  "text": "def area_of_circle(r):\n    pi = 3.14\n    result = pi * r * r\n    return result\n\n\nradius = 5\narea = area_of_circle(radius)\nprint(area)\n\narea = area_of_circle(6)\nprint(round(area,2))",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 18,
+                  "endLine": 25,
+                  "text": "Toma una entrada (también conocida como \"parámetro\" o \"argumento\") llamadar\nDespués de la :, las líneas con sangría forman el cuerpo de la función, es decir, el código que se ejecuta cada vez que usamos (también conocido como \"llamamos\") la función.\nProduce returnun único valor. En este caso, el valor almacenado en la resultvariable\n\n5 entra como entradar\nEl cuerpo de la función se ejecuta, almacenando 78.5en la resultvariable dentro del cuerpo de la función.\nLa función devuelve la resultvariable, lo que significa que la area_of_circle(5)expresión se evalúa como78.5\n78.5se almacena en la areavariable y luego se imprime"
+                },
+                {
+                  "type": "code",
+                  "startLine": 27,
+                  "endLine": 47,
+                  "text": "def area_of_circle(radius):\n    pi = 3.14\n    area = pi * radius * radius\n    return area\n\n\nsword_length = 1.0\nspear_length = 2.0\n\n# don't touch above this line\n\nsword_area = area_of_circle(sword_length)\nspear_area = area_of_circle(spear_length)\n\n# don't touch below this line\n\nprint(\"Sword length:\", sword_length, \"meters.\")\nprint(\"Sword attack area:\", sword_area, \"square meters\")\n\nprint(\"Spear length:\", spear_length, \"meters.\")\nprint(\"Spear attack area:\", spear_area, \"square meters\")",
+                  "boilerplateLines": [
+                    36,
+                    41
+                  ]
+                },
+                {
+                  "type": "theory",
+                  "startLine": 50,
+                  "endLine": 88,
+                  "text": "Aquí tienes una explicación cronológica de lo que sucede cuando se ejecuta el código anterior:\n\ndef area_of_circle(r):\n\nLa area_of_circlefunción está definida para su uso posterior, pero no se llama. Acepta una única entrada, con un nombre arbitrario r. El cuerpo de la función ( pi = 3.14... etc.) se ignora por ahora.\n\nradius = 5\n\nradiusSe crea una nueva variable llamada y se le asigna el valor 5.\n\narea_of_circle(radius)\n\nLa area_of_circlefunción se llama con radius(en este caso 5) como entrada. Finalmente, volvemos a la definición de la función.\n\ndef area_of_circle(r):\n\nAhora comenzaremos a ejecutar el cuerpo de la función, y restá configurado en 5.\n\npi = 3.14\n\npiSe crea una nueva variable llamada con un valor de 3.14.\n\nresult = pi * r * r\n\nSe evalúa una operación matemática simple ( 3.14 * 5 * 5) y se almacena en la resultvariable.\n\nreturn result\n\nLa variable de resultado es devuelta por la función como salida.\n\narea = area_of_circle(radius)\n\nEl valor devuelto se almacena en una nueva variable llamada area(en este caso 78.5).\n\nprint(area)\n\nEl valor arease imprime en la consola."
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "Multiple Parameters",
+              "hasOwnTitle": true,
+              "startLine": 90,
+              "endLine": 139,
+              "concepts": [
+                "variable",
+                "multiple-assignment",
+                "string",
+                "integer",
+                "float",
+                "f-string",
+                "print",
+                "arithmetic",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 91,
+                  "endLine": 91,
+                  "text": "Functions can have multiple parameters (\"parameter\" being a fancy word for \"input\"). For example, this subtract function accepts 2 parameters: a and b."
+                },
+                {
+                  "type": "code",
+                  "startLine": 93,
+                  "endLine": 105,
+                  "text": "def subtract(a, b):\n    result = a - b\n    return result\n\na, b = 5, 3\n\nresta = subtract(a,b)\n\nprint(resta)\n\ndef create_introduction(name, age, height):\n    intro = f\"Hello, {name}! You are {age} years old and {height} meters tall.\"\n    return intro",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 108,
+                  "endLine": 108,
+                  "text": "it can be called like this:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 109,
+                  "endLine": 111,
+                  "text": "msg = create_introduction(\"aluminetor\", 322, 2.4)\n\nprint(msg)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 112,
+                  "endLine": 112,
+                  "text": "-----------------------Complete the triple_attack function by returning the sum of its parameters, damage_one, damage_two, and damage_three. Remember to indent the code inside the function body.-----------------------------#"
+                },
+                {
+                  "type": "code",
+                  "startLine": 114,
+                  "endLine": 119,
+                  "text": "def triple_attack(damage_one, damage_two, damage_three):\n    triple = damage_one + damage_two + damage_three\n    return triple\n\n\n# Don't touch below this line",
+                  "boilerplateLines": [
+                    119
+                  ]
+                },
+                {
+                  "type": "theory",
+                  "startLine": 121,
+                  "endLine": 121,
+                  "text": "This is the first triple attack"
+                },
+                {
+                  "type": "code",
+                  "startLine": 122,
+                  "endLine": 129,
+                  "text": "attack_one = 2\nattack_two = 4\nattack_three = 3\nfirst_triple_attack_damage = triple_attack(attack_one, attack_two, attack_three)\n\nprint(\"Getting damage for\", attack_one, attack_two, \"and\", attack_three, \"...\")\nprint(first_triple_attack_damage, \"points of damage dealt!\")\nprint(\"=====================================\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 131,
+                  "endLine": 131,
+                  "text": "This is the second triple attack"
+                },
+                {
+                  "type": "code",
+                  "startLine": 132,
+                  "endLine": 139,
+                  "text": "attack_four = -1\nattack_five = 10\nattack_six = 5\nsecond_triple_attack_damage = triple_attack(attack_four, attack_five, attack_six)\n\nprint(\"Getting damage for\", attack_four, attack_five, \"and\", attack_six, \"...\")\nprint(second_triple_attack_damage, \"points of damage dealt!\")\nprint(\"=====================================\")",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Impresión vs. Devolución",
+              "hasOwnTitle": true,
+              "startLine": 143,
+              "endLine": 177,
+              "concepts": [
+                "variable",
+                "string",
+                "none",
+                "print",
+                "function-def",
+                "function-call",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 144,
+                  "endLine": 152,
+                  "text": "Algunos desarrolladores novatos se quedan atascados en la diferencia entre print()y return.\n\nPuede resultar particularmente confuso cuando el conjunto de pruebas que proporcionamos simplemente imprime la salida de sus funciones en la consola. Hace parecer que y print()son returnintercambiables, ¡pero no lo son !\n\nprint()es una función que:\nImprime un valor en la consola.\nNo devuelve un valor ."
+                },
+                {
+                  "type": "code",
+                  "startLine": 153,
+                  "endLine": 157,
+                  "text": "def print_alchemy():\n    print(\"equivalent exchange\")\n\n\nprinted_alchemy = print_alchemy()",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 158,
+                  "endLine": 158,
+                  "text": "equivalent exchange"
+                },
+                {
+                  "type": "code",
+                  "startLine": 160,
+                  "endLine": 160,
+                  "text": "print(printed_alchemy)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 161,
+                  "endLine": 169,
+                  "text": "None\n\nreturn es una palabra clave que:\nFinaliza la ejecución de la función actual.\nProporciona un valor (o valores) a quien llama a la función.\nNo imprime nada en la consola (a menos que el valor de retorno se print()edite posteriormente)."
+                },
+                {
+                  "type": "code",
+                  "startLine": 170,
+                  "endLine": 176,
+                  "text": "def return_transmutation():\n    return \"nothing is lost\"\n\n\nreturned_transmutation = return_transmutation()\n\nprint(returned_transmutation)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 177,
+                  "endLine": 177,
+                  "text": "nothing is lost"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "title": "Imprimir para depurar su código",
+              "hasOwnTitle": true,
+              "startLine": 179,
+              "endLine": 204,
+              "concepts": [
+                "variable",
+                "string",
+                "concatenation",
+                "print",
+                "debugging",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 180,
+                  "endLine": 180,
+                  "text": "Imprimir valores y ejecutar el código es una excelente manera de depurarlo. Puedes ver qué valores se almacenan en las distintas variables, encontrar errores y corregirlos. ¡Añade instrucciones de impresión y ejecuta el código a medida que avanzas! Es un hábito muy útil para asegurarte de que cada línea que escribes hace lo que esperas."
+                },
+                {
+                  "type": "code",
+                  "startLine": 184,
+                  "endLine": 204,
+                  "text": "def get_title(first_name, last_name, job):\n    title = first_name + \" \" + last_name + \" the \" + job\n    return title\n\n\n# Don't touch below this line\n\n\ndef test(first_name, last_name, job):\n    title = get_title(first_name, last_name, job)\n    print(\"First name:\", first_name)\n    print(\"Last name:\", last_name)\n    print(\"Job:\", job)\n    print(\"Title:\", title)\n    print(\"=====================================\")\n\n\ntest(\"Frodo\", \"Baggins\", \"warrior\")\ntest(\"Bilbo\", \"Baggins\", \"thief\")\ntest(\"Gandalf\", \"The Grey\", \"wizard\")\ntest(\"Aragorn\", \"Son of Arathorn\", \"ranger\")",
+                  "boilerplateLines": [
+                    189
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "title": "Orden de las funciones",
+              "hasOwnTitle": true,
+              "startLine": 206,
+              "endLine": 224,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "f-string",
+                "print",
+                "arithmetic",
+                "function-def",
+                "function-call",
+                "parameter",
+                "entrypoint"
+              ],
+              "segments": [
+                {
+                  "type": "code",
+                  "startLine": 208,
+                  "endLine": 220,
+                  "text": "def main():\n    health = 10\n    armor = 5\n    add_armor(health, armor)\n\n\ndef add_armor(h, a):\n    new_health = h + a\n    print_health(new_health)\n\n\ndef print_health(new_health):\n    print(f\"The player now has {new_health} health\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 223,
+                  "endLine": 223,
+                  "text": "call entrypoint at the end"
+                },
+                {
+                  "type": "code",
+                  "startLine": 224,
+                  "endLine": 224,
+                  "text": "main()",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 6,
+              "title": "entrevista con Boots",
+              "hasOwnTitle": true,
+              "startLine": 226,
+              "endLine": 272,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "print",
+                "arithmetic",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 227,
+                  "endLine": 241,
+                  "text": "¡Ha llegado el momento de tu primera lección para la entrevista en Boots !\n\nEn estas lecciones, ¡Boots se convierte en tu entrevistador en lugar de tu tutor! Responde a su pregunta abierta o sigue sus instrucciones. La conversación continuará hasta que esté satisfecho con tus respuestas y cumpla con los criterios de aceptación .\n\nTrátalo como una entrevista real:\n\n¡Puedes hacer preguntas para aclarar dudas sin ninguna penalización (de hecho, se recomienda hacerlo )!\nNo tienes que responder de una sola vez, ¡mantén una conversación fluida!\nBoots responderá de una de tres maneras:\n\nSi haces una pregunta o das una respuesta parcialmente correcta o inconclusa , no hay penalización y Boots te hará una pregunta de seguimiento o aclarará las instrucciones.\nSi dices algo incorrecto o fuera de tema , perderás armadura o tu racha, y Boots intentará redirigirte.\nUna vez que cumpla con los criterios de aceptación , Boots le dará el visto bueno.\nAsignación\nPara responder a la pregunta de Boots, consulte el siguiente fragmento de código:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 243,
+                  "endLine": 272,
+                  "text": "def calculate_damage(opening_attack, core_damage, finishing_move):\n    total = opening_attack + core_damage + finishing_move\n    return total\n\n\nstab_damage = calculate_damage(10, 20, 30)\nslash_damage = calculate_damage(5, 10, 15)\nfireball_damage = calculate_damage(50, 60, 70)\nprint(stab_damage)\nprint(slash_damage)\nprint(fireball_damage)\n\n\ndef hours_to_seconds(hours):\n    return hours * 60 * 60\n\n\n# Don't touch below this line\n\n\ndef test(hours):\n    secs = hours_to_seconds(hours)\n    print(hours, \"hours is\", secs, \"seconds\")\n\n\ntest(10)\ntest(1)\ntest(25)\ntest(100)\ntest(33)",
+                  "boilerplateLines": [
+                    260
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 7,
+              "title": "Múltiples valores de retorno",
+              "hasOwnTitle": true,
+              "startLine": 274,
+              "endLine": 324,
+              "concepts": [
+                "variable",
+                "multiple-assignment",
+                "string",
+                "integer",
+                "f-string",
+                "print",
+                "arithmetic",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "multiple-return",
+                "entrypoint"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 275,
+                  "endLine": 275,
+                  "text": "Una función puede devolver más de un valor separándolos con comas."
+                },
+                {
+                  "type": "code",
+                  "startLine": 277,
+                  "endLine": 282,
+                  "text": "def cast_iceblast(wizard_level, start_mana):\n    damage = wizard_level * 2\n    new_mana = start_mana - 10\n    return damage, new_mana  # return two values\ndamage, mana = cast_iceblast(5, 100)\nprint(f\"Damage: {damage}, Remaining Mana: {mana}\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 283,
+                  "endLine": 303,
+                  "text": "Damage: 10, Remaining Mana: 90\n\nCuando cast_iceblastse llama a la función, los valores devueltos damagese new_manaasignan a damagey mana, respectivamente. Al igual que con las entradas de la función, lo que importa es el orden de los valores, no los nombres de las variables. Podríamos haber llamado a las variables oney two:\n\nAssignment\nComplete the become_warrior function. It accepts 2 inputs:\n\nThe full_name string\nThe power integer\nIt should return 2 values:\n\nA title string\nA new_power integer.\nCreate the title using f-strings. F-strings can be assigned to variables, not just printed. Combine full_name with \"the warrior\" in this format:\nfull_name the warrior\n\nBe very careful with the output of your program. The text will need to match the expected results exactly. Double-check your spacing and spelling!\n\nCreate the new_power value that is equal to the input power + 1\nReturn both title and new_power\nHere's an example of how the function is intended to work:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 305,
+                  "endLine": 324,
+                  "text": "def become_warrior(full_name, power):\n    title= f\"{full_name} the warrior\"\n    new_power= power + 1\n    return title,new_power\n\n# Don't edit below this line\n\n\ndef main():\n    test(\"Frodo Baggins\", 5)\n    test(\"Bilbo Baggins\", 10)\n    test(\"Gandalf The Grey\", 9000)\n\n\ndef test(input1, input2):\n    result1, result2 = become_warrior(input1, input2)\n    print(result1, \"has a power level of:\", result2)\n\n\nmain()",
+                  "boilerplateLines": [
+                    310
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 8,
+              "title": "Parámetros frente a argumentos",
+              "hasOwnTitle": true,
+              "startLine": 326,
+              "endLine": 339,
+              "concepts": [
+                "variable",
+                "integer",
+                "arithmetic",
+                "function-def",
+                "function-call",
+                "parameter",
+                "argument",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 327,
+                  "endLine": 333,
+                  "text": "Los parámetros son los nombres que se utilizan para las entradas al definir una función. Los argumentos son los valores de las entradas que se proporcionan cuando se llama a una función .\n\nPara reiterar, los argumentos son los valores reales que se introducen en la función, como 42.0, \"the dark knight\", o True. Los parámetros son los nombres que usamos en la definición de la función para referirnos a esos valores, que en el momento de escribir la función, pueden ser cualquiera que queramos.\n\nDicho esto, todo esto es cuestión de semántica, y francamente, los desarrolladores son bastante negligentes con estas definiciones. A menudo se oyen los términos \"argumentos\" y \"parámetros\" usados ​​indistintamente.\n\na y b are parametros"
+                },
+                {
+                  "type": "code",
+                  "startLine": 334,
+                  "endLine": 335,
+                  "text": "def add(a, b):\n    return a + b",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 338,
+                  "endLine": 338,
+                  "text": "5 y 6 are argumentos"
+                },
+                {
+                  "type": "code",
+                  "startLine": 339,
+                  "endLine": 339,
+                  "text": "sum = add(5, 6)",
+                  "boilerplateLines": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "extras": [
+        {
+          "id": "Desafios",
+          "kind": "extra",
+          "number": null,
+          "title": "Desafios",
+          "path": "PythonBeginners/Desafios.py",
+          "modifiedAt": "2026-10-10T12:53:14-05:00",
+          "lineCount": 82,
+          "exerciseCount": 3,
+          "warnings": [],
+          "exercises": [
+            {
+              "index": 1,
+              "title": "Ganancias del concierto",
+              "hasOwnTitle": true,
+              "startLine": 1,
+              "endLine": 19,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "f-string",
+                "print",
+                "arithmetic"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 2,
+                  "endLine": 8,
+                  "text": "Calcula las ganancias de un pequeño concierto utilizando las variables proporcionadas. Mantén sus valores iniciales sin cambios.\n\nCrear revenue: el dinero ganado con la venta de todas las entradas.\nCrear total_cost: el costo del lugar más el costo del equipo.\nCrear profit: los ingresos restantes después de pagar el costo total.\nUtilice f-strings para imprimir estos tres valores en orden, con las etiquetas que se muestran a continuación.\nFormato de salida (reemplace cada marcador de posición con su valor calculado):"
+                },
+                {
+                  "type": "code",
+                  "startLine": 10,
+                  "endLine": 19,
+                  "text": "tickets_sold = 80\nticket_price = 15\nvenue_cost = 500\nequipment_cost = 180\nrevenue = ticket_price * tickets_sold\ntotal_cost = venue_cost + equipment_cost\nprofit = revenue - total_cost\nprint(f\"Revenue: {revenue}\")\nprint(f\"Cost: {total_cost}\")\nprint(f\"Profit: {profit}\")",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "Libro de hechizos",
+              "hasOwnTitle": true,
+              "startLine": 21,
+              "endLine": 46,
+              "concepts": [
+                "variable",
+                "integer",
+                "print",
+                "round",
+                "syntax-error",
+                "function-def"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 21,
+                  "endLine": 33,
+                  "text": "A medida que avances en Boot.dev, es posible que desees:\n\nTomar apuntes\nRepase los conceptos que ya ha aprendido.\nVer más ejemplos de un concepto\nVea un ejemplo de sintaxis que ya ha aprendido.\nTu libro de hechizos resuelve estos problemas .\n\nEs una guía rápida con función de búsqueda que incluye todo lo que has aprendido en Boot.dev. A medida que completes las lecciones, desbloquearás automáticamente nuevas páginas en tu libro de hechizos, las cuales podrás consultar en cualquier momento. Así que, si sabes lo que buscas, usa tu libro de hechizos antes de hablar con Boots, ¡porque usarlo no cuesta objetos ni puntos de experiencia!\n\nLos jugadores de Fantasy Quest, conocidos como Ballan's Ballers, han ganado todas sus partidas en la ronda eliminatoria del torneo. ¡Ahora están en la final! Calcula la puntuación media de sus 4 partidas y guárdala en la average_scorevariable."
+                },
+                {
+                  "type": "code",
+                  "startLine": 35,
+                  "endLine": 46,
+                  "text": "game_one_score = 97\ngame_two_score = 92\ngame_three_score = 106\ngame_four_score = 105\n\n# Don't touch above this line\n\naverage_score = (game_one_score + game_two_score + game_three_score + game_four_score) / 4\n\n# Don't touch below this line\n\nprint(round(average_score))",
+                  "boilerplateLines": [
+                    40,
+                    44
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Informe de personajes",
+              "hasOwnTitle": true,
+              "startLine": 49,
+              "endLine": 82,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "float",
+                "boolean",
+                "f-string",
+                "print",
+                "syntax-error"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 50,
+                  "endLine": 62,
+                  "text": "Uno de nuestros becarios creó un programa que imprime información sobre los personajes de Fantasy Quest. Está casi terminado, pero aún tiene algunos fallos.\n\nAsignación\n¡Corrige los errores para que funcione el informe de personajes!\n\nEjecuta el código para ver si falla.\nCorrige la sintaxis para que cada variable sea del tipo de dato que esperas:\nname:String\nlevel:Integer\ncharacter_class:String\nmagic_resistance( FloatCambia la asignación de variables, no la instrucción de impresión)\naccount_active:Boolean\nNo cambie el significado de los valores, solo la sintaxis que"
+                },
+                {
+                  "type": "code",
+                  "startLine": 64,
+                  "endLine": 82,
+                  "text": "name = \"Lopen\"\nlevel = 25\ncharacter_class = \"Windrunner\"\nmagic_resistance = 10.5\naccount_active = True\n\n# Don't edit below this line\n\nprint(\"Character Report\")\nprint(f\"{name} is a level {level} {character_class}.\")\nprint(f\"They have {magic_resistance} magic resistance.\")\nprint(f\"Their account is currently active: {account_active}\")\n\nprint(\"=========================\")\nprint(\"Character Report Complete\")\nprint(\"Data types:\")\nprint(f\"name: {type(name).__name__}, level: {type(level).__name__}, character_class: {type(character_class).__name__}\")\nprint(f\"magic_resistance: {type(magic_resistance).__name__}\")\nprint(f\"account_active: {type(account_active).__name__}\")",
+                  "boilerplateLines": [
+                    70
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

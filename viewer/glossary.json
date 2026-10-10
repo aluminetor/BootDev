@@ -1,0 +1,209 @@
+[
+  {
+    "id": "variable",
+    "term": "Variable",
+    "category": "Variables y tipos",
+    "definition": "Nombre que guarda un valor para reutilizarlo. Se crea con = (asignación) y se puede reasignar más tarde.",
+    "codePatterns": ["^\\s*[A-Za-z_]\\w*\\s*=(?!=)"],
+    "theoryPatterns": ["\\bvariables?\\b"]
+  },
+  {
+    "id": "multiple-assignment",
+    "term": "Declaración multivariable",
+    "category": "Variables y tipos",
+    "definition": "Asignar varias variables en una sola línea separando nombres y valores con comas: a, b = 5, 3.",
+    "codePatterns": ["^\\s*[A-Za-z_]\\w*\\s*,\\s*[A-Za-z_]\\w*[\\w\\s,]*=(?!=)"],
+    "theoryPatterns": ["multivariable"]
+  },
+  {
+    "id": "snake-case",
+    "term": "snake_case",
+    "category": "Variables y tipos",
+    "definition": "Convención de Python para nombrar variables y funciones: todo en minúsculas y palabras separadas por guiones bajos (num_new_users).",
+    "theoryPatterns": ["snake", "serpiente"]
+  },
+  {
+    "id": "string",
+    "term": "Cadena (str)",
+    "category": "Variables y tipos",
+    "definition": "Texto entre comillas simples o dobles. En Python se prefieren las comillas dobles.",
+    "codePatterns": ["[\"']"],
+    "theoryPatterns": ["\\bcadenas?\\b", "\\bstrings?\\b"]
+  },
+  {
+    "id": "integer",
+    "term": "Entero (int)",
+    "category": "Variables y tipos",
+    "definition": "Número sin parte decimal, positivo o negativo: 10, -1, 9000.",
+    "codePatterns": ["(?<![\\w.])\\d+(?![\\w.])"],
+    "theoryPatterns": ["\\bint\\b", "\\benteros?\\b", "\\binteger\\b"]
+  },
+  {
+    "id": "float",
+    "term": "Decimal (float)",
+    "category": "Variables y tipos",
+    "definition": "Número con parte decimal, escrito con punto: 3.14, 10.5.",
+    "codePatterns": ["\\b\\d+\\.\\d+\\b"],
+    "theoryPatterns": ["\\bfloat\\b"]
+  },
+  {
+    "id": "boolean",
+    "term": "Booleano (bool)",
+    "category": "Variables y tipos",
+    "definition": "Valor lógico que solo puede ser True o False.",
+    "codePatterns": ["\\b(True|False)\\b"],
+    "theoryPatterns": ["\\bboolean", "\\bbooleano"]
+  },
+  {
+    "id": "none",
+    "term": "None",
+    "category": "Variables y tipos",
+    "definition": "Valor especial que representa la ausencia de valor. Es lo que devuelve una función que no tiene return.",
+    "codePatterns": ["\\bNone\\b"],
+    "theoryPatterns": ["\\bNone\\b"]
+  },
+  {
+    "id": "dynamic-typing",
+    "term": "Tipado dinámico",
+    "category": "Variables y tipos",
+    "definition": "Una variable puede guardar cualquier tipo y ese tipo puede cambiar durante la ejecución. Aun así, conviene crear una variable nueva en lugar de cambiar el tipo.",
+    "theoryPatterns": ["tipado din[aá]mico", "tipograf[ií]a din[aá]mica"]
+  },
+  {
+    "id": "static-typing",
+    "term": "Tipado estático",
+    "category": "Variables y tipos",
+    "definition": "Lenguajes como Go o TypeScript fijan el tipo de cada variable; asignar un valor de otro tipo da un error de compilación.",
+    "theoryPatterns": ["tipado est[aá]tico", "tipificaci[oó]n no din[aá]mica"]
+  },
+  {
+    "id": "type-function",
+    "term": "type()",
+    "category": "Variables y tipos",
+    "definition": "Función integrada que devuelve el tipo de un valor. type(x).__name__ da el nombre como texto: 'int', 'str'…",
+    "codePatterns": ["\\btype\\s*\\("]
+  },
+  {
+    "id": "f-string",
+    "term": "f-string",
+    "category": "Cadenas",
+    "definition": "Cadena con f delante de las comillas. Inserta el valor de las expresiones escritas entre llaves: f\"Hola, {name}\".",
+    "codePatterns": ["(?<![\\w])[fF][\"']"],
+    "theoryPatterns": ["f-strings?", "cadenas? f\\b"]
+  },
+  {
+    "id": "concatenation",
+    "term": "Concatenación",
+    "category": "Cadenas",
+    "definition": "Unir cadenas con el operador +. Para mezclar texto y valores suele ser mejor usar f-strings.",
+    "codePatterns": ["[\"']\\s*\\+", "\\+\\s*[\"']"],
+    "theoryPatterns": ["concatenaci"]
+  },
+  {
+    "id": "comment",
+    "term": "Comentario",
+    "category": "Fundamentos",
+    "definition": "Texto que Python ignora. # comenta el resto de la línea; las comillas triples se usan para bloques de texto largos.",
+    "theoryPatterns": ["\\bcomentarios?\\b"]
+  },
+  {
+    "id": "print",
+    "term": "print()",
+    "category": "Fundamentos",
+    "definition": "Función integrada que muestra valores en la consola. Acepta varios argumentos separados por comas.",
+    "codePatterns": ["(?<![\\w.])print\\s*\\("]
+  },
+  {
+    "id": "arithmetic",
+    "term": "Operadores aritméticos",
+    "category": "Fundamentos",
+    "definition": "Operaciones matemáticas: + suma, - resta, * multiplicación, / división (siempre devuelve float).",
+    "codePatterns": ["[\\w)]\\s*[-+*/%]\\s*[\\w(]"],
+    "theoryPatterns": ["matem[aá]ticas"]
+  },
+  {
+    "id": "round",
+    "term": "round()",
+    "category": "Fundamentos",
+    "definition": "Redondea un número: round(x) al entero más cercano y round(x, 2) a dos decimales.",
+    "codePatterns": ["\\bround\\s*\\("]
+  },
+  {
+    "id": "is-operator",
+    "term": "Operador is",
+    "category": "Fundamentos",
+    "definition": "Comprueba si dos valores son el mismo objeto. Es la forma recomendada de comparar con None: x is None.",
+    "codePatterns": ["\\bis\\b"]
+  },
+  {
+    "id": "syntax-error",
+    "term": "Error de sintaxis",
+    "category": "Fundamentos",
+    "definition": "El código no sigue las reglas del lenguaje y Python no puede ejecutarlo.",
+    "theoryPatterns": ["errores? de sintaxis", "sintaxis inv[aá]lida", "corrige la sintaxis"]
+  },
+  {
+    "id": "debugging",
+    "term": "Depuración",
+    "category": "Fundamentos",
+    "definition": "Buscar y corregir errores. Imprimir valores intermedios con print() es una forma sencilla de ver qué hace cada línea.",
+    "theoryPatterns": ["depura", "\\bbugs?\\b"]
+  },
+  {
+    "id": "function-def",
+    "term": "Definir una función (def)",
+    "category": "Funciones",
+    "definition": "def nombre(parámetros): crea una función. Las líneas con sangría que siguen forman su cuerpo, que se ejecuta cada vez que se llama.",
+    "codePatterns": ["^\\s*def\\s+\\w+\\s*\\("]
+  },
+  {
+    "id": "function-call",
+    "term": "Llamar a una función",
+    "category": "Funciones",
+    "definition": "Ejecutar una función escribiendo su nombre seguido de paréntesis con los argumentos: area_of_circle(5).",
+    "codePatterns": [
+      "=\\s*(?!print\\b|type\\b|round\\b)[a-z_]\\w*\\s*\\(",
+      "^\\s*(?!def\\b|print\\b|return\\b)[a-z_]\\w*\\s*\\("
+    ],
+    "theoryPatterns": ["\\bllama(r|da|mos)?\\b"]
+  },
+  {
+    "id": "parameter",
+    "term": "Parámetro",
+    "category": "Funciones",
+    "definition": "Nombre que recibe una entrada en la definición de la función: en def add(a, b), a y b son parámetros.",
+    "codePatterns": ["^\\s*def\\s+\\w+\\s*\\(\\s*[A-Za-z_]"],
+    "theoryPatterns": ["par[aá]metros?", "\\bparameters?\\b"]
+  },
+  {
+    "id": "argument",
+    "term": "Argumento",
+    "category": "Funciones",
+    "definition": "Valor real que se pasa al llamar a la función: en add(5, 6), 5 y 6 son argumentos.",
+    "theoryPatterns": ["\\bargumentos?\\b", "\\barguments?\\b"]
+  },
+  {
+    "id": "return",
+    "term": "return",
+    "category": "Funciones",
+    "definition": "Termina la función y entrega un valor a quien la llamó. A diferencia de print(), no muestra nada en la consola.",
+    "codePatterns": ["\\breturn\\b"],
+    "theoryPatterns": ["\\breturn\\b", "devoluci[oó]n"]
+  },
+  {
+    "id": "multiple-return",
+    "term": "Retorno múltiple",
+    "category": "Funciones",
+    "definition": "Una función puede devolver varios valores separados por comas; se recogen en el mismo orden: damage, mana = cast_iceblast(5, 100).",
+    "codePatterns": ["\\breturn\\s+[^\\n]+,"],
+    "theoryPatterns": ["m[uú]ltiples valores de retorno"]
+  },
+  {
+    "id": "entrypoint",
+    "term": "Función main (punto de entrada)",
+    "category": "Funciones",
+    "definition": "Función que arranca el programa. Se llama al final del fichero para que todas las funciones ya estén definidas cuando se usen.",
+    "codePatterns": ["^\\s*def\\s+main\\s*\\("],
+    "theoryPatterns": ["entrypoint", "punto de entrada", "orden de las funciones"]
+  }
+]

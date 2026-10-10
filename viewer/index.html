@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Apuntes BootDev</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+  <div class="layout" id="layout">
+    <aside class="sidebar" id="sidebar" aria-label="Navegación del curso">
+      <header class="sidebar-header">
+        <a class="brand" href="#/" id="brand-link">Apuntes BootDev</a>
+        <button class="icon-button" type="button" id="theme-toggle" aria-label="Cambiar a tema oscuro" title="Cambiar tema">
+          <span class="theme-icon" aria-hidden="true"></span>
+        </button>
+      </header>
+
+      <search class="sidebar-search" role="search">
+        <label class="visually-hidden" for="search-input">Buscar en los apuntes</label>
+        <input class="search-input" id="search-input" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Buscar concepto o palabra  ( / )">
+        <div class="active-filter" id="active-filter" hidden>
+          <span id="active-filter-label"></span>
+          <button class="text-button" type="button" id="clear-filter">Quitar filtro</button>
+        </div>
+        <p class="search-status" id="search-status" aria-live="polite"></p>
+      </search>
+
+      <nav class="tree" id="course-tree" aria-label="Cursos y capítulos"></nav>
+      <ol class="search-results" id="search-results" hidden></ol>
+
+      <footer class="sidebar-footer" id="index-info"></footer>
+    </aside>
+
+    <div class="mobile-bar">
+      <button class="text-button" type="button" id="menu-toggle" aria-controls="sidebar" aria-expanded="false">Índice</button>
+      <span class="mobile-title" id="mobile-title">Apuntes BootDev</span>
+    </div>
+
+    <main class="main" id="main-content" tabindex="-1">
+      <div class="boot-message" id="boot-message">
+        <p>Cargando apuntes…</p>
+        <p>Si este mensaje no desaparece, abre el visor desde un servidor local:</p>
+        <pre><code>python viewer/build_index.py
+python -m http.server 8000</code></pre>
+        <p>y entra en <code>http://localhost:8000/viewer/</code>.</p>
+      </div>
+      <div id="view" hidden></div>
+    </main>
+
+    <aside class="concepts" id="concepts-panel" aria-labelledby="concepts-title">
+      <section class="concepts-section">
+        <h2 class="panel-title" id="concepts-title">Conceptos clave</h2>
+        <p class="panel-hint" id="concepts-hint"></p>
+        <ul class="concept-list" id="chapter-concepts"></ul>
+      </section>
+      <section class="concepts-section">
+        <h2 class="panel-title">Definiciones del curso</h2>
+        <div id="glossary"></div>
+      </section>
+    </aside>
+  </div>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+</body>
+</html>

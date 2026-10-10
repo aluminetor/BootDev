@@ -270,3 +270,70 @@ test(1)
 test(25)
 test(100)
 test(33)
+
+# Múltiples valores de retorno
+# Una función puede devolver más de un valor separándolos con comas.
+
+def cast_iceblast(wizard_level, start_mana):
+    damage = wizard_level * 2
+    new_mana = start_mana - 10
+    return damage, new_mana  # return two values
+damage, mana = cast_iceblast(5, 100)
+print(f"Damage: {damage}, Remaining Mana: {mana}")
+# Damage: 10, Remaining Mana: 90
+
+#Cuando cast_iceblastse llama a la función, los valores devueltos damagese new_manaasignan a damagey mana, respectivamente. Al igual que con las entradas de la función, lo que importa es el orden de los valores, no los nombres de las variables. Podríamos haber llamado a las variables oney two:
+
+# Assignment
+# Complete the become_warrior function. It accepts 2 inputs:
+
+# The full_name string
+# The power integer
+# It should return 2 values:
+
+# A title string
+# A new_power integer.
+# Create the title using f-strings. F-strings can be assigned to variables, not just printed. Combine full_name with "the warrior" in this format:
+# full_name the warrior
+
+# Be very careful with the output of your program. The text will need to match the expected results exactly. Double-check your spacing and spelling!
+
+# Create the new_power value that is equal to the input power + 1
+# Return both title and new_power
+# Here's an example of how the function is intended to work:
+
+def become_warrior(full_name, power):
+    title= f"{full_name} the warrior"
+    new_power= power + 1
+    return title,new_power
+
+# Don't edit below this line
+
+
+def main():
+    test("Frodo Baggins", 5)
+    test("Bilbo Baggins", 10)
+    test("Gandalf The Grey", 9000)
+
+
+def test(input1, input2):
+    result1, result2 = become_warrior(input1, input2)
+    print(result1, "has a power level of:", result2)
+
+
+main()
+
+### Parámetros frente a argumentos
+# Los parámetros son los nombres que se utilizan para las entradas al definir una función. Los argumentos son los valores de las entradas que se proporcionan cuando se llama a una función .
+
+# Para reiterar, los argumentos son los valores reales que se introducen en la función, como 42.0, "the dark knight", o True. Los parámetros son los nombres que usamos en la definición de la función para referirnos a esos valores, que en el momento de escribir la función, pueden ser cualquiera que queramos.
+
+# Dicho esto, todo esto es cuestión de semántica, y francamente, los desarrolladores son bastante negligentes con estas definiciones. A menudo se oyen los términos "argumentos" y "parámetros" usados ​​indistintamente.
+
+# a y b are parametros
+def add(a, b):
+    return a + b
+
+
+# 5 y 6 are argumentos
+sum = add(5, 6)
