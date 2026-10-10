@@ -1,0 +1,82 @@
+# Ganancias del concierto
+# Calcula las ganancias de un pequeño concierto utilizando las variables proporcionadas. Mantén sus valores iniciales sin cambios.
+
+# Crear revenue: el dinero ganado con la venta de todas las entradas.
+# Crear total_cost: el costo del lugar más el costo del equipo.
+# Crear profit: los ingresos restantes después de pagar el costo total.
+# Utilice f-strings para imprimir estos tres valores en orden, con las etiquetas que se muestran a continuación.
+# Formato de salida (reemplace cada marcador de posición con su valor calculado):
+
+tickets_sold = 80
+ticket_price = 15
+venue_cost = 500
+equipment_cost = 180
+revenue = ticket_price * tickets_sold 
+total_cost = venue_cost + equipment_cost
+profit = revenue - total_cost 
+print(f"Revenue: {revenue}")
+print(f"Cost: {total_cost}")
+print(f"Profit: {profit}")
+
+"""
+Libro de hechizos
+A medida que avances en Boot.dev, es posible que desees:
+
+Tomar apuntes
+Repase los conceptos que ya ha aprendido.
+Ver más ejemplos de un concepto
+Vea un ejemplo de sintaxis que ya ha aprendido.
+Tu libro de hechizos resuelve estos problemas .
+
+Es una guía rápida con función de búsqueda que incluye todo lo que has aprendido en Boot.dev. A medida que completes las lecciones, desbloquearás automáticamente nuevas páginas en tu libro de hechizos, las cuales podrás consultar en cualquier momento. Así que, si sabes lo que buscas, usa tu libro de hechizos antes de hablar con Boots, ¡porque usarlo no cuesta objetos ni puntos de experiencia!
+"""
+#Los jugadores de Fantasy Quest, conocidos como Ballan's Ballers, han ganado todas sus partidas en la ronda eliminatoria del torneo. ¡Ahora están en la final! Calcula la puntuación media de sus 4 partidas y guárdala en la average_scorevariable.
+
+game_one_score = 97
+game_two_score = 92
+game_three_score = 106
+game_four_score = 105
+
+# Don't touch above this line
+
+average_score = (game_one_score + game_two_score + game_three_score + game_four_score) / 4
+
+# Don't touch below this line
+
+print(round(average_score))
+
+
+# Informe de personajes
+# Uno de nuestros becarios creó un programa que imprime información sobre los personajes de Fantasy Quest. Está casi terminado, pero aún tiene algunos fallos.
+
+# Asignación
+# ¡Corrige los errores para que funcione el informe de personajes!
+
+# Ejecuta el código para ver si falla.
+# Corrige la sintaxis para que cada variable sea del tipo de dato que esperas:
+# name:String
+# level:Integer
+# character_class:String
+# magic_resistance( FloatCambia la asignación de variables, no la instrucción de impresión)
+# account_active:Boolean
+# No cambie el significado de los valores, solo la sintaxis que 
+
+name = "Lopen"
+level = 25
+character_class = "Windrunner"
+magic_resistance = 10.5
+account_active = True
+
+# Don't edit below this line
+
+print("Character Report")
+print(f"{name} is a level {level} {character_class}.")
+print(f"They have {magic_resistance} magic resistance.")
+print(f"Their account is currently active: {account_active}")
+
+print("=========================")
+print("Character Report Complete")
+print("Data types:")
+print(f"name: {type(name).__name__}, level: {type(level).__name__}, character_class: {type(character_class).__name__}")
+print(f"magic_resistance: {type(magic_resistance).__name__}")
+print(f"account_active: {type(account_active).__name__}")
