@@ -337,3 +337,115 @@ def add(a, b):
 
 # 5 y 6 are argumentos
 sum = add(5, 6)
+
+##------------------cambios alu-------------------##
+
+#Valores predeterminados
+# Puedes especificar un valor predeterminado para un parámetro de función, lo cual es útil cuando una función tiene parámetros "opcionales". Estos se crean utilizando el =operador de asignación ( ) dentro de la firma de la función:
+
+def get_greeting(email, name="goofy"):
+    print(f"Hello {name}, welcome! You've registered your email: {email}")
+
+# Si la llamamos con ambos parámetros, utiliza los valores proporcionados:
+
+get_greeting("lane@example.com", "Lane")
+# Hello Lane, welcome! You've registered your email: lane@example.com
+
+get_greeting("lane@example.com")
+# Hello there, welcome! You've registered your email: lane@example.com
+
+# Assignment
+# Complete the get_punched and get_slashed functions. They both take two integers as arguments, health and armor.
+
+# Complete the get_punched function:
+# In the function signature, give the armor parameter a default value of 0.
+# Create a damage variable equal to 50 minus the armor. (Armor lowers the damage).
+# Return the result of the input health minus the calculated damage.
+# Complete the get_slashed function:
+# In the function signature, give the armor parameter a default value of 0.
+# Create a damage variable equal to 100 minus the armor.
+# Return the result of the input health minus the calculated damage.
+
+def get_punched(health, armor=0):
+    damage= 50 - armor
+    return health - damage
+
+
+def get_slashed(health, armor=0):
+    damage=100 - armor
+    return health - damage
+
+
+# Don't touch below this line
+
+
+def test(health, armor):
+    print(f"Running tests for health {health} and armor {armor}")
+    print("========================================")
+    print(f"Health: {health}, Armor: {armor}")
+    print(f"Health after punch: {get_punched(health, armor)}")
+    print("----------------------------------------")
+    print(f"Health: {health}, Armor: {armor}")
+    print(f"Health after slash: {get_slashed(health, armor)}")
+    print("----------------------------------------")
+    print(f"Health: {health}, Armor: no armor!")
+    print(f"Health after slash: {get_slashed(health)}")
+    print("----------------------------------------")
+    print(f"Health: {health}, Armor: no armor!")
+    print(f"Health after punch: {get_punched(health)}")
+    print("----------------------------------------\n")
+
+
+test(400, 5)
+test(300, 3)
+test(200, 1)
+
+
+# Enchant and Attack
+# In Fantasy Quest, a weapon can be enchanted to do bonus damage.
+
+# Assignment
+# Complete the enchant_and_attack function. It creates a new "enchanted" name for a weapon and calculates how much damage the enchanted weapon will deal to a targeted enemy.
+
+# It accepts 3 parameters:
+
+# target_health: integer
+# damage: integer
+# weapon: string
+# It should do the following things in the function body:
+
+# Calculate and store the "enchanted damage" in a new variable. The enchanted damage should be the input damage plus 10.
+# Calculate and store the "new health" in a new variable. The new health should be the input target_health minus the enchanted damage.
+# Create a new variable called enchanted_weapon. It should be the input weapon with the string "enchanted " added to the beginning of it. For example:
+# sword -> enchanted sword
+# axe -> enchanted axe
+# Return the enchanted weapon and the new health in that order.
+
+def enchant_and_attack(target_health, damage, weapon):
+    skill = "enchanted"
+    enchanted= damage + 10
+    new_health = target_health - enchanted
+    enchanted_weapon= f"{skill} {weapon}"
+    return enchanted_weapon,new_health
+    
+
+
+# Don't modify below this line
+
+
+def test(target_health, damage, weapon):
+    print(f"The target has {target_health} health.")
+    print(f"{weapon} base damage: {damage}... Enchanting and attacking.")
+    enchanted_weapon, new_health = enchant_and_attack(target_health, damage, weapon)
+    print(f"The target has been attacked with the {enchanted_weapon}.")
+    print(f"The target has {new_health} health remaining.")
+    print("=====================================")
+
+
+def main():
+    test(100, 50, "sword")
+    test(500, 100, "axe")
+    test(1000, 250, "bow")
+
+
+main()

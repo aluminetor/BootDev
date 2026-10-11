@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T16:09:52-05:00",
+  "generatedAt": "2026-10-11T14:41:43-05:00",
   "home": {
     "path": "README.md",
-    "markdown": "<div align=\"center\">\r\n\r\n# ⚔️ Chronicles of a Backend Apprentice ⚔️\r\n\r\n<img src=\"https://www.boot.dev/img/boots_running.gif\" alt=\"Boots Running\" width=\"220\"/>\r\n\r\n> *\"Code is the most powerful magic governing the realms of the web.\"*\r\n\r\n[![Boot.dev Profile](https://img.shields.io/badge/Boot.dev-aluminetor-8B5CF6?style=for-the-badge&logo=shield&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Adventurer Rank](https://img.shields.io/badge/Rank-Backend%20Apprentice-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Status](https://img.shields.io/badge/Quest%20Status-Active%20Grind-10B981?style=for-the-badge)](#)\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 🧙‍♂️ Adventurer Profile\r\n\r\n- **Hero Handle:** [`@aluminetor`](https://www.boot.dev/u/aluminetor)\r\n- **Guild:** [Boot.dev](https://www.boot.dev)\r\n- **Path / Class:** Backend Sorcerer (*Python, Go, Linux & Architecture*)\r\n- **Tome of Quests:** [boot.dev/u/aluminetor](https://www.boot.dev/u/aluminetor)\r\n\r\n---\r\n\r\n## 📜 Quest Prologue\r\n\r\nWelcome, traveler, to this digital grimoire. Here lie the battle logs, incantations, and artifacts forged throughout my journey across the realms of **[Boot.dev](https://www.boot.dev)**.\r\n\r\nMy objective is to conquer the core disciplines of **Backend Development**—unraveling algorithms, building distributed servers, and mastering the low-level foundations of modern systems.\r\n\r\n---\r\n\r\n## 🗺️ Quest Board & Progression\r\n\r\n| Quest / Course | Difficulty Rank | Grimoire (Language / Focus) | Status |\r\n| :--- | :---: | :---: | :---: |\r\n| **Learn Python** | 🟢 Novice | Python | 🛡️ Cleared |\r\n| **Learn Shell Scripting** | 🟢 Novice | Bash / Terminal | ⚔️ In Battle |\r\n| **Learn Git** | 🟢 Novice | Git / GitHub | 🛡️ Cleared |\r\n| **Learn Object-Oriented Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Functional Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Data Structures & Algorithms** | 🔴 Advanced | Python | ⏳ Queued |\r\n| **Learn Go** | 🟡 Intermediate | Golang | ⏳ Queued |\r\n| **Build HTTP Servers** | 🔴 Advanced | Go / REST APIs | ⏳ Queued |\r\n| **Learn SQL & Databases** | 🟡 Intermediate | PostgreSQL | ⏳ Queued |\r\n| **Learn Docker & Containers** | 🔴 Advanced | Docker | ⏳ Queued |\r\n\r\n---\r\n\r\n## 🛡️ Unlocked Spells & Arsenal\r\n\r\n<div align=\"center\">\r\n\r\n<img src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black\" />\r\n<img src=\"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white\" />\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 📂 Grimoire Directory Structure\r\n\r\n```text\r\n.\r\n├── 📁 01_python/            # Early incantations & foundational trials\r\n├── 📁 02_oop/               # Class rituals, polymorphism & encapsulation\r\n├── 📁 03_dsa/               # Ancient trees, graphs & sorting algorithms\r\n├── 📁 04_go/                # Concurrent routines & static typing\r\n└── 📁 projects/             # Conquered Dungeons (Completed Projects)\r\n    ├── 🏹 bookbot/          # Text analysis engine in Python\r\n    └── 🛡️ blog_aggregator/  # RSS feed aggregator in Go\r\n"
+    "markdown": "<div align=\"center\">\r\n\r\n# ⚔️ Chronicles of a Backend Apprentice ⚔️\r\n\r\n<img src=\"https://www.boot.dev/img/boots_running.gif\" alt=\"Boots Running\" width=\"220\"/>\r\n\r\n> *\"Code is the most powerful magic governing the realms of the web.\"*\r\n\r\n[![Boot.dev Profile](https://img.shields.io/badge/Boot.dev-aluminetor-8B5CF6?style=for-the-badge&logo=shield&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Adventurer Rank](https://img.shields.io/badge/Rank-Backend%20Apprentice-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Status](https://img.shields.io/badge/Quest%20Status-Active%20Grind-10B981?style=for-the-badge)](#)\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 🧙‍♂️ Adventurer Profile\r\n\r\n- **Hero Handle:** [`@aluminetor`](https://www.boot.dev/u/aluminetor)\r\n- **Guild:** [Boot.dev](https://www.boot.dev)\r\n- **Path / Class:** Backend Sorcerer (*Python, Go, Linux & Architecture*)\r\n- **Tome of Quests:** [boot.dev/u/aluminetor](https://www.boot.dev/u/aluminetor)\r\n\r\n---\r\n\r\n## 📜 Quest Prologue\r\n\r\nWelcome, traveler, to this digital grimoire. Here lie the battle logs, incantations, and artifacts forged throughout my journey across the realms of **[Boot.dev](https://www.boot.dev)**.\r\n\r\nMy objective is to conquer the core disciplines of **Backend Development**—unraveling algorithms, building distributed servers, and mastering the low-level foundations of modern systems.\r\n\r\n---\r\n\r\n## 🗺️ Quest Board & Progression\r\n\r\n| Quest / Course | Difficulty Rank | Grimoire (Language / Focus) | Status |\r\n| :--- | :---: | :---: | :---: |\r\n| **Learn Python** | 🟢 Novice | Python | 🛡️ Cleared |\r\n| **Learn Shell Scripting** | 🟢 Novice | Bash / Terminal | ⚔️ In Battle |\r\n| **Learn Git** | 🟢 Novice | Git / GitHub | 🛡️ Cleared |\r\n| **Learn Object-Oriented Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Functional Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Data Structures & Algorithms** | 🔴 Advanced | Python | ⏳ Queued |\r\n| **Learn Go** | 🟡 Intermediate | Golang | ⏳ Queued |\r\n| **Build HTTP Servers** | 🔴 Advanced | Go / REST APIs | ⏳ Queued |\r\n| **Learn SQL & Databases** | 🟡 Intermediate | PostgreSQL | ⏳ Queued |\r\n| **Learn Docker & Containers** | 🔴 Advanced | Docker | ⏳ Queued |\r\n\r\n---\r\n\r\n## 🛡️ Unlocked Spells & Arsenal\r\n\r\n<div align=\"center\">\r\n\r\n<img src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black\" />\r\n<img src=\"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white\" />\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 📂 Grimoire Directory Structure\r\n\r\n```text\r\n.\r\n├── 📁 PythonBeginners/      # Python lessons, chapters & challenges\r\n│   ├── 📜 CH01_firstbug.py\r\n│   ├── 📜 CH02_variables.py\r\n│   ├── 📜 CH03_functions.py\r\n│   └── ⚔️ Desafios.py\r\n├── 📁 viewer/               # Local, read-only learning dashboard\r\n│   ├── 🌐 index.html        # Viewer entry point\r\n│   ├── ⚙️ app.js            # Navigation and content rendering\r\n│   ├── 🛠️ build_index.py    # Generates viewer/data/index.json\r\n│   ├── 🎨 styles.css        # Dashboard styles\r\n│   └── 📁 data/             # Generated course index\r\n├── 📜 AGENTS.md             # Repository working guidelines\r\n└── 📜 README.md             # Project overview and progress\r\n"
   },
   "glossary": [
     {
@@ -596,9 +596,9 @@
           "number": 3,
           "title": "Functions",
           "path": "PythonBeginners/CH03_functions.py",
-          "modifiedAt": "2026-10-10T14:54:16-05:00",
-          "lineCount": 339,
-          "exerciseCount": 8,
+          "modifiedAt": "2026-10-10T17:07:00-05:00",
+          "lineCount": 451,
+          "exerciseCount": 10,
           "warnings": [],
           "exercises": [
             {
@@ -980,10 +980,13 @@
               "title": "Parámetros frente a argumentos",
               "hasOwnTitle": true,
               "startLine": 326,
-              "endLine": 339,
+              "endLine": 401,
               "concepts": [
                 "variable",
+                "string",
                 "integer",
+                "f-string",
+                "print",
                 "arithmetic",
                 "function-def",
                 "function-call",
@@ -1017,10 +1020,136 @@
                   "endLine": 339,
                   "text": "sum = add(5, 6)",
                   "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 341,
+                  "endLine": 344,
+                  "text": "#------------------cambios alu-------------------##\n\nValores predeterminados\nPuedes especificar un valor predeterminado para un parámetro de función, lo cual es útil cuando una función tiene parámetros \"opcionales\". Estos se crean utilizando el =operador de asignación ( ) dentro de la firma de la función:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 346,
+                  "endLine": 347,
+                  "text": "def get_greeting(email, name=\"goofy\"):\n    print(f\"Hello {name}, welcome! You've registered your email: {email}\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 349,
+                  "endLine": 349,
+                  "text": "Si la llamamos con ambos parámetros, utiliza los valores proporcionados:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 351,
+                  "endLine": 351,
+                  "text": "get_greeting(\"lane@example.com\", \"Lane\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 352,
+                  "endLine": 352,
+                  "text": "Hello Lane, welcome! You've registered your email: lane@example.com"
+                },
+                {
+                  "type": "code",
+                  "startLine": 354,
+                  "endLine": 354,
+                  "text": "get_greeting(\"lane@example.com\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 355,
+                  "endLine": 367,
+                  "text": "Hello there, welcome! You've registered your email: lane@example.com\n\nAssignment\nComplete the get_punched and get_slashed functions. They both take two integers as arguments, health and armor.\n\nComplete the get_punched function:\nIn the function signature, give the armor parameter a default value of 0.\nCreate a damage variable equal to 50 minus the armor. (Armor lowers the damage).\nReturn the result of the input health minus the calculated damage.\nComplete the get_slashed function:\nIn the function signature, give the armor parameter a default value of 0.\nCreate a damage variable equal to 100 minus the armor.\nReturn the result of the input health minus the calculated damage."
+                },
+                {
+                  "type": "code",
+                  "startLine": 369,
+                  "endLine": 401,
+                  "text": "def get_punched(health, armor=0):\n    damage= 50 - armor\n    return health - damage\n\n\ndef get_slashed(health, armor=0):\n    damage=100 - armor\n    return health - damage\n\n\n# Don't touch below this line\n\n\ndef test(health, armor):\n    print(f\"Running tests for health {health} and armor {armor}\")\n    print(\"========================================\")\n    print(f\"Health: {health}, Armor: {armor}\")\n    print(f\"Health after punch: {get_punched(health, armor)}\")\n    print(\"----------------------------------------\")\n    print(f\"Health: {health}, Armor: {armor}\")\n    print(f\"Health after slash: {get_slashed(health, armor)}\")\n    print(\"----------------------------------------\")\n    print(f\"Health: {health}, Armor: no armor!\")\n    print(f\"Health after slash: {get_slashed(health)}\")\n    print(\"----------------------------------------\")\n    print(f\"Health: {health}, Armor: no armor!\")\n    print(f\"Health after punch: {get_punched(health)}\")\n    print(\"----------------------------------------\\n\")\n\n\ntest(400, 5)\ntest(300, 3)\ntest(200, 1)",
+                  "boilerplateLines": [
+                    379
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 9,
+              "title": "Enchant and Attack",
+              "hasOwnTitle": true,
+              "startLine": 404,
+              "endLine": 429,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "f-string",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return",
+                "multiple-return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 405,
+                  "endLine": 422,
+                  "text": "In Fantasy Quest, a weapon can be enchanted to do bonus damage.\n\nAssignment\nComplete the enchant_and_attack function. It creates a new \"enchanted\" name for a weapon and calculates how much damage the enchanted weapon will deal to a targeted enemy.\n\nIt accepts 3 parameters:\n\ntarget_health: integer\ndamage: integer\nweapon: string\nIt should do the following things in the function body:\n\nCalculate and store the \"enchanted damage\" in a new variable. The enchanted damage should be the input damage plus 10.\nCalculate and store the \"new health\" in a new variable. The new health should be the input target_health minus the enchanted damage.\nCreate a new variable called enchanted_weapon. It should be the input weapon with the string \"enchanted \" added to the beginning of it. For example:\nsword -> enchanted sword\naxe -> enchanted axe\nReturn the enchanted weapon and the new health in that order."
+                },
+                {
+                  "type": "code",
+                  "startLine": 424,
+                  "endLine": 429,
+                  "text": "def enchant_and_attack(target_health, damage, weapon):\n    skill = \"enchanted\"\n    enchanted= damage + 10\n    new_health = target_health - enchanted\n    enchanted_weapon= f\"{skill} {weapon}\"\n    return enchanted_weapon,new_health",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 10,
+              "title": "Don't modify below this line",
+              "hasOwnTitle": true,
+              "startLine": 433,
+              "endLine": 451,
+              "concepts": [
+                "multiple-assignment",
+                "string",
+                "integer",
+                "f-string",
+                "print",
+                "function-def",
+                "function-call",
+                "parameter",
+                "entrypoint"
+              ],
+              "segments": [
+                {
+                  "type": "code",
+                  "startLine": 436,
+                  "endLine": 451,
+                  "text": "def test(target_health, damage, weapon):\n    print(f\"The target has {target_health} health.\")\n    print(f\"{weapon} base damage: {damage}... Enchanting and attacking.\")\n    enchanted_weapon, new_health = enchant_and_attack(target_health, damage, weapon)\n    print(f\"The target has been attacked with the {enchanted_weapon}.\")\n    print(f\"The target has {new_health} health remaining.\")\n    print(\"=====================================\")\n\n\ndef main():\n    test(100, 50, \"sword\")\n    test(500, 100, \"axe\")\n    test(1000, 250, \"bow\")\n\n\nmain()",
+                  "boilerplateLines": []
                 }
               ]
             }
           ]
+        },
+        {
+          "id": "CH04_scope",
+          "kind": "chapter",
+          "number": 4,
+          "title": "Scope",
+          "path": "PythonBeginners/CH04_scope.py",
+          "modifiedAt": "2026-10-10T17:07:23-05:00",
+          "lineCount": 0,
+          "exerciseCount": 0,
+          "warnings": [],
+          "exercises": []
         }
       ],
       "extras": [
@@ -1075,9 +1204,7 @@
                 "variable",
                 "integer",
                 "print",
-                "round",
-                "syntax-error",
-                "function-def"
+                "round"
               ],
               "segments": [
                 {

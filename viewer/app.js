@@ -11,6 +11,7 @@ const SEARCH_DEBOUNCE_MS = 120;
 const MAX_SEARCH_RESULTS = 60;
 const SNIPPET_RADIUS = 70;
 const MOBILE_QUERY = "(max-width: 768px)";
+const COPY_FEEDBACK_MS = 1800;
 
 const PYTHON_KEYWORDS = new Set([
   "and", "as", "assert", "async", "await", "break", "class", "continue", "def", "del",
@@ -358,7 +359,11 @@ function renderChapterHeader(file) {
   ]);
 
   const header = createElement("header", { className: "chapter-head" }, [
-    createElement("p", { className: "chapter-path", text: file.path }),
+    createElement("div", { className: "chapter-tags" }, [
+      renderBadge("BootDev", "badge-source"),
+      renderBadge("Python", "badge-language"),
+      createElement("span", { className: "chapter-path", text: file.path }),
+    ]),
     createElement("h1", { className: "chapter-title" }, titleChildren),
     meta,
   ]);
@@ -451,13 +456,67 @@ function renderStep(step) {
 
   const notes = createElement("div", { className: "step-notes", text: step.theory?.text ?? "" });
   const container = createElement("div", { className: classes.join(" ") }, [notes]);
-  if (step.code) container.append(createElement("div", { className: "step-code" }, [renderCodeBlock(step.code)]));
+  if (step.code) container.append(renderCodePanel(step.code));
   return container;
 }
 
-function renderCodeBlock(segment) {
+/** Normalizes line endings and drops trailing blank lines so display and copy match. */
+function cleanCodeText(text) {
+  return text.replace(/\r\n?/g, "\n").replace(/\s+$/, "");
+}
+
+function renderCodePanel(segment) {
+  const cleanText = cleanCodeText(segment.text);
+  const lineCount = cleanText.split("\n").length;
+  const endLine = segment.startLine + lineCount - 1;
+  const copyButton = createElement("button", {
+    className: "copy-button",
+    text: "Copiar",
+    attrs: { type: "button", "aria-label": `Copiar código, líneas ${segment.startLine} a ${endLine}` },
+  });
+  copyButton.addEventListener("click", () => copyCode(cleanText, copyButton));
+
+  const toolbar = createElement("div", { className: "code-toolbar" }, [
+    createElement("span", { className: "badge badge-language", text: "Python" }),
+    createElement("span", { className: "code-range", text: `Líneas ${segment.startLine}–${endLine}` }),
+    copyButton,
+  ]);
+  return createElement("div", { className: "step-code" }, [toolbar, renderCodeBlock(segment, cleanText)]);
+}
+
+async function writeToClipboard(text) {
+  if (navigator.clipboard?.writeText && window.isSecureContext) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+  const helper = createElement("textarea", { attrs: { readonly: "", "aria-hidden": "true" } });
+  helper.value = text;
+  helper.className = "clipboard-helper";
+  document.body.append(helper);
+  helper.select();
+  const isCopied = document.execCommand("copy");
+  helper.remove();
+  if (!isCopied) throw new Error("copy failed");
+}
+
+async function copyCode(text, button) {
+  try {
+    await writeToClipboard(text);
+    button.textContent = "Copiado";
+    button.dataset.state = "done";
+  } catch {
+    button.textContent = "No se pudo copiar";
+    button.dataset.state = "error";
+  }
+  setTimeout(() => {
+    button.textContent = "Copiar";
+    delete button.dataset.state;
+  }, COPY_FEEDBACK_MS);
+}
+
+function renderCodeBlock(segment, cleanText) {
   const boilerplateLines = new Set(segment.boilerplateLines ?? []);
-  const linesHtml = highlightPythonLines(segment.text).map((lineHtml, offset) => {
+  const linesHtml = highlightPythonLines(cleanText).map((lineHtml, offset) => {
     const lineNumber = segment.startLine + offset;
     const extraClass = boilerplateLines.has(lineNumber) ? " is-boilerplate" : "";
     return (
@@ -472,7 +531,7 @@ function renderCodeBlock(segment) {
     "pre",
     {
       className: "code-block",
-      attrs: { tabindex: "0", "aria-label": `Código Python, líneas ${segment.startLine} a ${segment.endLine}` },
+      attrs: { tabindex: "0", "aria-label": `Código Python, líneas ${segment.startLine} a ${segment.startLine + linesHtml.length - 1}` },
     },
     [code],
   );
@@ -774,20 +833,33 @@ function renderConceptsPanel() {
   elements.chapterConcepts.replaceChildren(...items);
 }
 
+function renderBadge(text, variant = "") {
+  return createElement("span", { className: `badge ${variant}`.trim(), text });
+}
+
 function renderConceptItem(entry, count) {
   const button = createElement(
     "button",
     {
       className: "concept-button",
-      attrs: { type: "button", "data-concept-id": entry.id, "aria-pressed": String(state.conceptId === entry.id) },
+      attrs: {
+        type: "button",
+        "data-concept-id": entry.id,
+        "aria-pressed": String(state.conceptId === entry.id),
+        "aria-label": `${entry.term}, ${pluralize(count, "ejercicio", "ejercicios")}`,
+      },
     },
     [
       createElement("span", { className: "concept-term", text: entry.term }),
-      createElement("span", { className: "concept-count", text: pluralize(count, "ejercicio", "ejercicios") }),
+      createElement("span", { className: "concept-count", text: String(count), attrs: { "aria-hidden": "true" } }),
     ],
   );
+  const meta = createElement("div", { className: "concept-meta" }, [
+    renderBadge(entry.category ?? "Otros", "badge-category"),
+  ]);
   return createElement("li", { className: "concept-item" }, [
     button,
+    meta,
     createElement("p", { className: "concept-definition", text: entry.definition }),
   ]);
 }
@@ -984,14 +1056,23 @@ function initTheme() {
   });
 }
 
-function openMenu() {
-  elements.layout.classList.add("is-menu-open");
-  elements.menuToggle.setAttribute("aria-expanded", "true");
+function isMenuOpen() {
+  return elements.layout.classList.contains("is-menu-open");
 }
 
-function closeMenu() {
+function openMenu() {
+  elements.layout.classList.add("is-menu-open");
+  document.body.classList.add("is-scroll-locked");
+  elements.menuToggle.setAttribute("aria-expanded", "true");
+  if (window.matchMedia(MOBILE_QUERY).matches) elements.menuClose.focus({ preventScroll: true });
+}
+
+function closeMenu({ restoreFocus = false } = {}) {
+  const wasOpen = isMenuOpen();
   elements.layout.classList.remove("is-menu-open");
+  document.body.classList.remove("is-scroll-locked");
   elements.menuToggle.setAttribute("aria-expanded", "false");
+  if (wasOpen && restoreFocus) elements.menuToggle.focus();
 }
 
 function updateMobileTitle() {
@@ -1043,6 +1124,8 @@ function collectElements() {
     glossary: "glossary",
     themeToggle: "theme-toggle",
     menuToggle: "menu-toggle",
+    menuClose: "menu-close",
+    sidebarBackdrop: "sidebar-backdrop",
     mobileTitle: "mobile-title",
     indexInfo: "index-info",
     toast: "toast",
@@ -1080,15 +1163,19 @@ function bindEvents() {
       event.preventDefault();
       if (window.matchMedia(MOBILE_QUERY).matches) openMenu();
       elements.searchInput.focus();
-    } else if (event.key === "Escape" && elements.layout.classList.contains("is-menu-open")) {
-      closeMenu();
-      elements.menuToggle.focus();
+    } else if (event.key === "Escape" && isMenuOpen()) {
+      closeMenu({ restoreFocus: true });
     }
   });
 
   elements.menuToggle.addEventListener("click", () => {
-    if (elements.layout.classList.contains("is-menu-open")) closeMenu();
+    if (isMenuOpen()) closeMenu();
     else openMenu();
+  });
+  elements.menuClose.addEventListener("click", () => closeMenu({ restoreFocus: true }));
+  elements.sidebarBackdrop.addEventListener("click", () => closeMenu({ restoreFocus: true }));
+  window.matchMedia(MOBILE_QUERY).addEventListener("change", (event) => {
+    if (!event.matches) closeMenu();
   });
 
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateThemeButton);
