@@ -205,5 +205,41 @@
     "definition": "Función que arranca el programa. Se llama al final del fichero para que todas las funciones ya estén definidas cuando se usen.",
     "codePatterns": ["^\\s*def\\s+main\\s*\\("],
     "theoryPatterns": ["entrypoint", "punto de entrada", "orden de las funciones"]
+  },
+  {
+    "id": "default-values",
+    "term": "Valores predeterminados",
+    "category": "Funciones",
+    "definition": "Permite asignar un valor por defecto a un parámetro en la firma de la función (ej. def saludar(nombre='amigo'):). Si no se pasa el argumento al llamar a la función, se usa el valor predeterminado.",
+    "codePatterns": ["def\\s+\\w+\\s*\\([^)]*=[^)]*\\)"],
+    "theoryPatterns": ["valores?\\s+predeterminados?", "default\\s+values?"]
+  },
+  {
+    "id": "scope",
+    "term": "Ámbito (Scope)",
+    "category": "Ámbito",
+    "definition": "Zona del código donde una variable o función es accesible. Las variables definidas dentro de una función solo existen dentro de ella (ámbito local).",
+    "theoryPatterns": ["\\b[aá]mbitos?\\b", "\\bscope\\b", "\\balcance\\b"]
+  },
+  {
+    "id": "global-scope",
+    "term": "Ámbito global",
+    "category": "Ámbito",
+    "definition": "Variables definidas fuera de cualquier función. Están disponibles en todo el archivo y pueden ser leídas dentro de las funciones.",
+    "theoryPatterns": ["[aá]mbito\\s+global", "alcance\\s+global", "variable\\s+global", "global\\s+scope"]
+  },
+  {
+    "id": "unit-test",
+    "term": "Pruebas unitarias",
+    "category": "Pruebas y depuración",
+    "definition": "Programas automatizados que verifican que una pequeña unidad de código (como una función) funcione como se espera.",
+    "theoryPatterns": ["pruebas?\\s+unitarias?", "unit\\s+tests?", "main_test"]
+  },
+  {
+    "id": "traceback",
+    "term": "Rastreo de pila (Traceback)",
+    "category": "Pruebas y depuración",
+    "definition": "Mensaje que muestra Python cuando ocurre un error, indicando el archivo, la línea exacta y la ruta de ejecución previa al fallo.",
+    "theoryPatterns": ["rastreo\\s+de\\s+pila", "tracebacks?", "stack\\s*trace"]
   }
 ]

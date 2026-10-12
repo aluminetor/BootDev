@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T14:41:43-05:00",
+  "generatedAt": "2026-10-11T20:46:55-05:00",
   "home": {
     "path": "README.md",
     "markdown": "<div align=\"center\">\r\n\r\n# ⚔️ Chronicles of a Backend Apprentice ⚔️\r\n\r\n<img src=\"https://www.boot.dev/img/boots_running.gif\" alt=\"Boots Running\" width=\"220\"/>\r\n\r\n> *\"Code is the most powerful magic governing the realms of the web.\"*\r\n\r\n[![Boot.dev Profile](https://img.shields.io/badge/Boot.dev-aluminetor-8B5CF6?style=for-the-badge&logo=shield&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Adventurer Rank](https://img.shields.io/badge/Rank-Backend%20Apprentice-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Status](https://img.shields.io/badge/Quest%20Status-Active%20Grind-10B981?style=for-the-badge)](#)\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 🧙‍♂️ Adventurer Profile\r\n\r\n- **Hero Handle:** [`@aluminetor`](https://www.boot.dev/u/aluminetor)\r\n- **Guild:** [Boot.dev](https://www.boot.dev)\r\n- **Path / Class:** Backend Sorcerer (*Python, Go, Linux & Architecture*)\r\n- **Tome of Quests:** [boot.dev/u/aluminetor](https://www.boot.dev/u/aluminetor)\r\n\r\n---\r\n\r\n## 📜 Quest Prologue\r\n\r\nWelcome, traveler, to this digital grimoire. Here lie the battle logs, incantations, and artifacts forged throughout my journey across the realms of **[Boot.dev](https://www.boot.dev)**.\r\n\r\nMy objective is to conquer the core disciplines of **Backend Development**—unraveling algorithms, building distributed servers, and mastering the low-level foundations of modern systems.\r\n\r\n---\r\n\r\n## 🗺️ Quest Board & Progression\r\n\r\n| Quest / Course | Difficulty Rank | Grimoire (Language / Focus) | Status |\r\n| :--- | :---: | :---: | :---: |\r\n| **Learn Python** | 🟢 Novice | Python | 🛡️ Cleared |\r\n| **Learn Shell Scripting** | 🟢 Novice | Bash / Terminal | ⚔️ In Battle |\r\n| **Learn Git** | 🟢 Novice | Git / GitHub | 🛡️ Cleared |\r\n| **Learn Object-Oriented Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Functional Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Data Structures & Algorithms** | 🔴 Advanced | Python | ⏳ Queued |\r\n| **Learn Go** | 🟡 Intermediate | Golang | ⏳ Queued |\r\n| **Build HTTP Servers** | 🔴 Advanced | Go / REST APIs | ⏳ Queued |\r\n| **Learn SQL & Databases** | 🟡 Intermediate | PostgreSQL | ⏳ Queued |\r\n| **Learn Docker & Containers** | 🔴 Advanced | Docker | ⏳ Queued |\r\n\r\n---\r\n\r\n## 🛡️ Unlocked Spells & Arsenal\r\n\r\n<div align=\"center\">\r\n\r\n<img src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black\" />\r\n<img src=\"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white\" />\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 📂 Grimoire Directory Structure\r\n\r\n```text\r\n.\r\n├── 📁 PythonBeginners/      # Python lessons, chapters & challenges\r\n│   ├── 📜 CH01_firstbug.py\r\n│   ├── 📜 CH02_variables.py\r\n│   ├── 📜 CH03_functions.py\r\n│   └── ⚔️ Desafios.py\r\n├── 📁 viewer/               # Local, read-only learning dashboard\r\n│   ├── 🌐 index.html        # Viewer entry point\r\n│   ├── ⚙️ app.js            # Navigation and content rendering\r\n│   ├── 🛠️ build_index.py    # Generates viewer/data/index.json\r\n│   ├── 🎨 styles.css        # Dashboard styles\r\n│   └── 📁 data/             # Generated course index\r\n├── 📜 AGENTS.md             # Repository working guidelines\r\n└── 📜 README.md             # Project overview and progress\r\n"
@@ -167,6 +167,36 @@
       "term": "Función main (punto de entrada)",
       "category": "Funciones",
       "definition": "Función que arranca el programa. Se llama al final del fichero para que todas las funciones ya estén definidas cuando se usen."
+    },
+    {
+      "id": "default-values",
+      "term": "Valores predeterminados",
+      "category": "Funciones",
+      "definition": "Permite asignar un valor por defecto a un parámetro en la firma de la función (ej. def saludar(nombre='amigo'):). Si no se pasa el argumento al llamar a la función, se usa el valor predeterminado."
+    },
+    {
+      "id": "scope",
+      "term": "Ámbito (Scope)",
+      "category": "Ámbito",
+      "definition": "Zona del código donde una variable o función es accesible. Las variables definidas dentro de una función solo existen dentro de ella (ámbito local)."
+    },
+    {
+      "id": "global-scope",
+      "term": "Ámbito global",
+      "category": "Ámbito",
+      "definition": "Variables definidas fuera de cualquier función. Están disponibles en todo el archivo y pueden ser leídas dentro de las funciones."
+    },
+    {
+      "id": "unit-test",
+      "term": "Pruebas unitarias",
+      "category": "Pruebas y depuración",
+      "definition": "Programas automatizados que verifican que una pequeña unidad de código (como una función) funcione como se espera."
+    },
+    {
+      "id": "traceback",
+      "term": "Rastreo de pila (Traceback)",
+      "category": "Pruebas y depuración",
+      "definition": "Mensaje que muestra Python cuando ocurre un error, indicando el archivo, la línea exacta y la ruta de ejecución previa al fallo."
     }
   ],
   "courses": [
@@ -258,7 +288,7 @@
           "path": "PythonBeginners/CH02_variables.py",
           "modifiedAt": "2026-10-10T12:53:14-05:00",
           "lineCount": 151,
-          "exerciseCount": 9,
+          "exerciseCount": 10,
           "warnings": [],
           "exercises": [
             {
@@ -361,6 +391,24 @@
               "title": "Comentario de una sola línea",
               "hasOwnTitle": true,
               "startLine": 27,
+              "endLine": 28,
+              "concepts": [
+                "comment"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 28,
+                  "endLine": 28,
+                  "text": "Un solo verso #convierte el resto de la línea en un comentario:"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "title": "speed describes how fast the player",
+              "hasOwnTitle": true,
+              "startLine": 30,
               "endLine": 47,
               "concepts": [
                 "variable",
@@ -369,15 +417,14 @@
                 "integer",
                 "boolean",
                 "type-function",
-                "comment",
                 "print"
               ],
               "segments": [
                 {
                   "type": "theory",
-                  "startLine": 28,
+                  "startLine": 31,
                   "endLine": 39,
-                  "text": "Un solo verso #convierte el resto de la línea en un comentario:\n\n# speed describes how fast the player\n# moves in meters per second\n\nNombre\tDescripción\tCódigo\tIdioma(s) que lo recomiendan\nCaso de serpiente\tTodas las palabras están en minúsculas y separadas por guiones bajos.\nnum_new_users\tPython, Ruby, Rust\n\nDicho esto, se prefieren las comillas dobles ."
+                  "text": "moves in meters per second\n\nNombre\tDescripción\tCódigo\tIdioma(s) que lo recomiendan\nCaso de serpiente\tTodas las palabras están en minúsculas y separadas por guiones bajos.\nnum_new_users\tPython, Ruby, Rust\n\nDicho esto, se prefieren las comillas dobles ."
                 },
                 {
                   "type": "code",
@@ -391,7 +438,7 @@
               ]
             },
             {
-              "index": 4,
+              "index": 5,
               "title": "Cadenas F en Python",
               "hasOwnTitle": true,
               "startLine": 49,
@@ -423,7 +470,7 @@
               ]
             },
             {
-              "index": 5,
+              "index": 6,
               "title": "Tipografía dinámica",
               "hasOwnTitle": true,
               "startLine": 62,
@@ -465,7 +512,7 @@
               ]
             },
             {
-              "index": 6,
+              "index": 7,
               "title": "¿Qué es la tipificación no dinámica?",
               "hasOwnTitle": true,
               "startLine": 79,
@@ -486,7 +533,7 @@
               ]
             },
             {
-              "index": 7,
+              "index": 8,
               "title": "Matemáticas con cadenas de caracteres",
               "hasOwnTitle": true,
               "startLine": 92,
@@ -518,7 +565,7 @@
               ]
             },
             {
-              "index": 8,
+              "index": 9,
               "title": "Declaración multivariable",
               "hasOwnTitle": true,
               "startLine": 108,
@@ -559,7 +606,7 @@
               ]
             },
             {
-              "index": 9,
+              "index": 10,
               "title": "Botas",
               "hasOwnTitle": true,
               "startLine": 120,
@@ -596,7 +643,7 @@
           "number": 3,
           "title": "Functions",
           "path": "PythonBeginners/CH03_functions.py",
-          "modifiedAt": "2026-10-10T17:07:00-05:00",
+          "modifiedAt": "2026-10-11T14:42:20-05:00",
           "lineCount": 451,
           "exerciseCount": 10,
           "warnings": [],
@@ -980,13 +1027,10 @@
               "title": "Parámetros frente a argumentos",
               "hasOwnTitle": true,
               "startLine": 326,
-              "endLine": 401,
+              "endLine": 339,
               "concepts": [
                 "variable",
-                "string",
                 "integer",
-                "f-string",
-                "print",
                 "arithmetic",
                 "function-def",
                 "function-call",
@@ -1020,12 +1064,35 @@
                   "endLine": 339,
                   "text": "sum = add(5, 6)",
                   "boilerplateLines": []
-                },
+                }
+              ]
+            },
+            {
+              "index": 9,
+              "title": "Valores predeterminados",
+              "hasOwnTitle": true,
+              "startLine": 343,
+              "endLine": 401,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "f-string",
+                "print",
+                "arithmetic",
+                "function-def",
+                "function-call",
+                "parameter",
+                "argument",
+                "return",
+                "default-values"
+              ],
+              "segments": [
                 {
                   "type": "theory",
-                  "startLine": 341,
+                  "startLine": 344,
                   "endLine": 344,
-                  "text": "#------------------cambios alu-------------------##\n\nValores predeterminados\nPuedes especificar un valor predeterminado para un parámetro de función, lo cual es útil cuando una función tiene parámetros \"opcionales\". Estos se crean utilizando el =operador de asignación ( ) dentro de la firma de la función:"
+                  "text": "Puedes especificar un valor predeterminado para un parámetro de función, lo cual es útil cuando una función tiene parámetros \"opcionales\". Estos se crean utilizando el =operador de asignación ( ) dentro de la firma de la función:"
                 },
                 {
                   "type": "code",
@@ -1078,21 +1145,25 @@
               ]
             },
             {
-              "index": 9,
+              "index": 10,
               "title": "Enchant and Attack",
               "hasOwnTitle": true,
               "startLine": 404,
-              "endLine": 429,
+              "endLine": 451,
               "concepts": [
                 "variable",
+                "multiple-assignment",
                 "string",
                 "integer",
                 "f-string",
+                "print",
                 "arithmetic",
                 "function-def",
+                "function-call",
                 "parameter",
                 "return",
-                "multiple-return"
+                "multiple-return",
+                "entrypoint"
               ],
               "segments": [
                 {
@@ -1104,36 +1175,11 @@
                 {
                   "type": "code",
                   "startLine": 424,
-                  "endLine": 429,
-                  "text": "def enchant_and_attack(target_health, damage, weapon):\n    skill = \"enchanted\"\n    enchanted= damage + 10\n    new_health = target_health - enchanted\n    enchanted_weapon= f\"{skill} {weapon}\"\n    return enchanted_weapon,new_health",
-                  "boilerplateLines": []
-                }
-              ]
-            },
-            {
-              "index": 10,
-              "title": "Don't modify below this line",
-              "hasOwnTitle": true,
-              "startLine": 433,
-              "endLine": 451,
-              "concepts": [
-                "multiple-assignment",
-                "string",
-                "integer",
-                "f-string",
-                "print",
-                "function-def",
-                "function-call",
-                "parameter",
-                "entrypoint"
-              ],
-              "segments": [
-                {
-                  "type": "code",
-                  "startLine": 436,
                   "endLine": 451,
-                  "text": "def test(target_health, damage, weapon):\n    print(f\"The target has {target_health} health.\")\n    print(f\"{weapon} base damage: {damage}... Enchanting and attacking.\")\n    enchanted_weapon, new_health = enchant_and_attack(target_health, damage, weapon)\n    print(f\"The target has been attacked with the {enchanted_weapon}.\")\n    print(f\"The target has {new_health} health remaining.\")\n    print(\"=====================================\")\n\n\ndef main():\n    test(100, 50, \"sword\")\n    test(500, 100, \"axe\")\n    test(1000, 250, \"bow\")\n\n\nmain()",
-                  "boilerplateLines": []
+                  "text": "def enchant_and_attack(target_health, damage, weapon):\n    skill = \"enchanted\"\n    enchanted= damage + 10\n    new_health = target_health - enchanted\n    enchanted_weapon= f\"{skill} {weapon}\"\n    return enchanted_weapon,new_health\n\n\n\n# Don't modify below this line\n\n\ndef test(target_health, damage, weapon):\n    print(f\"The target has {target_health} health.\")\n    print(f\"{weapon} base damage: {damage}... Enchanting and attacking.\")\n    enchanted_weapon, new_health = enchant_and_attack(target_health, damage, weapon)\n    print(f\"The target has been attacked with the {enchanted_weapon}.\")\n    print(f\"The target has {new_health} health remaining.\")\n    print(\"=====================================\")\n\n\ndef main():\n    test(100, 50, \"sword\")\n    test(500, 100, \"axe\")\n    test(1000, 250, \"bow\")\n\n\nmain()",
+                  "boilerplateLines": [
+                    433
+                  ]
                 }
               ]
             }
@@ -1145,11 +1191,182 @@
           "number": 4,
           "title": "Scope",
           "path": "PythonBeginners/CH04_scope.py",
-          "modifiedAt": "2026-10-10T17:07:23-05:00",
-          "lineCount": 0,
-          "exerciseCount": 0,
+          "modifiedAt": "2026-10-11T17:39:10-05:00",
+          "lineCount": 48,
+          "exerciseCount": 2,
           "warnings": [],
-          "exercises": []
+          "exercises": [
+            {
+              "index": 1,
+              "title": "Scope",
+              "hasOwnTitle": true,
+              "startLine": 1,
+              "endLine": 31,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "f-string",
+                "print",
+                "arithmetic",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "scope"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 3,
+                  "endLine": 6,
+                  "text": "Alcance\nEl ámbito se refiere a dónde está disponible el nombre de una variable o función. Por ejemplo, cuando creamos variables dentro de una función (como al asignar nombres a nuestros parámetros), esos datos no están disponibles fuera de esa función.\n\nEjemplo"
+                },
+                {
+                  "type": "code",
+                  "startLine": 7,
+                  "endLine": 11,
+                  "text": "def subtract(x, y):\n    return x - y\n\n\nresult = subtract(5, 3)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 12,
+                  "endLine": 12,
+                  "text": "print(x)"
+                },
+                {
+                  "type": "code",
+                  "startLine": 13,
+                  "endLine": 13,
+                  "text": "print(result)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 14,
+                  "endLine": 16,
+                  "text": "ERROR! \"name 'x' is not defined\"\n\nCuando subtractse llama a la función, asignamos el valor 5 a la variable x, pero xesta solo existe dentro del código de la subtractfunción. Si intentamos imprimir xfuera de ella, no obtendremos ningún resultado. De hecho, se producirá un error grave."
+                },
+                {
+                  "type": "code",
+                  "startLine": 18,
+                  "endLine": 31,
+                  "text": "def get_max_health(modifier, level):\n    return modifier * level\n\n\nmy_modifier = 5\nmy_level = 10\n\n# don't touch above this line\n\nmax_health = get_max_health(my_modifier, my_level)\n\n# don't touch below this line\n\nprint(f\"max_health is: {max_health}\")",
+                  "boilerplateLines": [
+                    25,
+                    29
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "Alcance global",
+              "hasOwnTitle": true,
+              "startLine": 33,
+              "endLine": 48,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "f-string",
+                "print",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return",
+                "scope",
+                "global-scope"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 35,
+                  "endLine": 35,
+                  "text": "variable definidad de forma global"
+                },
+                {
+                  "type": "code",
+                  "startLine": 36,
+                  "endLine": 48,
+                  "text": "player_level = 4\n\ndef calculate_health(modifier):\n    return player_level * modifier\n\n\ndef calculate_primary_stats(armor_bonus, modifier):\n    return armor_bonus + modifier + player_level\n\n\nprint(f\"Character has {calculate_health(10)} max health.\")\n\nprint(f\"Character has {calculate_primary_stats(3, 8)} primary stats.\")",
+                  "boilerplateLines": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "CH05_testing_debugging",
+          "kind": "chapter",
+          "number": 5,
+          "title": "Testing debugging",
+          "path": "PythonBeginners/CH05_testing_debugging.py",
+          "modifiedAt": "2026-10-11T18:18:02-05:00",
+          "lineCount": 68,
+          "exerciseCount": 3,
+          "warnings": [],
+          "exercises": [
+            {
+              "index": 1,
+              "title": "Pruebas unitarias",
+              "hasOwnTitle": true,
+              "startLine": 1,
+              "endLine": 7,
+              "concepts": [
+                "unit-test"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 3,
+                  "endLine": 7,
+                  "text": "Un nuevo tipo de lección\nA partir de ahora, te encontrarás con un nuevo tipo de lección: las pruebas unitarias . Una prueba unitaria es simplemente un programa automatizado que prueba una pequeña \"unidad\" de código. Normalmente, solo una o dos funciones.\n\n1 El main.py archivo que contiene tu código\n2 El main_test.pya rchivo que contiene las pruebas unitarias"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "Dos tipos de lecciones",
+              "hasOwnTitle": true,
+              "startLine": 9,
+              "endLine": 21,
+              "concepts": [
+                "comment",
+                "debugging",
+                "unit-test"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 10,
+                  "endLine": 21,
+                  "text": "Como ya comentamos, en Boot.dev hay dos tipos de lecciones de programación:\n\nlecciones sobre la salida de la consola\nLecciones de prueba de unidad\nLecciones sobre la salida de la consola\nSolo un archivo de código, generalmente con un comentario que explica dónde escribir el código.\nCuando \"envías\" tu código, la salida de la consola debe coincidir exactamente con la salida esperada para que se apruebe.\nLas instrucciones de depuración printharán que su código no se envíe correctamente, así que elimínelas antes de enviarlo.\nLecciones de prueba de unidad\n2 archivos de código: mainy main_test. Puedes leer las pruebas, pero no puedes editarlas.\nCuando \"envías\" tu código, los valores de retorno de tus funciones deben coincidir exactamente con los valores esperados para que se apruebe.\nLa salida de la consola se ignora, puedes dejar printinstrucciones de depuración en tu código."
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Depuración",
+              "hasOwnTitle": true,
+              "startLine": 23,
+              "endLine": 68,
+              "concepts": [
+                "debugging",
+                "unit-test",
+                "traceback"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 25,
+                  "endLine": 68,
+                  "text": "Cuando trabajas como desarrollador profesional, normalmente escribes el código en tu ordenador y lo pruebas tú mismo antes de implementarlo para los usuarios.\n\nAprender de forma eficaz\nEste curso está a punto de volverse un poco más difícil . No hay vuelta de hoja: si programar fuera pan comido, todos ganarían sueldos de seis cifras como ingenieros de software. Pero no lo es, y para tener éxito sin estancarse ni frustrarse, hay que aprender a aprender.\n\nProceso para resolver problemas de codificación rígida\n¡Lee la lección primero! Analiza los ejemplos antes de escribir tu propio código.\nLee la tarea. Comprende el objetivo de la tarea antes de empezar a escribir código.\nEmpieza a escribir código.\nAgrega instrucciones print(). No esperes a escribir mucho código para empezar a probarlo. Agrega print()instrucciones y usa el Runbotón para ver si tu código hace lo que esperas en cada paso. Es más fácil encontrar problemas en pequeños fragmentos de código que en grandes bloques.\nSigue ejecutando, imprimiendo y corrigiendo hasta que estés seguro de que tu código funciona correctamente.\nEnvía tu código . Si la tarea incluye pruebas unitarias, no es necesario eliminar las print()instrucciones de depuración. Si la tarea consiste en probar la salida de la consola, asegúrate de eliminarlas print()antes de enviarla.\nCompara tu código con el del instructor. No se te penalizará por consultar la solución una vez que hayas completado la tarea con éxito.\nInformación adicional\nIntenta usar Boots antes de consultar la solución. Boots es bastante útil para darte pistas precisas que te ayudarán a resolver el problema por tu cuenta.\nNo hay problema en consultar la solución de vez en cuando cuando te quedas completamente atascado, pero no lo conviertas en un hábito . Si notas que siempre te quedas atascado, deberías reiniciar el capítulo o el curso para asegurarte de comprender el material.\nPuedes restablecer el código de una tarea con el ↶botón \"restablecer\". Por ejemplo, quizás olvidaste qué modificaciones hiciste y qué código dejó el instructor.\nPuedes restablecer todo el código almacenado en caché desde la página de configuración. Esto es útil si quieres reiniciar un curso o capítulo.\nRastreo de pila\nUn rastreo de pila (o \"traceback\") es un mensaje de error de aspecto alarmante que el intérprete de Python imprime en la consola cuando encuentra ciertos problemas. Los rastreos de pila son más comunes (al menos para ti ahora mismo) cuando intentas ejecutar código Python no válido.\n\nComo programador, debes acostumbrarte a descifrar mensajes de error intimidantes. Mejor empezamos ahora.\n\nAsignación\nEjecuta el código en su estado actual. Deberías ver algo como esto:\n\nFile \"main.py\", line 3\n    msg = f\"You have {strength} strength, {wisdom} wisdom, and {dexterity} dexterity for a total of {total} stats.\n                                                                                                                  ^\nSyntaxError: unindent does not match any outer indentation level\n\nFile \"main.py\", line 3\n\nEste es el inicio del rastreo. El propósito de un rastreo es guiarnos paso a paso por la ruta que siguió el intérprete de Python a través de nuestro código antes de encontrar un error. ¡En la mayoría de los casos, esto nos ayudará a descubrir qué salió mal!\n\nEn este caso, el intérprete estaba ejecutando el código del main.pyarchivo cuando encontró un error en la línea 3.\n\nmsg = f\"You have {strength} strength, {wisdom} wisdom, and {dexterity} dexterity for a total of {total} stats.\n\nEsta es la línea de código exacta que provocó el error.\n\nSyntaxError: unindent does not match any outer indentation level\n\nEste es el tipo de error. En este caso, se SyntaxErrortrata de un error general relacionado con código inválido. El intérprete de Python esperaba cierta cantidad de sangría (espacio en blanco al principio de la línea), pero no encontró lo que se esperaba."
+                }
+              ]
+            }
+          ]
         }
       ],
       "extras": [

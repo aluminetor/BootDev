@@ -30,10 +30,10 @@ IGNORED_DIRS = {"viewer", ".agents", ".git", ".vscode", "__pycache__", "node_mod
 ENCODINGS = ("utf-8", "utf-8-sig", "cp1252")
 
 CHAPTER_PATTERN = re.compile(r"^CH(\d{2})_(\w+)\.py$")
-SEPARATOR_PATTERN = re.compile(r"^#\*{3,}#?\s*$")
-HEADER_PATTERN = re.compile(r"^#{2,}\s*([^#\s*\-].*?)\s*#*\s*$")
+SEPARATOR_PATTERN = re.compile(r"^#+[-*=_]{3,}(?:[^-*=_]{0,30}[-*=_]{3,})?#*\s*$")
+HEADER_PATTERN = re.compile(r"^(?:#{2,}|#\s*#+)\s*([^#\s*\-].*?)\s*#*\s*$")
 BOILERPLATE_PATTERN = re.compile(
-    r"^#\s*don'?t\s+(touch|edit)\s+(above|below)\s+this\s+line", re.IGNORECASE
+    r"^#\s*don'?t\s+(touch|edit|modify)\s+(above|below)\s+this\s+line", re.IGNORECASE
 )
 OPENING_QUOTE_PATTERN = re.compile(r"^\s*[rRuUbB]{0,2}(\"\"\"|'''|\"|')")
 CLOSING_QUOTE_PATTERN = re.compile(r"(\"\"\"|'''|\"|')\s*$")
@@ -43,7 +43,7 @@ STRING_LITERAL_PATTERN = re.compile(
 INLINE_COMMENT_PATTERN = re.compile(r"#.*$", re.MULTILINE)
 
 TITLE_MAX_LENGTH = 60
-TITLE_ALLOWED_PREVIOUS_KINDS = {None, "code", "boilerplate", "docstring"}
+TITLE_ALLOWED_PREVIOUS_KINDS = {None, "code", "boilerplate", "docstring", "separator"}
 THEORY_KINDS = {"comment", "docstring"}
 CODE_KINDS = {"code", "boilerplate"}
 
