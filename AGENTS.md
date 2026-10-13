@@ -18,10 +18,22 @@
 - Antes de escribir código, valida la estructura de carpetas y el formato de `index.json` con el usuario.
 - Haz cambios pequeños y revisables; resume qué se ha tocado al terminar cada fase.
 
+## Memoria
+- Al empezar, lee `MEMORY.md` para conocer el estado del proyecto y las decisiones
+tomadas.
+- Al terminar una tarea, actualízalo: estado actual, decisiones importantes (con su
+porqué) y errores a evitar.
+- Mantenlo breve (máximo ~50 líneas): resume o elimina lo que ya no aporte.
+- Si algo se convierte en una regla permanente, propón moverlo a `AGENTS.md` en lugar de
+dejarlo en la memoria.
+- No guardes nunca datos sensibles (claves, tokens, datos personales). 
+
+
 ## 4. Límites
 - ✅ Siempre: respetar los archivos originales de estudio (`.py`, `.md`, `.json`); el visor solo los lee.
 - ⚠️ Preguntar antes: añadir dependencias (npm, frameworks, librerías pip), reestructurar o renombrar carpetas.
 - 🚫 Prohibido: modificar, formatear o mover los ejercicios resueltos de BootDev (`PythonBeginners/` y futuras carpetas de cursos).
+- ✅ Siempre: actualizar `MEMORY.md` al terminar cada tarea
 
 ## 5. Verificación
 1. Regenerar el índice: `python viewer/build_index.py`

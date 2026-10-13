@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T20:46:55-05:00",
+  "generatedAt": "2026-10-12T19:04:49-05:00",
   "home": {
     "path": "README.md",
     "markdown": "<div align=\"center\">\r\n\r\n# ⚔️ Chronicles of a Backend Apprentice ⚔️\r\n\r\n<img src=\"https://www.boot.dev/img/boots_running.gif\" alt=\"Boots Running\" width=\"220\"/>\r\n\r\n> *\"Code is the most powerful magic governing the realms of the web.\"*\r\n\r\n[![Boot.dev Profile](https://img.shields.io/badge/Boot.dev-aluminetor-8B5CF6?style=for-the-badge&logo=shield&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Adventurer Rank](https://img.shields.io/badge/Rank-Backend%20Apprentice-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Status](https://img.shields.io/badge/Quest%20Status-Active%20Grind-10B981?style=for-the-badge)](#)\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 🧙‍♂️ Adventurer Profile\r\n\r\n- **Hero Handle:** [`@aluminetor`](https://www.boot.dev/u/aluminetor)\r\n- **Guild:** [Boot.dev](https://www.boot.dev)\r\n- **Path / Class:** Backend Sorcerer (*Python, Go, Linux & Architecture*)\r\n- **Tome of Quests:** [boot.dev/u/aluminetor](https://www.boot.dev/u/aluminetor)\r\n\r\n---\r\n\r\n## 📜 Quest Prologue\r\n\r\nWelcome, traveler, to this digital grimoire. Here lie the battle logs, incantations, and artifacts forged throughout my journey across the realms of **[Boot.dev](https://www.boot.dev)**.\r\n\r\nMy objective is to conquer the core disciplines of **Backend Development**—unraveling algorithms, building distributed servers, and mastering the low-level foundations of modern systems.\r\n\r\n---\r\n\r\n## 🗺️ Quest Board & Progression\r\n\r\n| Quest / Course | Difficulty Rank | Grimoire (Language / Focus) | Status |\r\n| :--- | :---: | :---: | :---: |\r\n| **Learn Python** | 🟢 Novice | Python | 🛡️ Cleared |\r\n| **Learn Shell Scripting** | 🟢 Novice | Bash / Terminal | ⚔️ In Battle |\r\n| **Learn Git** | 🟢 Novice | Git / GitHub | 🛡️ Cleared |\r\n| **Learn Object-Oriented Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Functional Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Data Structures & Algorithms** | 🔴 Advanced | Python | ⏳ Queued |\r\n| **Learn Go** | 🟡 Intermediate | Golang | ⏳ Queued |\r\n| **Build HTTP Servers** | 🔴 Advanced | Go / REST APIs | ⏳ Queued |\r\n| **Learn SQL & Databases** | 🟡 Intermediate | PostgreSQL | ⏳ Queued |\r\n| **Learn Docker & Containers** | 🔴 Advanced | Docker | ⏳ Queued |\r\n\r\n---\r\n\r\n## 🛡️ Unlocked Spells & Arsenal\r\n\r\n<div align=\"center\">\r\n\r\n<img src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black\" />\r\n<img src=\"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white\" />\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 📂 Grimoire Directory Structure\r\n\r\n```text\r\n.\r\n├── 📁 PythonBeginners/      # Python lessons, chapters & challenges\r\n│   ├── 📜 CH01_firstbug.py\r\n│   ├── 📜 CH02_variables.py\r\n│   ├── 📜 CH03_functions.py\r\n│   └── ⚔️ Desafios.py\r\n├── 📁 viewer/               # Local, read-only learning dashboard\r\n│   ├── 🌐 index.html        # Viewer entry point\r\n│   ├── ⚙️ app.js            # Navigation and content rendering\r\n│   ├── 🛠️ build_index.py    # Generates viewer/data/index.json\r\n│   ├── 🎨 styles.css        # Dashboard styles\r\n│   └── 📁 data/             # Generated course index\r\n├── 📜 AGENTS.md             # Repository working guidelines\r\n└── 📜 README.md             # Project overview and progress\r\n"
@@ -197,6 +197,66 @@
       "term": "Rastreo de pila (Traceback)",
       "category": "Pruebas y depuración",
       "definition": "Mensaje que muestra Python cuando ocurre un error, indicando el archivo, la línea exacta y la ruta de ejecución previa al fallo."
+    },
+    {
+      "id": "floor-division",
+      "term": "División entera (//)",
+      "category": "Cómputo y operadores",
+      "definition": "División que redondea el resultado hacia abajo al entero más cercano (piso). Se realiza con el operador // (ej. 11 // 2 da 5, -7 // 3 da -3)."
+    },
+    {
+      "id": "exponent",
+      "term": "Exponente (**)",
+      "category": "Cómputo y operadores",
+      "definition": "Operador integrado ** para elevar un número a una potencia sin necesidad de librerías externas (ej. 3 ** 2 da 9)."
+    },
+    {
+      "id": "inplace-operator",
+      "term": "Asignación aumentada (+=)",
+      "category": "Cómputo y operadores",
+      "definition": "Operador que modifica el valor de una variable aplicando una operación y reasignándola en una sola instrucción (ej. x += 1 equivale a x = x + 1)."
+    },
+    {
+      "id": "scientific-notation",
+      "term": "Notación científica",
+      "category": "Cómputo y operadores",
+      "definition": "Forma compacta de escribir números muy grandes o muy pequeños usando la letra e (ej. 1.024e18 representa 1.024 × 10¹⁸; 7.1e-2 representa 0.071). Siempre produce un float."
+    },
+    {
+      "id": "numeric-underscores",
+      "term": "Separador de miles (_)",
+      "category": "Cómputo y operadores",
+      "definition": "Uso de guiones bajos dentro de números para facilitar su lectura humana sin alterar su valor (ej. 16_000_000 es igual a 16000000)."
+    },
+    {
+      "id": "logical-operators",
+      "term": "Operadores lógicos (and, or, not)",
+      "category": "Lógica y condiciones",
+      "definition": "Operadores que combinan o invierten valores booleanos. and requiere que ambos sean True, or requiere al menos un True, y not invierte el valor de verdad."
+    },
+    {
+      "id": "binary-numbers",
+      "term": "Sistema binario (Base 2)",
+      "category": "Cómputo y operadores",
+      "definition": "Sistema numérico en base 2 utilizado internamente por las computadoras, compuesto únicamente por los dígitos 0 y 1 (bits). En Python se pueden escribir literales binarios con el prefijo 0b (ej. 0b0101 es 5)."
+    },
+    {
+      "id": "bitwise-operators",
+      "term": "Operadores bit a bit (&, |)",
+      "category": "Cómputo y operadores",
+      "definition": "Operaciones que aplican lógica booleana a cada bit individual entre dos números en la misma posición. & (AND) solo da 1 si ambos son 1; | (OR) da 1 si alguno es 1. Muy útiles para máscaras de permisos (bitmasks)."
+    },
+    {
+      "id": "comparison-operators",
+      "term": "Operadores de comparación",
+      "category": "Lógica y condiciones",
+      "definition": "Símbolos que comparan dos valores y producen un booleano (True o False): < (menor), > (mayor), <= (menor o igual), >= (mayor o igual), == (igual) y != (distinto)."
+    },
+    {
+      "id": "ord-unicode",
+      "term": "ord() y orden Unicode",
+      "category": "Lógica y condiciones",
+      "definition": "Python compara cadenas carácter por carácter según su código Unicode/ASCII. La función ord(caracter) devuelve el número correspondiente (ej. ord('A') es 65, ord('a') es 97, por lo que las mayúsculas son 'menores' que las minúsculas)."
     }
   ],
   "courses": [
@@ -666,7 +726,8 @@
                 "function-call",
                 "parameter",
                 "argument",
-                "return"
+                "return",
+                "binary-numbers"
               ],
               "segments": [
                 {
@@ -1363,6 +1424,601 @@
                   "startLine": 25,
                   "endLine": 68,
                   "text": "Cuando trabajas como desarrollador profesional, normalmente escribes el código en tu ordenador y lo pruebas tú mismo antes de implementarlo para los usuarios.\n\nAprender de forma eficaz\nEste curso está a punto de volverse un poco más difícil . No hay vuelta de hoja: si programar fuera pan comido, todos ganarían sueldos de seis cifras como ingenieros de software. Pero no lo es, y para tener éxito sin estancarse ni frustrarse, hay que aprender a aprender.\n\nProceso para resolver problemas de codificación rígida\n¡Lee la lección primero! Analiza los ejemplos antes de escribir tu propio código.\nLee la tarea. Comprende el objetivo de la tarea antes de empezar a escribir código.\nEmpieza a escribir código.\nAgrega instrucciones print(). No esperes a escribir mucho código para empezar a probarlo. Agrega print()instrucciones y usa el Runbotón para ver si tu código hace lo que esperas en cada paso. Es más fácil encontrar problemas en pequeños fragmentos de código que en grandes bloques.\nSigue ejecutando, imprimiendo y corrigiendo hasta que estés seguro de que tu código funciona correctamente.\nEnvía tu código . Si la tarea incluye pruebas unitarias, no es necesario eliminar las print()instrucciones de depuración. Si la tarea consiste en probar la salida de la consola, asegúrate de eliminarlas print()antes de enviarla.\nCompara tu código con el del instructor. No se te penalizará por consultar la solución una vez que hayas completado la tarea con éxito.\nInformación adicional\nIntenta usar Boots antes de consultar la solución. Boots es bastante útil para darte pistas precisas que te ayudarán a resolver el problema por tu cuenta.\nNo hay problema en consultar la solución de vez en cuando cuando te quedas completamente atascado, pero no lo conviertas en un hábito . Si notas que siempre te quedas atascado, deberías reiniciar el capítulo o el curso para asegurarte de comprender el material.\nPuedes restablecer el código de una tarea con el ↶botón \"restablecer\". Por ejemplo, quizás olvidaste qué modificaciones hiciste y qué código dejó el instructor.\nPuedes restablecer todo el código almacenado en caché desde la página de configuración. Esto es útil si quieres reiniciar un curso o capítulo.\nRastreo de pila\nUn rastreo de pila (o \"traceback\") es un mensaje de error de aspecto alarmante que el intérprete de Python imprime en la consola cuando encuentra ciertos problemas. Los rastreos de pila son más comunes (al menos para ti ahora mismo) cuando intentas ejecutar código Python no válido.\n\nComo programador, debes acostumbrarte a descifrar mensajes de error intimidantes. Mejor empezamos ahora.\n\nAsignación\nEjecuta el código en su estado actual. Deberías ver algo como esto:\n\nFile \"main.py\", line 3\n    msg = f\"You have {strength} strength, {wisdom} wisdom, and {dexterity} dexterity for a total of {total} stats.\n                                                                                                                  ^\nSyntaxError: unindent does not match any outer indentation level\n\nFile \"main.py\", line 3\n\nEste es el inicio del rastreo. El propósito de un rastreo es guiarnos paso a paso por la ruta que siguió el intérprete de Python a través de nuestro código antes de encontrar un error. ¡En la mayoría de los casos, esto nos ayudará a descubrir qué salió mal!\n\nEn este caso, el intérprete estaba ejecutando el código del main.pyarchivo cuando encontró un error en la línea 3.\n\nmsg = f\"You have {strength} strength, {wisdom} wisdom, and {dexterity} dexterity for a total of {total} stats.\n\nEsta es la línea de código exacta que provocó el error.\n\nSyntaxError: unindent does not match any outer indentation level\n\nEste es el tipo de error. En este caso, se SyntaxErrortrata de un error general relacionado con código inválido. El intérprete de Python esperaba cierta cantidad de sangría (espacio en blanco al principio de la línea), pero no encontró lo que se esperaba."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "CH06_computing",
+          "kind": "chapter",
+          "number": 6,
+          "title": "Computing",
+          "path": "PythonBeginners/CH06_computing.py",
+          "modifiedAt": "2026-10-12T18:15:40-05:00",
+          "lineCount": 311,
+          "exerciseCount": 9,
+          "warnings": [],
+          "exercises": [
+            {
+              "index": 1,
+              "title": "COMPUTING",
+              "hasOwnTitle": true,
+              "startLine": 1,
+              "endLine": 14,
+              "concepts": [
+                "variable",
+                "integer",
+                "print",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return",
+                "multiple-return",
+                "unit-test"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 3,
+                  "endLine": 6,
+                  "text": "Números de Python\nEn Python, los números sin punto decimal se llaman Integersde la misma manera que en matemáticas.\n\nLos números enteros son simplemente números naturales, positivos o negativos. Por ejemplo, 3y -3son ejemplos de números enteros."
+                },
+                {
+                  "type": "code",
+                  "startLine": 8,
+                  "endLine": 11,
+                  "text": "def calculate_damage(sword, arrow, spear, dagger, fireball):\n    total_damage = sword + arrow + spear + dagger + fireball\n    average_damage = total_damage / 5\n    return total_damage, average_damage",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 13,
+                  "endLine": 13,
+                  "text": "esto esta en el main_test_py de forma larga"
+                },
+                {
+                  "type": "code",
+                  "startLine": 14,
+                  "endLine": 14,
+                  "text": "print(calculate_damage(3, 5, 2, 1, 4))",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "División de pisos",
+              "hasOwnTitle": true,
+              "startLine": 16,
+              "endLine": 42,
+              "concepts": [
+                "variable",
+                "integer",
+                "print",
+                "arithmetic",
+                "floor-division",
+                "exponent",
+                "inplace-operator"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 18,
+                  "endLine": 20,
+                  "text": "Python ofrece un excelente soporte nativo para operaciones matemáticas. Esto, entre otras razones, explica su gran éxito en aplicaciones de inteligencia artificial, aprendizaje automático y ciencia de datos.\n\nLa división entera es como la división normal, excepto que el resultado se redondea hacia abajo al entero más cercano. El //operador se utiliza para la división entera."
+                },
+                {
+                  "type": "code",
+                  "startLine": 21,
+                  "endLine": 21,
+                  "text": "print(11 // 2)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 22,
+                  "endLine": 22,
+                  "text": "2 (an integer, rounded down from 2.666)"
+                },
+                {
+                  "type": "code",
+                  "startLine": 23,
+                  "endLine": 23,
+                  "text": "print(-7 // 3)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 24,
+                  "endLine": 33,
+                  "text": "-3 (an integer, rounded down from -2.333)\n\nExponentes\nPython tiene soporte integrado para exponentes, algo para lo que la mayoría de los lenguajes requieren una mathbiblioteca.\n\n# reads as \"three squared\" or\n# \"three raised to the second power\""
+                },
+                {
+                  "type": "code",
+                  "startLine": 34,
+                  "endLine": 34,
+                  "text": "print(3**2)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 35,
+                  "endLine": 38,
+                  "text": "9\n\nMás es igual a\nPython facilita la reasignación al realizar operaciones matemáticas. En JavaScript o Go, es posible que estés familiarizado con la ++sintaxis para incrementar una variable numérica en 1. En Python, utilizamos el += operador de incremento in situ ."
+                },
+                {
+                  "type": "code",
+                  "startLine": 40,
+                  "endLine": 42,
+                  "text": "star_rating = 4\nstar_rating +=1\nprint(star_rating)",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Notacion cientifica",
+              "hasOwnTitle": true,
+              "startLine": 44,
+              "endLine": 72,
+              "concepts": [
+                "variable",
+                "integer",
+                "print",
+                "arithmetic",
+                "function-def",
+                "return",
+                "multiple-return",
+                "exponent",
+                "scientific-notation",
+                "numeric-underscores"
+              ],
+              "segments": [
+                {
+                  "type": "code",
+                  "startLine": 46,
+                  "endLine": 48,
+                  "text": "print(16e3)\n\nprint(7.1e-2)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 50,
+                  "endLine": 52,
+                  "text": "En resumen, el exponente que sigue a la coma decimal e especifica cuántas posiciones se debe mover la coma decimal: a la derecha cuando el exponente es positivo y a la izquierda cuando es negativo."
+                },
+                {
+                  "type": "code",
+                  "startLine": 53,
+                  "endLine": 54,
+                  "text": "num = 16_000_000\nprint(num)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 55,
+                  "endLine": 65,
+                  "text": "Prints 16000000\n\nAsignación\nDebido a las limitaciones del servidor de nuestra aplicación, existe un número máximo de jugadores que podemos tener en un único servidor de Fantasy Quest.\n\nCompleta la max_players_on_serverfunción. No requiere ninguna entrada, simplemente devuelve 3 números estáticos:\n\nNúmero máximo de jugadores en un servidor \"pequeño\": 1,024,000,000,000,000,000( 1.024e18)\nNúmero máximo de jugadores en un servidor \"medio\":10,240,000,000,000,000,000\nNúmero máximo de jugadores en un servidor \"grande\":102,400,000,000,000,000,000\nUtilice la notación científica para representar estos números. Por ejemplo: 3.104e15."
+                },
+                {
+                  "type": "code",
+                  "startLine": 68,
+                  "endLine": 72,
+                  "text": "def max_players_on_server():\n    small_server = 1.024e18\n    medium_server = 1.024e19\n    large_server = 1.024e20\n    return small_server, medium_server, large_server",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "title": "Operadores lógicos",
+              "hasOwnTitle": true,
+              "startLine": 74,
+              "endLine": 98,
+              "concepts": [
+                "boolean",
+                "print",
+                "logical-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 75,
+                  "endLine": 81,
+                  "text": "Probablemente estés familiarizado con los operadores lógicos andy or.\n\nLos operadores lógicos trabajan con valores booleanos , Truey False.\n\nEl operador lógico andrequiere que ambas entradas Truedevuelvan True. El oroperador lógico solo requiere que al menos una entrada Truedevuelva True.\n\nPor ejemplo:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 82,
+                  "endLine": 82,
+                  "text": "print(True and True)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 83,
+                  "endLine": 83,
+                  "text": "prints True"
+                },
+                {
+                  "type": "code",
+                  "startLine": 85,
+                  "endLine": 85,
+                  "text": "print(True or False)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 86,
+                  "endLine": 86,
+                  "text": "prints True"
+                },
+                {
+                  "type": "code",
+                  "startLine": 88,
+                  "endLine": 89,
+                  "text": "print((True or False) and False)\nprint(((True and True) or (True and False)))",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 91,
+                  "endLine": 92,
+                  "text": "No\nNos saltamos un operador lógico muy importante: not. Este notoperador invierte el resultado. Devuelve Falsesi la entrada fue Truey viceversa."
+                },
+                {
+                  "type": "code",
+                  "startLine": 94,
+                  "endLine": 94,
+                  "text": "print(not True)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 95,
+                  "endLine": 95,
+                  "text": "Prints: False"
+                },
+                {
+                  "type": "code",
+                  "startLine": 97,
+                  "endLine": 97,
+                  "text": "print(not False)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 98,
+                  "endLine": 98,
+                  "text": "Prints: True"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "title": "Números binarios",
+              "hasOwnTitle": true,
+              "startLine": 100,
+              "endLine": 106,
+              "concepts": [
+                "binary-numbers"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 100,
+                  "endLine": 106,
+                  "text": "Los números binarios son simplemente números en base 2. Funcionan de la misma manera que los números normales en base 10, pero con dos símbolos en lugar de diez.\n\nSímbolos de base 2 (binarios): 0y1\nSímbolos de base 10 (decimal): 0, 1, 2, 3, 4, 5, 6, 7, 8,9"
+                }
+              ]
+            },
+            {
+              "index": 6,
+              "title": "es mi forma para convertir numeros decimales a binarios",
+              "hasOwnTitle": true,
+              "startLine": 107,
+              "endLine": 174,
+              "concepts": [
+                "variable",
+                "multiple-assignment",
+                "string",
+                "integer",
+                "print",
+                "arithmetic",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "floor-division",
+                "exponent",
+                "binary-numbers",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "code",
+                  "startLine": 108,
+                  "endLine": 122,
+                  "text": "def decimal_binario(num):\n    residuo = 0\n    cociente = num\n    binario = \"\"\n\n    if num < 1:\n        return 0\n\n    while cociente >= 1:\n        cociente,residuo = cociente // 2, cociente % 2\n        binario = str(residuo) + binario\n\n    return int(binario)\n\nprint(decimal_binario(13))",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 124,
+                  "endLine": 174,
+                  "text": "El valor posicional de cada dígito es el doble del valor posicional a su derecha. En un número binario de 4 dígitos, los valores posicionales son:\n\nOcho\nCuatro\nDos años\nUnos\nPor ejemplo, 0101significa:\n\n0ochos\n1cuatro\n0dos\n1uno\nAsí 0101es 5en decimal.\n\nIntenta cambiar los bits:\n\nConvertidor binario\nHaz clic en los bits para invertirlos y ver el valor decimal equivalente.\n\nEl video ilustra cómo funciona el sistema de numeración binaria (base 2) en comparación con el sistema decimal (base 10) que usamos todos los días.\n\nAquí tienes un resumen de los puntos clave:\n\n¿Qué es el sistema binario?\n\nEl sistema decimal usa 10 dígitos (del 0al 9).\nEl sistema binario solo usa 2 dígitos: 0y 1(llamados bits ).\nValores posicionales (potencias de 2):\n\nEn decimal, cada columna a la izquierda vale 10 veces más (unidades, decenas, centenas, millas: 1, 10, 100, 1000).\nEn binario, cada columna a la izquierda vale el doble que la anterior. De derecha a izquierda, las posiciones valen:\n1\n2\n4\n8\n16\n32\netc.\nCómo leer y convertir un número binario:\n\nUn 1 significa que sumas el valor de esa posición; un 0 significado que lo ignora.\nPor ejemplo, el número binario 1101:\nPosición del 8: 1-> suma 8\nPosición del 4: 1-> suma 4\nPosición del 2: 0-> suma 0\nPosición del 1: 1-> suma 1\nTotal: 8 + 4 + 0 + 1 = 13 en decimal.\nPor qué lo usan las computadoras:\n\nA nivel de hardware, los circuitos y transistores funcionan con electricidad: pueden estar apagados ( 0) o encendidos ( 1). Por eso, toda la información en una computadora se representa internamente mediante secuencias de ceros y unos"
+                }
+              ]
+            },
+            {
+              "index": 7,
+              "title": "Operador bit a bit “&”",
+              "hasOwnTitle": true,
+              "startLine": 176,
+              "endLine": 188,
+              "concepts": [
+                "variable",
+                "boolean",
+                "logical-operators",
+                "binary-numbers",
+                "bitwise-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 177,
+                  "endLine": 180,
+                  "text": "Los operadores bit a bit son similares a los operadores lógicos, pero en lugar de operar sobre valores booleanos, aplican la misma lógica a todos los bits de un valor por columna. Por ejemplo, supongamos que tiene los números 5y 7representados en binario . Podría realizar una operación AND bit a bit y el resultado sería 5.\n\n0101 es 5\n0111 es 7"
+                },
+                {
+                  "type": "code",
+                  "startLine": 182,
+                  "endLine": 182,
+                  "text": "0b0101 & 0b0111",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 183,
+                  "endLine": 183,
+                  "text": "equals 5"
+                },
+                {
+                  "type": "code",
+                  "startLine": 185,
+                  "endLine": 187,
+                  "text": "binary_five = 0b0101\nbinary_seven = 0b0111\nbinary_five & binary_seven",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 188,
+                  "endLine": 188,
+                  "text": "equals 5"
+                }
+              ]
+            },
+            {
+              "index": 8,
+              "title": "Permisos del gremio",
+              "hasOwnTitle": true,
+              "startLine": 190,
+              "endLine": 292,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "boolean",
+                "f-string",
+                "print",
+                "arithmetic",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "entrypoint",
+                "numeric-underscores",
+                "binary-numbers",
+                "bitwise-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 190,
+                  "endLine": 229,
+                  "text": "A veces, las aplicaciones almacenan los permisos de usuario como valores binarios. Si 4un usuario puede tener diferentes permisos, puedo almacenarlos como un número binario de cuatro dígitos. Si un bit específico está presente, sé que el permiso está habilitado. Esto puede ser mucho más eficiente que almacenar cadenas de texto completas.\n\nImaginemos que tenemos 4 permisos relacionados con los \"gremios\" en Fantasy Quest (\"gremio\" es simplemente una palabra elegante de videojuego para \"equipo\"):\n\ncan_create_guild– Bit más a la izquierda ( 0b1000)\ncan_review_guild– El segundo bit más a la izquierda ( 0b0100)\ncan_delete_guild– El segundo bit más a la derecha ( 0b0010)\ncan_edit_guild– Bit más a la derecha ( 0b0001)\nSi un usuario no tiene permisos, sus permisos binarios serían 0b0000.\n\nSi un usuario solo tiene el can_create_guildpermiso, sus permisos binarios serían 0b1000, pero un usuario con permisos can_review_guild y can_edit_guild serían 0b0101.\n\nPara comprobar, por ejemplo, el can_review_guildpermiso, podemos realizar una operación AND bit a bit entre los permisos del usuario y el can_review_guildbit habilitado ( 0b0100). Si el resultado es 0b0100nuevamente, ¡sabemos que tiene ese permiso específico!\n\nuser_permissions = 0b0101\ncan_review_guild = 0b0100\n\n# perform bitwise AND to get the user's review permission\nuser_review_guild_permission = user_permissions & can_review_guild\n\n# check if the user's review permission is equal to `can_review_guild`\n\nAsignación\nCompleta cada una de las get_XXX_bitsfunciones. Simplemente usa la &operación bit a bit en la entrada de los bits de permiso del usuario y la variable de bits de permiso del gremio correspondiente, y devuelve los bits resultantes para que las pruebas los verifiquen.\n\nSe han proporcionado 4 valores; utilice el adecuado para cada función:\n\ncan_create_guild\ncan_review_guild\ncan_delete_guild\ncan_edit_guild\n\nEl tema principal es el uso del operador bit a bit & (Bitwise AND) como máscara de bits (bitmask) para gestionar y consultar permisos de forma ultra eficiente.\n\n1. ¿Cómo funciona el operador &?\nCompara dos números en binario columna por columna (bit a bit). El resultado solo es 1 si ambos bits comparados son 1; en cualquier otro caso es 0:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 231,
+                  "endLine": 255,
+                  "text": "can_create_guild = 0b1000\ncan_review_guild = 0b0100\ncan_delete_guild = 0b0010\ncan_edit_guild = 0b0001\n\n\ndef get_create_bits(user_permissions):\n    return user_permissions & can_create_guild\n\n\ndef get_review_bits(user_permissions):\n    return user_permissions & can_review_guild\n\n\n\ndef get_delete_bits(user_permissions):\n    return user_permissions & can_delete_guild\n\n\n\ndef get_edit_bits(user_permissions):\n    return user_permissions & can_edit_guild\n\n\nusuario = 0b0101  # Tiene Revisar (0100) y Editar (0001)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 257,
+                  "endLine": 257,
+                  "text": "¿Tiene permiso de Revisar?"
+                },
+                {
+                  "type": "code",
+                  "startLine": 258,
+                  "endLine": 258,
+                  "text": "resultado = usuario & 0b0100  # 0b0101 & 0b0100 = 0b0100",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 259,
+                  "endLine": 261,
+                  "text": "Como el resultado coincide con 0b0100 (distinto de 0), SÍ lo tiene.\n\n¿Tiene permiso de Crear?"
+                },
+                {
+                  "type": "code",
+                  "startLine": 262,
+                  "endLine": 262,
+                  "text": "resultado = usuario & 0b1000  # 0b0101 & 0b1000 = 0b0000",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 263,
+                  "endLine": 278,
+                  "text": "Como el resultado es 0b0000 (0), NO lo tiene.\n\nOperador bit a bit “|”\nComo habrás adivinado, el operador \"o\" bit a bit es similar al operador \"y\" bit a bit, ya que funciona con valores binarios en lugar de booleanos. Sin embargo, el operador \"o\" bit a bit combina los bits. Aquí tienes un ejemplo:\n\n0101 es 5\n0111 es 7\n\n0101\n|\n0111\n=\n0111\n\nUsa el delimitador de miles adecuado para que los números sigan siendo fáciles de interpretar visualmente."
+                },
+                {
+                  "type": "code",
+                  "startLine": 279,
+                  "endLine": 292,
+                  "text": "def main():\n    calculate_dps(8_000_000, 45)\n    calculate_dps(10_000_000, 49)\n\n\n# Don't edit below this line\n\n\ndef calculate_dps(damage, time):\n    dps = damage / time\n    print(f\"Damage per second: {dps}\")\n    print(\"=====================================\")\n\nmain()",
+                  "boilerplateLines": [
+                    284
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 9,
+              "title": "Conversión binaria",
+              "hasOwnTitle": true,
+              "startLine": 294,
+              "endLine": 311,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "print",
+                "function-def",
+                "function-call",
+                "parameter",
+                "argument",
+                "return",
+                "multiple-return",
+                "binary-numbers"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 295,
+                  "endLine": 302,
+                  "text": "Fantasy Quest necesita migrar datos antiguos de cadenas que parecen binarias a los números enteros que representan dichas cadenas binarias. Por ejemplo:\n\n\"100\" -> 4\n\"101\" -> 5\n\"10010\" -> 18\nLa función integrada int() puede convertir una cadena binaria en un número entero. Recibe un segundo argumento que especifica la base del número (binario es base 2). Por ejemplo:\n\nthis is a binary string"
+                },
+                {
+                  "type": "code",
+                  "startLine": 303,
+                  "endLine": 303,
+                  "text": "binary_string = \"100\"",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 305,
+                  "endLine": 305,
+                  "text": "convert binary string to integer"
+                },
+                {
+                  "type": "code",
+                  "startLine": 306,
+                  "endLine": 307,
+                  "text": "num = int(binary_string, 2)\nprint(num)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 308,
+                  "endLine": 308,
+                  "text": "4"
+                },
+                {
+                  "type": "code",
+                  "startLine": 310,
+                  "endLine": 311,
+                  "text": "def binary_string_to_int(num_servers, num_players, num_admins):\n    return int(num_servers, 2), int(num_players, 2),int(num_admins, 2)",
+                  "boilerplateLines": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "CH07_comparisons",
+          "kind": "chapter",
+          "number": 7,
+          "title": "Comparisons",
+          "path": "PythonBeginners/CH07_comparisons.py",
+          "modifiedAt": "2026-10-12T18:44:28-05:00",
+          "lineCount": 24,
+          "exerciseCount": 1,
+          "warnings": [],
+          "exercises": [
+            {
+              "index": 1,
+              "title": "Operadores de comparación",
+              "hasOwnTitle": true,
+              "startLine": 1,
+              "endLine": 24,
+              "concepts": [
+                "string",
+                "boolean",
+                "print",
+                "function-call",
+                "comparison-operators",
+                "ord-unicode"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 3,
+                  "endLine": 3,
+                  "text": "Al programar es necesario poder comparar dos valores. Boolean logices el nombre para este tipo de operaciones de comparación que siempre resultan en Trueo False."
+                },
+                {
+                  "type": "code",
+                  "startLine": 4,
+                  "endLine": 4,
+                  "text": "print(\"horse\" < \"cat\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 6,
+                  "endLine": 9,
+                  "text": "Para comparar cada carácter, Python utiliza su valor numérico en la tabla Unicode/ASCII:\n\nPython toma la primera letra de cada palabra: 'h' de \"horse\" y 'c' de \"cat\".\nCompara sus códigos numéricos (puedes ver el código de cualquier carácter usando la función ord()):"
+                },
+                {
+                  "type": "code",
+                  "startLine": 10,
+                  "endLine": 11,
+                  "text": "ord('h') # es 104\nord('c') # es 99",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 12,
+                  "endLine": 16,
+                  "text": "Evalúa la condición:\n¿Es 104 menor que 99 (104 < 99)? No.\nPor lo tanto, \"horse\" < \"cat\" se evalúa como False.\n\nEn términos de orden de diccionario, \"cat\" va antes que \"horse\", por lo que \"cat\" se considera \"menor\" que \"horse\"."
+                },
+                {
+                  "type": "code",
+                  "startLine": 18,
+                  "endLine": 19,
+                  "text": "print(\"horse\" < \"cat\")  # False\nprint(\"cat\" < \"horse\")  # True",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 21,
+                  "endLine": 21,
+                  "text": "Un detalle importante: las letras mayúsculas tienen valores numéricos menores que las minúsculas en Unicode. Por ejemplo:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 23,
+                  "endLine": 24,
+                  "text": "print(ord('A')) # es 65\nprint(ord('a')) # es 97",
+                  "boilerplateLines": []
                 }
               ]
             }

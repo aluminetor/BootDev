@@ -241,5 +241,85 @@
     "category": "Pruebas y depuración",
     "definition": "Mensaje que muestra Python cuando ocurre un error, indicando el archivo, la línea exacta y la ruta de ejecución previa al fallo.",
     "theoryPatterns": ["rastreo\\s+de\\s+pila", "tracebacks?", "stack\\s*trace"]
+  },
+  {
+    "id": "floor-division",
+    "term": "División entera (//)",
+    "category": "Cómputo y operadores",
+    "definition": "División que redondea el resultado hacia abajo al entero más cercano (piso). Se realiza con el operador // (ej. 11 // 2 da 5, -7 // 3 da -3).",
+    "codePatterns": ["(?<!/)//(?!/)"],
+    "theoryPatterns": ["divisi[oó]n\\s+(entera|de\\s+pisos?)", "floor\\s+division"]
+  },
+  {
+    "id": "exponent",
+    "term": "Exponente (**)",
+    "category": "Cómputo y operadores",
+    "definition": "Operador integrado ** para elevar un número a una potencia sin necesidad de librerías externas (ej. 3 ** 2 da 9).",
+    "codePatterns": ["\\*\\*"],
+    "theoryPatterns": ["\\bexponentes?\\b", "\\bpotencias?\\b"]
+  },
+  {
+    "id": "inplace-operator",
+    "term": "Asignación aumentada (+=)",
+    "category": "Cómputo y operadores",
+    "definition": "Operador que modifica el valor de una variable aplicando una operación y reasignándola en una sola instrucción (ej. x += 1 equivale a x = x + 1).",
+    "codePatterns": ["\\+=\\s*\\d+", "-=\\s*\\d+", "\\*=\\s*\\d+"],
+    "theoryPatterns": ["m[aá]s\\s+es\\s+igual", "incremento\\s+in\\s+situ", "in-place"]
+  },
+  {
+    "id": "scientific-notation",
+    "term": "Notación científica",
+    "category": "Cómputo y operadores",
+    "definition": "Forma compacta de escribir números muy grandes o muy pequeños usando la letra e (ej. 1.024e18 representa 1.024 × 10¹⁸; 7.1e-2 representa 0.071). Siempre produce un float.",
+    "codePatterns": ["\\b\\d+(?:\\.\\d+)?[eE][-+]?\\d+\\b"],
+    "theoryPatterns": ["notaci[oó]n\\s+cient[ií]fica"]
+  },
+  {
+    "id": "numeric-underscores",
+    "term": "Separador de miles (_)",
+    "category": "Cómputo y operadores",
+    "definition": "Uso de guiones bajos dentro de números para facilitar su lectura humana sin alterar su valor (ej. 16_000_000 es igual a 16000000).",
+    "codePatterns": ["\\b\\d{1,3}(?:_\\d{3})+\\b"],
+    "theoryPatterns": ["delimitador\\s+de\\s+miles", "separador\\s+de\\s+miles"]
+  },
+  {
+    "id": "logical-operators",
+    "term": "Operadores lógicos (and, or, not)",
+    "category": "Lógica y condiciones",
+    "definition": "Operadores que combinan o invierten valores booleanos. and requiere que ambos sean True, or requiere al menos un True, y not invierte el valor de verdad.",
+    "codePatterns": ["\\b(and|or|not)\\b"],
+    "theoryPatterns": ["operadores?\\s+l[oó]gicos?"]
+  },
+  {
+    "id": "binary-numbers",
+    "term": "Sistema binario (Base 2)",
+    "category": "Cómputo y operadores",
+    "definition": "Sistema numérico en base 2 utilizado internamente por las computadoras, compuesto únicamente por los dígitos 0 y 1 (bits). En Python se pueden escribir literales binarios con el prefijo 0b (ej. 0b0101 es 5).",
+    "codePatterns": ["\\b0b[01_]+\\b", "int\\([^)]+,\\s*2\\)"],
+    "theoryPatterns": ["\\bbinari[oa]s?\\b", "\\bbase\\s+2\\b", "\\bbits?\\b"]
+  },
+  {
+    "id": "bitwise-operators",
+    "term": "Operadores bit a bit (&, |)",
+    "category": "Cómputo y operadores",
+    "definition": "Operaciones que aplican lógica booleana a cada bit individual entre dos números en la misma posición. & (AND) solo da 1 si ambos son 1; | (OR) da 1 si alguno es 1. Muy útiles para máscaras de permisos (bitmasks).",
+    "codePatterns": ["[\\w)]\\s*[&|^]\\s*[\\w(]", "&\\s*can_"],
+    "theoryPatterns": ["bit\\s+a\\s+bit", "bitwise", "m[aá]scara\\s+de\\s+bits", "bitmask"]
+  },
+  {
+    "id": "comparison-operators",
+    "term": "Operadores de comparación",
+    "category": "Lógica y condiciones",
+    "definition": "Símbolos que comparan dos valores y producen un booleano (True o False): < (menor), > (mayor), <= (menor o igual), >= (mayor o igual), == (igual) y != (distinto).",
+    "codePatterns": ["[\\w)\"']\\s*(?:[<>]=?|==|!=)\\s*[\\w(\"']"],
+    "theoryPatterns": ["operadores?\\s+de\\s+comparaci[oó]n", "operaciones?\\s+de\\s+comparaci[oó]n"]
+  },
+  {
+    "id": "ord-unicode",
+    "term": "ord() y orden Unicode",
+    "category": "Lógica y condiciones",
+    "definition": "Python compara cadenas carácter por carácter según su código Unicode/ASCII. La función ord(caracter) devuelve el número correspondiente (ej. ord('A') es 65, ord('a') es 97, por lo que las mayúsculas son 'menores' que las minúsculas).",
+    "codePatterns": ["\\bord\\s*\\("],
+    "theoryPatterns": ["\\bord\\s*\\(", "\\bunicode\\b", "\\bascii\\b", "c[oó]digos?\\s+num[eé]ricos?"]
   }
 ]

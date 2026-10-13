@@ -21,16 +21,17 @@ const PYTHON_KEYWORDS = new Set([
 ]);
 const PYTHON_CONSTANTS = new Set(["True", "False", "None"]);
 const PYTHON_BUILTINS = new Set([
-  "abs", "all", "any", "bool", "dict", "enumerate", "filter", "float", "input", "int",
-  "isinstance", "len", "list", "map", "max", "min", "open", "print", "range", "round",
-  "set", "sorted", "str", "sum", "tuple", "type", "zip",
+  "abs", "all", "any", "bin", "bool", "chr", "dict", "enumerate", "filter", "float",
+  "hex", "input", "int", "isinstance", "len", "list", "map", "max", "min", "open",
+  "ord", "pow", "print", "range", "round", "set", "sorted", "str", "sum", "tuple",
+  "type", "zip",
 ]);
 
 const PYTHON_TOKEN_PATTERN = new RegExp(
   [
     String.raw`(?<comment>#[^\n]*)`,
     String.raw`(?<string>[rRbBuUfF]{0,2}(?:"""[\s\S]*?(?:"""|$)|'''[\s\S]*?(?:'''|$)|"(?:\\.|[^"\\\n])*"?|'(?:\\.|[^'\\\n])*'?))`,
-    String.raw`(?<number>\b\d+(?:\.\d+)?(?:[eE][-+]?\d+)?\b)`,
+    String.raw`(?<number>\b(?:0[bB][01_]+|0[xX][0-9a-fA-F_]+|0[oO][0-7_]+|\d[\d_]*(?:\.[\d_]+)?(?:[eE][-+]?[\d_]+)?)\b)`,
     String.raw`(?<name>[A-Za-z_]\w*)`,
     String.raw`(?<newline>\n)`,
     String.raw`(?<other>[^\S\n]+|.)`,
