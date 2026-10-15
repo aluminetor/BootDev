@@ -115,3 +115,83 @@ else:
 # Si la primera ifes falsa, se evalúa la siguiente elif. Del mismo modo, si es Truefalsa, se ejecuta su cuerpo y se ignoran las demás.
 
 # Si ninguna de las sentencias " ifo" se evalúa como verdadera, entonces solo se ejecutará el cuerpo de la sentencia final .elifTrueelse
+"""
+Assignment
+We need a way for our game to track whether a character's attack hits or misses.
+
+Complete the does_attack_hit function. The function should return True if either of the following conditions is met:
+
+The attack_roll is not a 1 and the attack_roll is greater than or equal to the armor_class, or
+The attack_roll is a 20
+Otherwise, it should return False.
+
+Tip
+"""
+# def does_attack_hit(attack_roll, armor_class):
+#     return attack_roll != 1 and attack_roll >= armor_class or attack_roll == 20
+    
+"""
+Deberían servir bebidas
+¿Crees que entiendes las condicionales? ¡Prepárate para invertir tu lógica!
+
+Asignación
+En Fantasy Quest, los jugadores pueden ir al pub local de un pueblo. ¡Beber cerveza virtual les repone la energía!
+
+Completa la función que determina si un camarero debe servir bebidas a un cliente. Devuelve solo Truesi se cumplen todas estas condiciones. Si alguna de estas condiciones no se cumple False, devuelve False:
+
+La edad del cliente es de 21 años o más.
+El camarero está trabajando
+La hora es entre las 5 y las 10 (ambas inclusive).
+"""
+def should_serve_customer(customer_age, on_break, time):
+    if customer_age >= 21:
+        if on_break == False:
+            if time in range(5,11):
+                return True
+
+    return False
+
+"""
+Alquiler de la montaña
+Los jugadores pueden alquilar las monturas voladoras de otros jugadores a través del gremio de viajes compartidos "Uper", pero deben devolver la montura antes de que se les acabe el tiempo, o se les cobrará una tarifa.
+
+Asignación
+Completa la check_mount_rentalfunción . Requiere dos entradas:
+
+time_used– el tiempo que se ha utilizado el soporte en minutos
+time_purchased– la cantidad de tiempo que el personaje alquiló la montura
+Si time_used cumple o supera time_purchased , entonces el alquiler ha expirado y el codicioso Uper cobrará una tarifa, por lo que la función debe devolver la cadena"overtime charged"
+De lo contrario, devuelve la cadena."no charges yet"
+Extra: Intenta lograr esto sin una instrucción "else".
+"""
+def check_mount_rental(time_used, time_purchased):
+    if time_used >= time_purchased:
+        return "overtime charged"
+    return "no charges yet"
+
+"""
+Ventaja en combate
+Fantasy Quest no ofrece a los jugadores ninguna forma de saber si son lo suficientemente fuertes como para defenderse de ciertos enemigos.
+
+Si el nivel de poder de un jugador es mayor que la defensa del enemigo, ese jugador tiene una "ventaja".
+Si el poder del jugador y la defensa del enemigo son iguales, están "igualados".
+De lo contrario, ese jugador tiene una "desventaja" .
+Asignación
+Completa combat_evaluationcon un if/elif/elsebloque que compara player_powery enemy_defenseutiliza las reglas anteriores. Las tres variables de resultado comienzan como False.
+
+Establezca la evaluación de coincidencia ( advantage, disadvantage, o evenly_matched) en True.
+Deja el valor existente returnal final para devolver los tres valores. No devuelvas nada desde ramas individuales.
+"""
+def combat_evaluation(player_power, enemy_defense):
+    advantage, disadvantage, evenly_matched = False, False, False
+
+    if player_power > enemy_defense:
+        advantage = True
+    elif player_power == enemy_defense:
+        evenly_matched = True
+    else:
+        disadvantage = True
+
+        
+    return advantage, disadvantage, evenly_matched
+

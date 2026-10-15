@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T19:04:49-05:00",
+  "generatedAt": "2026-10-14T18:33:25-05:00",
   "home": {
     "path": "README.md",
     "markdown": "<div align=\"center\">\r\n\r\n# ⚔️ Chronicles of a Backend Apprentice ⚔️\r\n\r\n<img src=\"https://www.boot.dev/img/boots_running.gif\" alt=\"Boots Running\" width=\"220\"/>\r\n\r\n> *\"Code is the most powerful magic governing the realms of the web.\"*\r\n\r\n[![Boot.dev Profile](https://img.shields.io/badge/Boot.dev-aluminetor-8B5CF6?style=for-the-badge&logo=shield&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Adventurer Rank](https://img.shields.io/badge/Rank-Backend%20Apprentice-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Status](https://img.shields.io/badge/Quest%20Status-Active%20Grind-10B981?style=for-the-badge)](#)\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 🧙‍♂️ Adventurer Profile\r\n\r\n- **Hero Handle:** [`@aluminetor`](https://www.boot.dev/u/aluminetor)\r\n- **Guild:** [Boot.dev](https://www.boot.dev)\r\n- **Path / Class:** Backend Sorcerer (*Python, Go, Linux & Architecture*)\r\n- **Tome of Quests:** [boot.dev/u/aluminetor](https://www.boot.dev/u/aluminetor)\r\n\r\n---\r\n\r\n## 📜 Quest Prologue\r\n\r\nWelcome, traveler, to this digital grimoire. Here lie the battle logs, incantations, and artifacts forged throughout my journey across the realms of **[Boot.dev](https://www.boot.dev)**.\r\n\r\nMy objective is to conquer the core disciplines of **Backend Development**—unraveling algorithms, building distributed servers, and mastering the low-level foundations of modern systems.\r\n\r\n---\r\n\r\n## 🗺️ Quest Board & Progression\r\n\r\n| Quest / Course | Difficulty Rank | Grimoire (Language / Focus) | Status |\r\n| :--- | :---: | :---: | :---: |\r\n| **Learn Python** | 🟢 Novice | Python | 🛡️ Cleared |\r\n| **Learn Shell Scripting** | 🟢 Novice | Bash / Terminal | ⚔️ In Battle |\r\n| **Learn Git** | 🟢 Novice | Git / GitHub | 🛡️ Cleared |\r\n| **Learn Object-Oriented Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Functional Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Data Structures & Algorithms** | 🔴 Advanced | Python | ⏳ Queued |\r\n| **Learn Go** | 🟡 Intermediate | Golang | ⏳ Queued |\r\n| **Build HTTP Servers** | 🔴 Advanced | Go / REST APIs | ⏳ Queued |\r\n| **Learn SQL & Databases** | 🟡 Intermediate | PostgreSQL | ⏳ Queued |\r\n| **Learn Docker & Containers** | 🔴 Advanced | Docker | ⏳ Queued |\r\n\r\n---\r\n\r\n## 🛡️ Unlocked Spells & Arsenal\r\n\r\n<div align=\"center\">\r\n\r\n<img src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black\" />\r\n<img src=\"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white\" />\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 📂 Grimoire Directory Structure\r\n\r\n```text\r\n.\r\n├── 📁 PythonBeginners/      # Python lessons, chapters & challenges\r\n│   ├── 📜 CH01_firstbug.py\r\n│   ├── 📜 CH02_variables.py\r\n│   ├── 📜 CH03_functions.py\r\n│   └── ⚔️ Desafios.py\r\n├── 📁 viewer/               # Local, read-only learning dashboard\r\n│   ├── 🌐 index.html        # Viewer entry point\r\n│   ├── ⚙️ app.js            # Navigation and content rendering\r\n│   ├── 🛠️ build_index.py    # Generates viewer/data/index.json\r\n│   ├── 🎨 styles.css        # Dashboard styles\r\n│   └── 📁 data/             # Generated course index\r\n├── 📜 AGENTS.md             # Repository working guidelines\r\n└── 📜 README.md             # Project overview and progress\r\n"
@@ -1948,9 +1948,9 @@
           "number": 7,
           "title": "Comparisons",
           "path": "PythonBeginners/CH07_comparisons.py",
-          "modifiedAt": "2026-10-12T18:44:28-05:00",
-          "lineCount": 24,
-          "exerciseCount": 1,
+          "modifiedAt": "2026-10-14T17:17:26-05:00",
+          "lineCount": 197,
+          "exerciseCount": 6,
           "warnings": [],
           "exercises": [
             {
@@ -2021,8 +2021,497 @@
                   "boilerplateLines": []
                 }
               ]
+            },
+            {
+              "index": 2,
+              "title": "Sentencias condicionales",
+              "hasOwnTitle": true,
+              "startLine": 26,
+              "endLine": 94,
+              "concepts": [
+                "string",
+                "integer",
+                "f-string",
+                "print",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "entrypoint",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "code",
+                  "startLine": 28,
+                  "endLine": 34,
+                  "text": "def show_status(boss_health):\n    if boss_health > 0:\n        print(\"Ganondorf is alive!\")\n        return\n    print(\"Ganondorf is unalive!\")\n\nshow_status(15)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 36,
+                  "endLine": 36,
+                  "text": "Sin un returnen el ifbloque, Ganondorf is unalivesiempre se imprimiría:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 38,
+                  "endLine": 43,
+                  "text": "def show_status(boss_health):\n    if boss_health > 0:\n        print(\"Ganondorf is alive!\")\n    print(\"Ganondorf is unalive!\")\n\nshow_status(15)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 45,
+                  "endLine": 52,
+                  "text": "Este código podría imprimir ambos mensajes:\n\nGanondorf is alive!\nGanondorf is unalive!\n\nCuando solo quieras ifque se ejecute el código dentro de un bloque, usa returnpara salir de la función anticipadamente."
+                },
+                {
+                  "type": "code",
+                  "startLine": 54,
+                  "endLine": 78,
+                  "text": "def print_status(player_health):\n    if player_health <= 0:\n        print(\"dead\")\n\n    print(\"status check complete\")\n\n\n# Don't edit below this line\n\n\ndef test(health):\n    print(f\"Player Health: {health}\")\n    print(\"Checking status...\")\n    print_status(health)\n    print(\"=====================================\")\n\n\ndef main():\n    test(0)\n    test(5)\n    test(-1)\n    test(3)\n\n\nmain()",
+                  "boilerplateLines": [
+                    61
+                  ]
+                },
+                {
+                  "type": "theory",
+                  "startLine": 80,
+                  "endLine": 89,
+                  "text": "Asignación\nCompleta la check_swords_for_armyfunción. Si el número de espadas y el número de soldados coinciden, devuelve la cadena:\n\ncorrect amount\n\nDe lo contrario, devuelve la cadena:\n\nincorrect amount\n\n¡La puntuación importa! Asegúrate de devolver las cadenas exactamente como aparecen arriba."
+                },
+                {
+                  "type": "code",
+                  "startLine": 91,
+                  "endLine": 94,
+                  "text": "def check_swords_for_army(number_of_swords, number_of_soldiers):\n    if number_of_soldiers == number_of_swords:\n        return \"correct amount\"\n    return \"incorrect amount\"",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Si-Si no",
+              "hasOwnTitle": true,
+              "startLine": 96,
+              "endLine": 131,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "print",
+                "return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 97,
+                  "endLine": 99,
+                  "text": "Una ifinstrucción puede ir seguida de cero o más elifinstrucciones (que significan \"else if\"), que a su vez pueden ir seguidas de cero o una elseinstrucción.\n\nPor ejemplo:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 100,
+                  "endLine": 111,
+                  "text": "score=2\nhigh_score= 3\nsecond_highest_score=5\nthird_highest_score=6\nif score > high_score:\n    print(\"High score beat!\")\nelif score > second_highest_score:\n    print(\"You got second place!\")\nelif score > third_highest_score:\n    print(\"You got third place!\")\nelse:\n    print(\"Better luck next time\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 113,
+                  "endLine": 131,
+                  "text": "Primero se evalúa la ifinstrucción. Si es Trueasí, se ejecuta el cuerpo de la instrucción if y se ignoran todas las demás elifinstrucciones .else\n\nSi la primera ifes falsa, se evalúa la siguiente elif. Del mismo modo, si es Truefalsa, se ejecuta su cuerpo y se ignoran las demás.\n\nSi ninguna de las sentencias \" ifo\" se evalúa como verdadera, entonces solo se ejecutará el cuerpo de la sentencia final .elifTrueelse\n\nAssignment\nWe need a way for our game to track whether a character's attack hits or misses.\n\nComplete the does_attack_hit function. The function should return True if either of the following conditions is met:\n\nThe attack_roll is not a 1 and the attack_roll is greater than or equal to the armor_class, or\nThe attack_roll is a 20\nOtherwise, it should return False.\n\nTip\n\ndef does_attack_hit(attack_roll, armor_class):\n    return attack_roll != 1 and attack_roll >= armor_class or attack_roll == 20"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "title": "Deberían servir bebidas",
+              "hasOwnTitle": true,
+              "startLine": 133,
+              "endLine": 152,
+              "concepts": [
+                "integer",
+                "boolean",
+                "function-def",
+                "parameter",
+                "return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 133,
+                  "endLine": 145,
+                  "text": "¿Crees que entiendes las condicionales? ¡Prepárate para invertir tu lógica!\n\nAsignación\nEn Fantasy Quest, los jugadores pueden ir al pub local de un pueblo. ¡Beber cerveza virtual les repone la energía!\n\nCompleta la función que determina si un camarero debe servir bebidas a un cliente. Devuelve solo Truesi se cumplen todas estas condiciones. Si alguna de estas condiciones no se cumple False, devuelve False:\n\nLa edad del cliente es de 21 años o más.\nEl camarero está trabajando\nLa hora es entre las 5 y las 10 (ambas inclusive)."
+                },
+                {
+                  "type": "code",
+                  "startLine": 146,
+                  "endLine": 152,
+                  "text": "def should_serve_customer(customer_age, on_break, time):\n    if customer_age >= 21:\n        if on_break == False:\n            if time in range(5,11):\n                return True\n\n    return False",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "title": "Alquiler de la montaña",
+              "hasOwnTitle": true,
+              "startLine": 154,
+              "endLine": 170,
+              "concepts": [
+                "string",
+                "function-def",
+                "parameter",
+                "return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 154,
+                  "endLine": 166,
+                  "text": "Los jugadores pueden alquilar las monturas voladoras de otros jugadores a través del gremio de viajes compartidos \"Uper\", pero deben devolver la montura antes de que se les acabe el tiempo, o se les cobrará una tarifa.\n\nAsignación\nCompleta la check_mount_rentalfunción . Requiere dos entradas:\n\ntime_used– el tiempo que se ha utilizado el soporte en minutos\ntime_purchased– la cantidad de tiempo que el personaje alquiló la montura\nSi time_used cumple o supera time_purchased , entonces el alquiler ha expirado y el codicioso Uper cobrará una tarifa, por lo que la función debe devolver la cadena\"overtime charged\"\nDe lo contrario, devuelve la cadena.\"no charges yet\"\nExtra: Intenta lograr esto sin una instrucción \"else\"."
+                },
+                {
+                  "type": "code",
+                  "startLine": 167,
+                  "endLine": 170,
+                  "text": "def check_mount_rental(time_used, time_purchased):\n    if time_used >= time_purchased:\n        return \"overtime charged\"\n    return \"no charges yet\"",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 6,
+              "title": "Ventaja en combate",
+              "hasOwnTitle": true,
+              "startLine": 172,
+              "endLine": 196,
+              "concepts": [
+                "variable",
+                "multiple-assignment",
+                "boolean",
+                "function-def",
+                "parameter",
+                "return",
+                "multiple-return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 172,
+                  "endLine": 184,
+                  "text": "Fantasy Quest no ofrece a los jugadores ninguna forma de saber si son lo suficientemente fuertes como para defenderse de ciertos enemigos.\n\nSi el nivel de poder de un jugador es mayor que la defensa del enemigo, ese jugador tiene una \"ventaja\".\nSi el poder del jugador y la defensa del enemigo son iguales, están \"igualados\".\nDe lo contrario, ese jugador tiene una \"desventaja\" .\nAsignación\nCompleta combat_evaluationcon un if/elif/elsebloque que compara player_powery enemy_defenseutiliza las reglas anteriores. Las tres variables de resultado comienzan como False.\n\nEstablezca la evaluación de coincidencia ( advantage, disadvantage, o evenly_matched) en True.\nDeja el valor existente returnal final para devolver los tres valores. No devuelvas nada desde ramas individuales."
+                },
+                {
+                  "type": "code",
+                  "startLine": 185,
+                  "endLine": 196,
+                  "text": "def combat_evaluation(player_power, enemy_defense):\n    advantage, disadvantage, evenly_matched = False, False, False\n\n    if player_power > enemy_defense:\n        advantage = True\n    elif player_power == enemy_defense:\n        evenly_matched = True\n    else:\n        disadvantage = True\n\n\n    return advantage, disadvantage, evenly_matched",
+                  "boilerplateLines": []
+                }
+              ]
             }
           ]
+        },
+        {
+          "id": "CH08_loops",
+          "kind": "chapter",
+          "number": 8,
+          "title": "Loops",
+          "path": "PythonBeginners/CH08_loops.py",
+          "modifiedAt": "2026-10-14T18:23:11-05:00",
+          "lineCount": 224,
+          "exerciseCount": 7,
+          "warnings": [],
+          "exercises": [
+            {
+              "index": 1,
+              "title": "Ejercicio 1",
+              "hasOwnTitle": false,
+              "startLine": 1,
+              "endLine": 37,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "print",
+                "function-def",
+                "function-call",
+                "entrypoint"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 1,
+                  "endLine": 3,
+                  "text": "Bucles\nLos bucles son el mejor amigo del programador. Nos permiten realizar la misma operación varias veces sin tener que escribirla explícitamente cada vez.\nUn bucle \"for\" en Python se escribe de la siguiente manera:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 5,
+                  "endLine": 6,
+                  "text": "for i in range(0, 10):\n    print(i)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 8,
+                  "endLine": 15,
+                  "text": "i es una variable que toma cada valor de 0 a 9, uno a la vez. En inglés, el código dice:\n\nComienza con i el signo igual 0. ( i in range(0))\nSi i es mayor o igual que 10 ( range(0, 10)), salga del bucle. De lo contrario:\nImprimir ien la consola. ( print(i))\nAgregar 1 a i. ( rangepor defecto, se incrementa de uno en uno)\nVolver al paso 2.\nEl resultado es que los números 0-9 se registran en la consola en orden."
+                },
+                {
+                  "type": "code",
+                  "startLine": 19,
+                  "endLine": 37,
+                  "text": "def print_numbers():\n    for i in range(0,100):\n        print(i)\n\n\n# Don't edit below this line\n\n\ndef test():\n    print(\"Printing numbers from 0 to 99:\")\n    print_numbers()\n    print(\"=====================================\")\n\n\ndef main():\n    test()\n\n\nmain()",
+                  "boilerplateLines": [
+                    24
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "Espacios en blanco en Python",
+              "hasOwnTitle": true,
+              "startLine": 39,
+              "endLine": 44,
+              "concepts": [],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 39,
+                  "endLine": 44,
+                  "text": "El cuerpo de un bucle `for` debe estar indentado; de lo contrario, se producirá un error de sintaxis. Además, cada línea del bucle debe estar indentada de la misma manera: utilizamos la convención de \"4 espacios\". Al pulsar la <tab>tecla, se insertarán automáticamente 4 espacios.\n\nLos espacios en blanco son importantes en Python."
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Range Continued",
+              "hasOwnTitle": true,
+              "startLine": 46,
+              "endLine": 108,
+              "concepts": [
+                "variable",
+                "integer",
+                "print",
+                "function-def",
+                "parameter",
+                "return",
+                "inplace-operator",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 47,
+                  "endLine": 47,
+                  "text": "La range()función que hemos estado utilizando en nuestros forbucles tiene en realidad un tercer parámetro opcional: el \"paso\""
+                },
+                {
+                  "type": "code",
+                  "startLine": 49,
+                  "endLine": 50,
+                  "text": "for i in range(0, 10, 2):\n    print(i)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 51,
+                  "endLine": 56,
+                  "text": "prints: de dos en dos\n0\n2\n4\n6\n8"
+                },
+                {
+                  "type": "code",
+                  "startLine": 57,
+                  "endLine": 58,
+                  "text": "for i in range(3, 0, -1):\n    print(i)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 59,
+                  "endLine": 84,
+                  "text": "prints:El parámetro \"step\" determina cuánto se debe agregar ien cada iteración del bucle. Incluso se puede retroceder\n3\n2\n1\nAsignación\nCorrige el error en la sum_of_numbersfunción. En lugar de sumar 1 en totalcada iteración del bucle, debería sumar i. Por ejemplo, en lugar de:\n\n1 + 1 + 1 + 1 + 1...\n\nQueremos:\n\n0 + 1 + 2 + 3 + 4...\n\nEl resultado deseado es un único número una vez que el bucle haya terminado de ejecutarse.\ndef sum_of_numbers(start, end):\n    total = 0\n    for i in range(start, end):\n        total += i\n\n    return total\n\nAssignment\nThe sum_of_odd_numbers function should calculate the sum of all the odd numbers starting at 1 up to (but not including) the given end number and return the result.\n\nFix the loop so that it iterates over the correct numbers."
+                },
+                {
+                  "type": "code",
+                  "startLine": 86,
+                  "endLine": 92,
+                  "text": "def sum_of_odd_numbers(end):\n    total = 0\n    for i in range(1,end,2):\n        total += i\n    return total\n\nprint(sum_of_odd_numbers(6))",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 94,
+                  "endLine": 103,
+                  "text": "Mientras\nPython tiene otro tipo de bucle, el whileloop. Es un bucle que continúa whilemientras se cumpla una condición True. La sintaxis es simple:\n\nwhile 1:\n    print(\"1 evaluates to True\")\n\nprints:\n1 evaluates to True\n1 evaluates to True\n(...continuing)"
+                },
+                {
+                  "type": "code",
+                  "startLine": 105,
+                  "endLine": 108,
+                  "text": "num = 0\nwhile num < 3:\n    num += 1\n    print(num)",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "title": "Declaración de continuación",
+              "hasOwnTitle": true,
+              "startLine": 110,
+              "endLine": 115,
+              "concepts": [],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 111,
+                  "endLine": 115,
+                  "text": "A veces, al recorrer una secuencia en bucle, puede encontrar elementos que desea omitir . Python (como muchos lenguajes de programación) proporciona una forma de hacerlo: la continueinstrucción.\n\ncontinuesignifica \"pasar directamente a la siguiente iteración de este bucle\". Se omite todo lo demás que debía ocurrir en la iteración actual.\n\nDigamos que queremos imprimir todos los números del 1 al 50, pero omitiendo cada séptimo número. Podemos usar continueesto para hacer, llevando un registro de un contador:"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "title": "Remember, `range` is inclusive of the start, but exclusive of the end",
+              "hasOwnTitle": true,
+              "startLine": 117,
+              "endLine": 180,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "f-string",
+                "print",
+                "arithmetic",
+                "function-def",
+                "function-call",
+                "parameter",
+                "entrypoint",
+                "inplace-operator",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "code",
+                  "startLine": 118,
+                  "endLine": 126,
+                  "text": "counter = 0\nfor number in range(1, 51):\n    counter = counter + 1\n\n    if counter == 7:\n        counter = 0  # Reset the counter\n        continue  # Skip this number\n\n    print(number)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 128,
+                  "endLine": 128,
+                  "text": "Por ejemplo, si estamos calculando raíces cuadradas, podríamos querer omitir los números negativos. continueEsto nos permite pasar al siguiente número sin perder tiempo:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 130,
+                  "endLine": 134,
+                  "text": "for number in range(-5, 5):\n    if number < 0:\n        continue  # Skip negatives\n\n    print(f\"The square root of {number} is {number**0.5}\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 136,
+                  "endLine": 147,
+                  "text": "Asignación\nEn Fantasy Quest, otorgamos al jugador un encantamiento por cada tres misiones que registramos. Cuanto mayor sea el número total de misiones completadas, más poderoso será el encantamiento.\n\nCorrige la award_enchantmentsfunción. Calcula la fuerza del encantamiento (5 veces el número total de misiones completadas) e imprime un mensaje para el jugador. ¡Pero debemos asegurarnos de que esto ocurra solo una vez por cada tres misiones que iteramos dentro del bucle! Solo cuenta las misiones dentro del bucle; no te preocupes si el número total de misiones es divisible por 3.\n\nAl inicio de la función, antes del bucle, inicializa una countervariable a 0.\nDentro del forcircuito:\nAñádelo 1en countercada iteración para llevar un registro de cuántas misiones hemos visto.\nSi counteres menor que 3, continuepasa a la siguiente iteración.\nDe lo contrario, ¡debemos haber completado 3 misiones! Reiniciar counteral 0punto anterior a la obtención del encantamiento."
+                },
+                {
+                  "type": "code",
+                  "startLine": 149,
+                  "endLine": 180,
+                  "text": "def award_enchantments(start, end, step):\n    counter = 0\n    for quest_number in range(start, end, step):\n        counter +=1\n        if counter < 3:\n            continue\n        else:\n            counter = 0\n            enchantment_strength = quest_number * 5\n\n        print(\n            f\"Enchantment of strength {enchantment_strength} awarded for completing {quest_number} quests!\"\n        )\n\n\n# Don't touch below this line\n\n\ndef test(start, end, step):\n    print(f\"Testing with quests {start} through {end - 1}:\")\n    award_enchantments(start, end, step)\n    print(\"========================================\")\n\n\ndef main():\n    test(1, 11, 1)\n    test(20, 24, 1)\n    test(10, 12, 1)\n    test(11, 19, 1)\n\n\nmain()",
+                  "boilerplateLines": [
+                    164
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 6,
+              "title": "Declaración de ruptura",
+              "hasOwnTitle": true,
+              "startLine": 182,
+              "endLine": 188,
+              "concepts": [
+                "string",
+                "integer",
+                "f-string",
+                "print",
+                "arithmetic",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 183,
+                  "endLine": 183,
+                  "text": "Podemos usarlo continuepara pasar a la siguiente iteración en un bucle, pero ¿qué pasa si queremos salir del bucle por completo? Ahí es donde breakentra en juego la instrucción."
+                },
+                {
+                  "type": "code",
+                  "startLine": 185,
+                  "endLine": 188,
+                  "text": "for n in range(42):\n    print(f\"{n} * {n} = {n * n}\")\n    if n * n > 150:\n        break",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 7,
+              "title": "Experience Points",
+              "hasOwnTitle": true,
+              "startLine": 189,
+              "endLine": 223,
+              "concepts": [
+                "variable",
+                "integer",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 189,
+                  "endLine": 216,
+                  "text": "Adventurers need experience points (XP) to level up and become stronger. We want to show the total XP a player has gained given their current level.\n\nEach character starts with 0 XP at level 1. To reach the next level, they need to accumulate additional XP equal to their current level times 5.\n\nFor example:\n\nAt level 1, XP is 0.\nTo reach level 2, we need 5 XP (1 * 5) added to the current XP so far (0).\nAt level 2, XP is 5.\nTo reach level 3: we need 10 XP (2 * 5) added to the current XP so far (5).\nAt level 3, XP is 15.\nTo reach level 4: we need 15 XP (3 * 5) added to the current XP so far (15).\nAnd so on...\nTo summarize the calculation in a table:\n\nLevel\tXP so far\tXP for next level\n1\t0\t5\n2\t5\t10\n3\t15\t15\n4\t30\t20\nAssignment\nComplete the calculate_experience_points function.\n\nIt accepts a level (integer) and returns the total XP a player has gained so far."
+                },
+                {
+                  "type": "code",
+                  "startLine": 217,
+                  "endLine": 223,
+                  "text": "def calculate_experience_points(level):\n    xp = 0\n    for i in range(1,level):\n        if i <= level:\n            xp += i * 5\n\n    return xp",
+                  "boilerplateLines": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "CH09_lists",
+          "kind": "chapter",
+          "number": 9,
+          "title": "Lists",
+          "path": "PythonBeginners/CH09_lists.py",
+          "modifiedAt": "2026-10-14T18:23:00-05:00",
+          "lineCount": 0,
+          "exerciseCount": 0,
+          "warnings": [],
+          "exercises": []
         }
       ],
       "extras": [
@@ -2032,7 +2521,7 @@
           "number": null,
           "title": "Desafios",
           "path": "PythonBeginners/Desafios.py",
-          "modifiedAt": "2026-10-10T12:53:14-05:00",
+          "modifiedAt": "2026-10-14T16:53:47-05:00",
           "lineCount": 82,
           "exerciseCount": 3,
           "warnings": [],

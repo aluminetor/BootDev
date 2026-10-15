@@ -80,3 +80,31 @@ print("Data types:")
 print(f"name: {type(name).__name__}, level: {type(level).__name__}, character_class: {type(character_class).__name__}")
 print(f"magic_resistance: {type(magic_resistance).__name__}")
 print(f"account_active: {type(account_active).__name__}")
+"""
+Búsqueda en la lista de sitios seguros
+Completa la safe_getfunción .
+
+Debe aceptar una lista y un índice. Devuelve el elemento en ese índice solo cuando el índice esté entre 0y la última posición válida en la lista.
+
+Regresar Nonecuando:
+
+El índice es negativo
+El índice es igual o mayor que la longitud de la lista.
+La lista está vacía
+Ejemplos:
+
+safe_get(["sword", "shield", "potion"], 1)
+# "shield"
+
+safe_get(["sword", "shield", "potion"], 5)
+# None
+
+Utilice la longitud de la lista y las comparaciones para comprobar el índice antes de indexar la lista.
+"""
+
+
+# def safe_get(items, index):
+#     if index < 0 or index >= len(items):
+#         return None
+#     return items[index]
+
