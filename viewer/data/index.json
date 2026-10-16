@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T18:33:25-05:00",
+  "generatedAt": "2026-10-16T11:21:48-05:00",
   "home": {
     "path": "README.md",
     "markdown": "<div align=\"center\">\r\n\r\n# ⚔️ Chronicles of a Backend Apprentice ⚔️\r\n\r\n<img src=\"https://www.boot.dev/img/boots_running.gif\" alt=\"Boots Running\" width=\"220\"/>\r\n\r\n> *\"Code is the most powerful magic governing the realms of the web.\"*\r\n\r\n[![Boot.dev Profile](https://img.shields.io/badge/Boot.dev-aluminetor-8B5CF6?style=for-the-badge&logo=shield&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Adventurer Rank](https://img.shields.io/badge/Rank-Backend%20Apprentice-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Status](https://img.shields.io/badge/Quest%20Status-Active%20Grind-10B981?style=for-the-badge)](#)\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 🧙‍♂️ Adventurer Profile\r\n\r\n- **Hero Handle:** [`@aluminetor`](https://www.boot.dev/u/aluminetor)\r\n- **Guild:** [Boot.dev](https://www.boot.dev)\r\n- **Path / Class:** Backend Sorcerer (*Python, Go, Linux & Architecture*)\r\n- **Tome of Quests:** [boot.dev/u/aluminetor](https://www.boot.dev/u/aluminetor)\r\n\r\n---\r\n\r\n## 📜 Quest Prologue\r\n\r\nWelcome, traveler, to this digital grimoire. Here lie the battle logs, incantations, and artifacts forged throughout my journey across the realms of **[Boot.dev](https://www.boot.dev)**.\r\n\r\nMy objective is to conquer the core disciplines of **Backend Development**—unraveling algorithms, building distributed servers, and mastering the low-level foundations of modern systems.\r\n\r\n---\r\n\r\n## 🗺️ Quest Board & Progression\r\n\r\n| Quest / Course | Difficulty Rank | Grimoire (Language / Focus) | Status |\r\n| :--- | :---: | :---: | :---: |\r\n| **Learn Python** | 🟢 Novice | Python | 🛡️ Cleared |\r\n| **Learn Shell Scripting** | 🟢 Novice | Bash / Terminal | ⚔️ In Battle |\r\n| **Learn Git** | 🟢 Novice | Git / GitHub | 🛡️ Cleared |\r\n| **Learn Object-Oriented Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Functional Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Data Structures & Algorithms** | 🔴 Advanced | Python | ⏳ Queued |\r\n| **Learn Go** | 🟡 Intermediate | Golang | ⏳ Queued |\r\n| **Build HTTP Servers** | 🔴 Advanced | Go / REST APIs | ⏳ Queued |\r\n| **Learn SQL & Databases** | 🟡 Intermediate | PostgreSQL | ⏳ Queued |\r\n| **Learn Docker & Containers** | 🔴 Advanced | Docker | ⏳ Queued |\r\n\r\n---\r\n\r\n## 🛡️ Unlocked Spells & Arsenal\r\n\r\n<div align=\"center\">\r\n\r\n<img src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black\" />\r\n<img src=\"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white\" />\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 📂 Grimoire Directory Structure\r\n\r\n```text\r\n.\r\n├── 📁 PythonBeginners/      # Python lessons, chapters & challenges\r\n│   ├── 📜 CH01_firstbug.py\r\n│   ├── 📜 CH02_variables.py\r\n│   ├── 📜 CH03_functions.py\r\n│   └── ⚔️ Desafios.py\r\n├── 📁 viewer/               # Local, read-only learning dashboard\r\n│   ├── 🌐 index.html        # Viewer entry point\r\n│   ├── ⚙️ app.js            # Navigation and content rendering\r\n│   ├── 🛠️ build_index.py    # Generates viewer/data/index.json\r\n│   ├── 🎨 styles.css        # Dashboard styles\r\n│   └── 📁 data/             # Generated course index\r\n├── 📜 AGENTS.md             # Repository working guidelines\r\n└── 📜 README.md             # Project overview and progress\r\n"
@@ -2507,11 +2507,624 @@
           "number": 9,
           "title": "Lists",
           "path": "PythonBeginners/CH09_lists.py",
-          "modifiedAt": "2026-10-14T18:23:00-05:00",
-          "lineCount": 0,
-          "exerciseCount": 0,
+          "modifiedAt": "2026-10-15T18:01:29-05:00",
+          "lineCount": 386,
+          "exerciseCount": 8,
           "warnings": [],
-          "exercises": []
+          "exercises": [
+            {
+              "index": 1,
+              "title": "list",
+              "hasOwnTitle": true,
+              "startLine": 1,
+              "endLine": 17,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "function-call"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 2,
+                  "endLine": 4,
+                  "text": "Una forma natural de organizar y almacenar datos es mediante listas List. Algunos lenguajes las llaman \"arrays\", pero en Python simplemente las llamamos listas. Piensa en todas las aplicaciones que usas y en cuántos de sus elementos están organizados en listas.\nListas (continuación)\nA veces, al crear listas manualmente, puede resultar difícil leerlas si todos los elementos están en la misma línea de código. Podemos declarar la lista usando varias líneas si queremos:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 6,
+                  "endLine": 17,
+                  "text": "flower_types = [\n    \"daffodil\",\n    \"rose\",\n    \"chrysanthemum\",\n]\n\nplayer_ages = [\n    23,\n    18,\n    31,\n    42,\n]",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "Longitud de la lista",
+              "hasOwnTitle": true,
+              "startLine": 19,
+              "endLine": 35,
+              "concepts": [
+                "variable",
+                "string",
+                "function-call",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 20,
+                  "endLine": 20,
+                  "text": "La longitud de una lista se puede calcular utilizando la len()función. Esta función recibe un iterable (como una cadena o una lista) y devuelve el número de elementos presentes."
+                },
+                {
+                  "type": "code",
+                  "startLine": 22,
+                  "endLine": 23,
+                  "text": "fruits = [\"apple\", \"banana\", \"pear\"]\nlength = len(fruits)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 24,
+                  "endLine": 24,
+                  "text": "3 items in fruits"
+                },
+                {
+                  "type": "code",
+                  "startLine": 26,
+                  "endLine": 26,
+                  "text": "len(\"supercalifragilisticexpialidocious\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 27,
+                  "endLine": 35,
+                  "text": "34 characters\n\nNo te dejes engañar por el hecho de que la longitud no sea igual al índice del último elemento. De hecho, siempre será una unidad mayor, ¡porque el índice inicial es cero!\nCompleta la get_last_indexfunción para que devuelva la longitud de la inventorylista menos 1.\ndef get_last_index(inventory):\n    return len(inventory) - 1\n\nAgregar contenido en Python\nEs común crear una lista vacía y luego llenarla con valores usando un bucle. Podemos agregar valores al final de una lista usando el .append()método:"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Valores pop",
+              "hasOwnTitle": true,
+              "startLine": 36,
+              "endLine": 76,
+              "concepts": [
+                "variable",
+                "string",
+                "f-string",
+                "print",
+                "function-def",
+                "function-call",
+                "entrypoint"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 36,
+                  "endLine": 39,
+                  "text": ".pop()es lo opuesto a .append(). Pop elimina el último elemento de una lista y lo devuelve para su uso. Por ejemplo:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 40,
+                  "endLine": 41,
+                  "text": "vegetables = [\"broccoli\", \"cabbage\", \"kale\", \"tomato\"]\nlast_vegetable = vegetables.pop()",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 42,
+                  "endLine": 43,
+                  "text": "vegetables = ['broccoli', 'cabbage', 'kale']\nlast_vegetable = 'tomato'"
+                },
+                {
+                  "type": "code",
+                  "startLine": 45,
+                  "endLine": 59,
+                  "text": "def clear_inventory():\n    inventory = [\n        \"Healing Potion\",\n        \"Iron Bar\",\n        \"Kite Shield\",\n        \"Shortsword\",\n        \"Leather Scraps\",\n        \"Tattered Cloth\",\n    ]\n\n    print(f\"inventory: {inventory}\")\n\n    # don't touch above this line\n\n    for i in range(0, len(inventory)):",
+                  "boilerplateLines": [
+                    57
+                  ]
+                },
+                {
+                  "type": "theory",
+                  "startLine": 60,
+                  "endLine": 60,
+                  "text": "?"
+                },
+                {
+                  "type": "code",
+                  "startLine": 61,
+                  "endLine": 76,
+                  "text": "        item = inventory.pop()\n        # don't touch below this line\n        print(f\"Selling: {item}\")\n        print(f\"inventory: {inventory}\")\n\n\ndef test():\n    clear_inventory()\n    print(\"=====================================\")\n\n\ndef main():\n    test()\n\n\nmain()",
+                  "boilerplateLines": [
+                    62
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "title": "Sintaxis sin índice",
+              "hasOwnTitle": true,
+              "startLine": 78,
+              "endLine": 97,
+              "concepts": [
+                "variable",
+                "string",
+                "print",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 79,
+                  "endLine": 79,
+                  "text": "En mi opinión, Python tiene la sintaxis más elegante para iterar directamente sobre los elementos de una lista sin preocuparse por los índices. Si no necesitas el índice, puedes usar la siguiente sintaxis:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 81,
+                  "endLine": 83,
+                  "text": "trees = [\"oak\", \"pine\", \"maple\"]\nfor tree in trees:\n    print(tree)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 85,
+                  "endLine": 97,
+                  "text": "Prints:\noak\npine\nmaple\n\nSi no necesitamos actualizar el elemento y solo acceder a su valor, esta es una forma más limpia de escribir el código.\n\ndef contains_leather_scraps(items):\n    for item in items:\n        if item == \"Leather Scraps\":\n            return True\n    return False"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "title": "Encuentra a Max",
+              "hasOwnTitle": true,
+              "startLine": 99,
+              "endLine": 175,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "float",
+                "print",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 99,
+                  "endLine": 103,
+                  "text": "Infinidad\nLa función integrada float() puede crear un valor numérico de punto flotante de infinito negativo. En lugar de inicializar un valor base como 0o -100000, podemos usar float(\"-inf\")para representar infinito negativo. Dado que cada valor será mayor que infinito negativo, podemos usarlo como punto de partida para ayudarnos a lograr nuestro objetivo de encontrar el valor máximo."
+                },
+                {
+                  "type": "code",
+                  "startLine": 105,
+                  "endLine": 106,
+                  "text": "negative_infinity = float(\"-inf\")\npositive_infinity = float(\"inf\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 107,
+                  "endLine": 117,
+                  "text": "Asignación\nNuestros jugadores quieren ver el ataque más potente de su último combate. Algunos enemigos pueden recibir mejoras que les permiten absorber ataques mágicos o cuerpo a cuerpo como si fueran salud, lo que resulta en daño negativo. Añadamos otra función para analizar los datos del registro de combate.\n\nCompleta la find_maxfunción. Recibe como entrada una lista de números enteros numsy devuelve un número.\n\nmax_so_farse inicializa como infinito negativo.\nCompara cada número de numscon max_so_far. Si algún número es mayor que max_so_far, reemplázalo max_so_farcon ese valor.\nDespués de iterar sobre cada número, devuelve max_so_far. Si numsestá vacío, devuelve infinito negativo.\nAquí tienes un ejemplo de cómo find_maxdebería funcionar tu función cuando se la llame:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 119,
+                  "endLine": 131,
+                  "text": "def find_max(nums):\n    negative_infinity = float(\"-inf\")\n    if len(nums) == 0:\n        return negative_infinity\n\n    max_so_far = float(\"-inf\")\n    for num in nums:\n        if num > max_so_far:\n            max_so_far = num\n\n    return max_so_far\n\nprint(find_max([100, 10, 22]))",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 133,
+                  "endLine": 152,
+                  "text": "Encuentra el resto:\nEl operador módulo se puede usar para encontrar el resto después de una división. Por ejemplo, 7 el módulo 2 sería 1, porque 2 se puede multiplicar exactamente por 7 como máximo 3 veces:\n\n2 * 3 = 6\n\nEntonces queda 1 para llegar de 6 a 7.\n\n7 - 6 = 1\n\nEl operador módulo es el signo de porcentaje: %.  ¡Es importante tener en cuenta que módulo no es un porcentaje!\n\nSegmentación de listas\nPython facilita la segmentación de listas para trabajar solo con la sección que te interesa. Una forma de hacerlo es usar el operador de segmentación simple, que es simplemente dos puntos :.\n\nCon este operador, puede especificar dónde comenzar y terminar la segmentación, y cómo recorrer la lista original. La segmentación de listas devuelve una nueva lista a partir de la lista existente.\n\nLa sintaxis es la siguiente:\n\nmy_list[start:stop:step]"
+                },
+                {
+                  "type": "code",
+                  "startLine": 154,
+                  "endLine": 154,
+                  "text": "scores = [50, 70, 30, 20, 90, 10, 50]",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 155,
+                  "endLine": 155,
+                  "text": "Display list"
+                },
+                {
+                  "type": "code",
+                  "startLine": 156,
+                  "endLine": 156,
+                  "text": "print(scores[1:5:2])",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 157,
+                  "endLine": 175,
+                  "text": "Prints [70, 20]\nLo anterior utiliza un start de 1, un stop de 5(no incluido) y un step de 2. Todas las secciones son opcionales .\nPython: Slicing de Listas (List Slicing)\n\nSintaxis general:\n`lista[inicio : fin : paso]`\n- **`inicio`**: Incluido (por defecto: `0`).\n- **`fin`**: Excluido (por defecto: longitud de la lista).\n- **`paso`**: Salto entre elementos (por defecto: `1`).\n\n---\n\n## 1. Omitir secciones\n\n- **Desde el inicio hasta el índice N (exclusivo):**\n  ```python\n  numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\n  numbers[:3]  # [0, 1, 2]"
+                }
+              ]
+            },
+            {
+              "index": 6,
+              "title": "Desde el índice N hasta el final:",
+              "hasOwnTitle": true,
+              "startLine": 176,
+              "endLine": 177,
+              "concepts": [],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 177,
+                  "endLine": 177,
+                  "text": "numbers[3:]  # [3, 4, 5, 6, 7, 8, 9]"
+                }
+              ]
+            },
+            {
+              "index": 7,
+              "title": "Usar solo el \"paso\" (stride)",
+              "hasOwnTitle": true,
+              "startLine": 178,
+              "endLine": 204,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "print",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return",
+                "multiple-return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 179,
+                  "endLine": 185,
+                  "text": "numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\nnumbers[::2]  # Elementos en índices pares: [0, 2, 4, 6, 8]\n\n3. Índices negativos\nCuentan desde el final hacia atrás (-1 es el último elemento):\n\nPython"
+                },
+                {
+                  "type": "code",
+                  "startLine": 186,
+                  "endLine": 186,
+                  "text": "numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 188,
+                  "endLine": 188,
+                  "text": "Últimos 3 elementos:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 189,
+                  "endLine": 189,
+                  "text": "numbers[-3:]  # [7, 8, 9]",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 191,
+                  "endLine": 191,
+                  "text": "Todos excepto el último:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 192,
+                  "endLine": 192,
+                  "text": "numbers[:-1]  # [0, 1, 2, 3, 4, 5, 6, 7, 8]",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 193,
+                  "endLine": 200,
+                  "text": "Asignación\nCompleta la get_champion_slicesfunción dada. Recibe una lista de championsy debe devolver tres nuevas listas basadas en los campeones dados:\n\nPrimero, devuelve una parte de la championslista que comience con el tercer campeón y llegue hasta el final de la lista.\nA continuación, devuelve una parte de la championslista que comience al principio de la misma e incluya a todos los campeones excepto al último.\nPor último, devuelve una porción de la championslista que solo incluya a los campeones en índices pares (0, 2, 4, ...)."
+                },
+                {
+                  "type": "code",
+                  "startLine": 201,
+                  "endLine": 204,
+                  "text": "def get_champion_slices(champions):\n    return champions[2:],champions[:len(champions)-1],champions[::2]\n\nprint(get_champion_slices([\"Aatrox\", \"Ahri\", \"Akali\", \"Alistar\", \"Amumu\"]))",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 8,
+              "title": "Operaciones de lista – Contiene",
+              "hasOwnTitle": true,
+              "startLine": 206,
+              "endLine": 386,
+              "concepts": [
+                "variable",
+                "multiple-assignment",
+                "string",
+                "integer",
+                "boolean",
+                "print",
+                "arithmetic",
+                "debugging",
+                "function-def",
+                "function-call",
+                "parameter",
+                "argument",
+                "return",
+                "multiple-return",
+                "inplace-operator",
+                "logical-operators",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 207,
+                  "endLine": 207,
+                  "text": "Comprobar si un valor existe en una lista o no también es muy fácil en Python: simplemente use la inpalabra clave para comprobar su presencia o not insu ausencia."
+                },
+                {
+                  "type": "code",
+                  "startLine": 209,
+                  "endLine": 210,
+                  "text": "fruits = [\"apple\", \"orange\", \"banana\"]\nprint(\"banana\" in fruits)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 211,
+                  "endLine": 211,
+                  "text": "Prints: True"
+                },
+                {
+                  "type": "code",
+                  "startLine": 213,
+                  "endLine": 214,
+                  "text": "fruits = [\"apple\", \"orange\", \"banana\"]\nprint(\"banana\" not in fruits)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 215,
+                  "endLine": 218,
+                  "text": "Prints: False\n\nEliminación de lista\nPython cuenta con una palabra clave integrada , `del`, que permite eliminar elementos de los objetos. En el caso de una lista, se pueden eliminar índices específicos o segmentos completos."
+                },
+                {
+                  "type": "code",
+                  "startLine": 220,
+                  "endLine": 220,
+                  "text": "nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 222,
+                  "endLine": 222,
+                  "text": "delete the fourth item"
+                },
+                {
+                  "type": "code",
+                  "startLine": 223,
+                  "endLine": 224,
+                  "text": "del nums[3]\nprint(nums)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 225,
+                  "endLine": 227,
+                  "text": "Output: [1, 2, 3, 5, 6, 7, 8, 9]\n\ndelete the second item up to (but not including) the fourth item"
+                },
+                {
+                  "type": "code",
+                  "startLine": 228,
+                  "endLine": 230,
+                  "text": "nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]\ndel nums[1:3]\nprint(nums)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 231,
+                  "endLine": 233,
+                  "text": "Output: [1, 4, 5, 6, 7, 8, 9]\n\ndelete all elements"
+                },
+                {
+                  "type": "code",
+                  "startLine": 234,
+                  "endLine": 236,
+                  "text": "nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]\ndel nums[:]\nprint(nums)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 237,
+                  "endLine": 243,
+                  "text": "ssignment\nIn Fantasy Quest there is a list of strongholds on the map that players can visit to defeat powerful bosses. Let's update the trim_strongholds function to:\n\nDelete the first stronghold from the list\nDelete the last two strongholds from the list"
+                },
+                {
+                  "type": "code",
+                  "startLine": 245,
+                  "endLine": 251,
+                  "text": "def trim_strongholds(strongholds):\n    del strongholds[0]\n    del strongholds[-2:]\n\n    return strongholds\n\nprint(trim_strongholds([\"Dragon's Lair\", \"Goblin's Den\", \"Troll's Bridge\", \"Witch's Hut\", \"Vampire's Castle\"]))",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 253,
+                  "endLine": 254,
+                  "text": "Tuplas\nLas tuplas son colecciones de datos ordenadas e inmutables. Puedes pensar en una tupla como Listuna lista de tamaño fijo. Las tuplas se crean con paréntesis:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 256,
+                  "endLine": 257,
+                  "text": "my_tuple = (\"this is a tuple\", 45, True)\nprint(my_tuple[0])",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 258,
+                  "endLine": 258,
+                  "text": "this is a tuple"
+                },
+                {
+                  "type": "code",
+                  "startLine": 259,
+                  "endLine": 259,
+                  "text": "print(my_tuple[1])",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 260,
+                  "endLine": 260,
+                  "text": "45"
+                },
+                {
+                  "type": "code",
+                  "startLine": 261,
+                  "endLine": 261,
+                  "text": "print(my_tuple[2])",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 262,
+                  "endLine": 264,
+                  "text": "True\n\nLas tuplas se utilizan a menudo para almacenar grupos muy pequeños de datos (como 2 o 3 elementos). Por ejemplo, se podría usar una tupla para almacenar el nombre y la edad de un perro."
+                },
+                {
+                  "type": "code",
+                  "startLine": 266,
+                  "endLine": 266,
+                  "text": "dog = (\"Fido\", 4)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 268,
+                  "endLine": 268,
+                  "text": "Existe un caso especial para crear tuplas de un solo elemento. Debes incluir una coma para que Python sepa que es una tupla y no paréntesis normales:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 270,
+                  "endLine": 270,
+                  "text": "dog = (\"Fido\",)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 271,
+                  "endLine": 272,
+                  "text": "Desempaquetado de tuplas\nPuedes asignar fácilmente los valores de una tupla a variables mediante el desempaquetado."
+                },
+                {
+                  "type": "code",
+                  "startLine": 274,
+                  "endLine": 276,
+                  "text": "dog = (\"Fido\", 4)\ndog_name, dog_age = dog\nprint(dog_name)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 277,
+                  "endLine": 277,
+                  "text": "Fido"
+                },
+                {
+                  "type": "code",
+                  "startLine": 278,
+                  "endLine": 278,
+                  "text": "print(dog_age)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 279,
+                  "endLine": 285,
+                  "text": "4\n\nLista inversa\nAsignación\nAlgunos de nuestros jugadores quisieran ver sus inventarios en orden inverso.\n\nUsando un bucle, vamos a escribir una función que tome una lista como entrada y devuelva una nueva lista, pero con todos los elementos en orden inverso."
+                },
+                {
+                  "type": "code",
+                  "startLine": 287,
+                  "endLine": 294,
+                  "text": "def reverse_list(items):\n    invert = []\n    for i in range(len(items) - 1,-1,-1):\n        invert.append(items[i])\n\n    return invert\n\nprint(reverse_list([\"Healing Potion\", \"Iron Bar\", \"Kite Shield\", \"Shortsword\", \"Leather Scraps\", \"Tattered Cloth\"]))",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 296,
+                  "endLine": 299,
+                  "text": "1. len(items) - 1 # (el comienzo)\nLas listas tienen índice cero, lo que significa que el primer elemento está en el índice 0 y el último en el índice len(items) - 1. Si tu lista tiene 5 elementos, los índices válidos son 0, 1, 2, 3, 4, no 5. Por lo tanto, para comenzar en el último elemento, necesitas len(items) - 1."
+                },
+                {
+                  "type": "code",
+                  "startLine": 300,
+                  "endLine": 302,
+                  "text": "items = [\"a\", \"b\", \"c\", \"d\", \"e\"]\nlen(items) # 5\nlen(items) - 1 # 4, which is the index of \"e\"",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 303,
+                  "endLine": 324,
+                  "text": "2. -1(la parada)\n\nEsto indica rangedónde detenerse, pero rangesiempre se detiene antes de alcanzar este valor. Dado que deseas que tu bucle incluya el índice 0, necesitas que el valor de parada sea uno menos que 0, que es -1. Si usaras 0como valor de parada, el bucle se detendría antes de 0, omitiendo el primer elemento por completo.\n\n3. -1(el paso)\n\nEsto es cuánto icambia en cada iteración. Un paso -1significa \"disminuir en 1 cada vez\" en lugar del comportamiento de aumento predeterminado. Así que iva de 4, 3, 2, 1, 0 en lugar de contar hacia arriba.\n\nEn conjunto: range(4, -1, -1)produce 4, 3, 2, 1, 0exactamente los índices necesarios para recorrer la lista hacia atrás.\n\nLección: Filtrar Mensajes (Filter Messages)\nEstás a punto de escribir un poco más de código en una sola función de lo que has hecho hasta ahora.\n\nConsejo de depuración (Debugging): No intentes escribirlo todo de una vez. Empieza por el bucle exterior y ve avanzando hacia el interior. Añade instrucciones print() adicionales y ejecuta el código con frecuencia para asegurarte de que cada línea funciona como esperas. Todos los programadores profesionales dividen los problemas grandes en partes pequeñas. (Recuerda eliminar los print() adicionales antes de entregar tu código).\n\nHerramientas Clave de Python\nDado que trabajaremos convirtiendo cadenas de texto (strings) en listas (lists) y viceversa, estos dos métodos nos facilitarán mucho la vida:\n\n1. Dividir una cadena en una lista: .split()\nSe aplica a una cadena de texto y devuelve una lista dividiendo el texto según un delimitador. Si no le pasas ningún argumento entre los paréntesis, dividirá la cadena automáticamente por los espacios en blanco.\nPython"
+                },
+                {
+                  "type": "code",
+                  "startLine": 325,
+                  "endLine": 327,
+                  "text": "message = \"hello there sam\"\nwords = message.split()\nprint(words)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 328,
+                  "endLine": 333,
+                  "text": "Imprime: ['hello', 'there', 'sam']\n\n2. Unir una lista en una sola cadena: .join()\nSe llama sobre el delimitador (el texto que quieres poner entre cada palabra, como un espacio \" \") y recibe como argumento la lista de palabras que quieres unir.\n\nPython"
+                },
+                {
+                  "type": "code",
+                  "startLine": 334,
+                  "endLine": 336,
+                  "text": "list_of_words = [\"hello\", \"there\", \"sam\"]\nsentence = \" \".join(list_of_words)\nprint(sentence)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 337,
+                  "endLine": 362,
+                  "text": "Imprime: hello there sam\n\nAsignación\n¡Necesitamos filtrar las palabrotas del chat en vivo de nuestro juego! Completa la filter_messagesfunción. Recibe como entrada una lista de mensajes de chat y devuelve dos listas nuevas:\n\nUna lista con los mismos mensajes, pero sin ninguna mención de la palabra dang.\nUna lista que contiene el número de dangpalabras que se eliminaron de cada mensaje en ese índice en particular.\nAquí hay algunos ejemplos:\n\nAquí tienes los pasos que debes seguir. ¡Son MUCHOS pasos! No será fácil, pero si sigues los pasos al pie de la letra , aprobarás esta tarea.\n\nCrea las dos listas vacías que devolverás al final:\nUno para los mensajes filtrados con \"dang\"eliminados.\nY uno por la cantidad de \"dangs\" eliminados de esos mensajes.\nRecorre la lista de mensajes. Para cada mensaje:\nDivide la cadena del mensaje en una lista de palabras utilizando el .split()método de cadena.\nCrea una lista vacía con todas las palabras buenas de este mensaje.\nCrea una variable de contador para los \"dangs\" en este mensaje, comenzando en 0.\nPor cada palabra del mensaje:\nSi la palabra es \"dang\", agréguela 1al contador de \"dangs\".\nSi la palabra no \"dang\" es , agrégala a la lista de buenas palabras.\nUne la lista de buenas palabras en una sola cadena usando el .join()método.\nAgregue el nuevo mensaje filtrado a la lista de mensajes filtrados.\nAñade el nuevo recuento de \"dangs\" a la lista de recuentos de \"dangs\".\nDespués de recorrer la lista de mensajes, devuelva primero la lista de mensajes filtrados y luego la lista de recuentos de \"dang\"."
+                },
+                {
+                  "type": "code",
+                  "startLine": 364,
+                  "endLine": 386,
+                  "text": "def filter_messages(messages):\n    filtered_messages = []\n    dang_counts = []\n\n    for message in messages:\n        words = message.split()\n        good_words = []\n        dangs = 0\n\n        for word in words:\n            if word == \"dang\":\n                dangs += 1\n            else:\n                good_words.append(word)\n\n        sentence = \" \".join(good_words)\n        filtered_messages.append(sentence)\n        dang_counts.append(dangs)\n\n    return filtered_messages, dang_counts\n\n\nprint(filter_messages([\"dang it\", \"dang dang\", \"dang it again\", \"no dang here\"]))",
+                  "boilerplateLines": []
+                }
+              ]
+            }
+          ]
         }
       ],
       "extras": [
@@ -2521,9 +3134,9 @@
           "number": null,
           "title": "Desafios",
           "path": "PythonBeginners/Desafios.py",
-          "modifiedAt": "2026-10-14T16:53:47-05:00",
-          "lineCount": 82,
-          "exerciseCount": 3,
+          "modifiedAt": "2026-10-15T10:34:43-05:00",
+          "lineCount": 110,
+          "exerciseCount": 4,
           "warnings": [],
           "exercises": [
             {
@@ -2618,6 +3231,25 @@
                   "boilerplateLines": [
                     70
                   ]
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "title": "Búsqueda en la lista de sitios seguros",
+              "hasOwnTitle": true,
+              "startLine": 83,
+              "endLine": 109,
+              "concepts": [
+                "none",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 83,
+                  "endLine": 109,
+                  "text": "Completa la safe_getfunción .\n\nDebe aceptar una lista y un índice. Devuelve el elemento en ese índice solo cuando el índice esté entre 0y la última posición válida en la lista.\n\nRegresar Nonecuando:\n\nEl índice es negativo\nEl índice es igual o mayor que la longitud de la lista.\nLa lista está vacía\nEjemplos:\n\nsafe_get([\"sword\", \"shield\", \"potion\"], 1)\n# \"shield\"\n\nsafe_get([\"sword\", \"shield\", \"potion\"], 5)\n# None\n\nUtilice la longitud de la lista y las comparaciones para comprobar el índice antes de indexar la lista.\n\ndef safe_get(items, index):\n    if index < 0 or index >= len(items):\n        return None\n    return items[index]"
                 }
               ]
             }

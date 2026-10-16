@@ -6,8 +6,8 @@ apuntes de Boot.dev y no modifica los archivos originales de estudio.
 ## Estado actual
 
 - Visor funcional en `viewer/`: `index.html`, `styles.css`, `app.js` y `data/index.json`.
-- Catálogo indexado: 1 curso, 9 capítulos + 1 archivo de retos, 53 ejercicios y 42 conceptos de glosario.
-- Capítulos recientes: `CH08_loops.py` incorporado; `CH09_lists.py` detectado en progreso (0 ejercicios).
+- Catálogo indexado: 1 curso, 9 capítulos + 1 archivo de retos, 62 ejercicios y 42 conceptos de glosario.
+- Capítulos recientes: `CH09_lists.py` completado e indexado (8 ejercicios).
 - Web estática sin framework ni build step (HTML, CSS moderno, JS ES modules).
 - Skill local `.agents/skills/sync-viewer/` creada para automatizar la sincronización.
 - `viewer/build_index.py` genera el índice a partir de `README.md` y las carpetas de estudio.
