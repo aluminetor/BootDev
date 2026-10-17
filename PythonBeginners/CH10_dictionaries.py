@@ -114,3 +114,14 @@ print(names_dict)
 # Eliminar claves que no existen
 # Ten en cuenta que si intentas eliminar una clave que no existe, recibirás un error .
 
+# Comprobando la existencia
+# Si no está seguro de si una clave existe en un diccionario, utilice la inpalabra clave.
+
+cars = {"ford": "f150", "toyota": "camry"}
+
+print("ford" in cars)
+# Prints: True
+
+print("gmc" in cars)
+# Prints: False
+
