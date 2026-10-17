@@ -182,3 +182,48 @@ print(get_most_common_enemy({"kobold": 5, "soldier": 5, "gremlin": 5, "dragon": 
 print(get_most_common_enemy({"jackal": 5, "kobold": 3, "soldier": 10, "gremlin": 5, "dragon": 20}))
 print(get_most_common_enemy({"jackal": 5, "kobold": 3, "soldier": 2, "gremlin": 10, "dragon": 1}))
             
+def get_quest_status(progress):
+    return progress["quest"]["bridge_run"]["status"]
+
+print(get_quest_status({"quest": {"bridge_run": {"status": "in_progress"}}}))
+print(get_quest_status({"quest": {"bridge_run": {"status": "complete"}}}))
+
+# Asignación
+# Completa la mergefunción . Acepta dos diccionarios como entrada y devuelve un nuevo diccionario combinado que contiene todas las claves y valores de los diccionarios de entrada.
+
+# Existen varias soluciones que utilizan funciones integradas de Python, pero para practicar solo usaremos bucles:
+
+# Crea un diccionario vacío para almacenar el nuevo resultado combinado.
+# Itera sobre los pares clave/valor de dict1 y agrégalos al diccionario combinado.
+# Itera sobre los pares clave/valor de dict2 y agrégalos al diccionario combinado.
+# Devuelve el diccionario recién fusionado.
+# Si una clave existe en ambos diccionarios, el valor del segundo diccionario debe sobrescribir el valor del primero. Aquí tienes un ejemplo de uso:
+
+def merge(dict1, dict2):
+    # implement this
+    new_merge = {}
+
+
+# After merge is implemented:
+two_towers = {"Frodo": 56, "Aragorn": 10}
+rotk = {"Aragorn": 100, "Gandalf": 809}
+merged_dict = merge(two_towers, rotk)
+print(merged_dict)
+# Output: {'Frodo': 56, 'Aragorn': 100, 'Gandalf': 809}
+
+# Observa cómo se actualizó el valor de la clave Aragorn.
+def merge(dict1, dict2):
+    merged_dict = {}
+    for key in dict1:
+        merged_dict[key] = dict1[key]
+    for key in dict2:
+        merged_dict[key] = dict2[key]
+    return merged_dict
+
+    
+            
+
+print(merge({"Frodo": 56, "Aragorn": 10}, {"Aragorn": 100, "Gandalf": 809}))
+print(merge({"Frodo": 56, "Aragorn": 10}, {"Gandalf": 809}))
+print(merge({"Gandalf": 56}, {"Aragorn": 100, "Gandalf": 809}))
+print(merge({"Frodo": 56, "Aragorn": 10}, {}))
