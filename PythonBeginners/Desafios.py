@@ -108,3 +108,17 @@ Utilice la longitud de la lista y las comparaciones para comprobar el índice an
 #         return None
 #     return items[index]
 
+"""
+Valores del diccionario
+Un diccionario de Python almacena valores bajo claves.
+"""
+pet = {"name": "Milo", "age": 2}
+
+pet["age"] = 3
+"""
+Piensa en cómo se utiliza la misma clave para leer y cambiar su valor.
+"""
+pet = {"name": "Milo", "age": 2}
+
+pet["age"] = 3
+print(pet["age"])
