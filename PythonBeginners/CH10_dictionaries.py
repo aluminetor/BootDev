@@ -125,3 +125,60 @@ print("ford" in cars)
 print("gmc" in cars)
 # Prints: False
 
+# Asignación
+# Necesitamos informar cuántos enemigos hay en las inmediaciones de nuestros jugadores, ¡pero ellos quieren saber qué tipo de enemigos son! Corrige la count_enemiesfunción. Acepta como entrada:
+
+# enemy_names: una lista de cadenas
+# Debe devolver un diccionario donde:
+
+# Las claves son todos los nombres de los enemigos de la lista.
+# Los valores son el número de veces que apareció cada enemigo en la lista.
+# Ejecuta el código en su estado actual. Generará un KeyError .
+# Corrección del código: antes de actualizar el valor de una clave, compruebe si la clave ya existe en el diccionario. Si existe, incremente su valor. Si no existe, establezca esa clave en un valor nulo para 1crear su primera entrada en el diccionario.
+
+
+def count_enemies(enemy_names):
+    enemies_dict = {}
+    for enemy_name in enemy_names:
+        if enemy_name in enemies_dict:
+            enemies_dict[enemy_name] += 1
+        else:
+            enemies_dict[enemy_name] = 1
+    return enemies_dict
+
+print(count_enemies(["goblin", "goblin", "orc", "goblin", "troll", "orc"]))
+
+
+# Iterar sobre un diccionario en Python
+# Podemos iterar sobre las claves de un diccionario usando la misma sintaxis sin índice que usamos para iterar sobre los valores de una lista. Usa cada clave entre corchetes para obtener su valor.
+
+fruit_sizes = {"apple": "small", "banana": "large", "grape": "tiny"}
+
+for name in fruit_sizes:
+    size = fruit_sizes[name]
+    print(f"name: {name}, size: {size}")
+
+# name: apple, size: small
+# name: banana, size: large
+# name: grape, size: tiny
+
+def get_most_common_enemy(enemies_dict):
+    max_so_far = float("-inf")
+    most_common = None
+    for enemy_name in enemies_dict:
+        count = enemies_dict[enemy_name]
+        if count > max_so_far:
+            max_so_far = count
+            most_common = enemy_name
+    return most_common
+
+
+
+
+print(get_most_common_enemy({"jackal": 2, "gremlin": 7}))
+print(get_most_common_enemy({"jackal": 3}))
+print(get_most_common_enemy({}))
+print(get_most_common_enemy({"kobold": 5, "soldier": 5, "gremlin": 5, "dragon": 5}))
+print(get_most_common_enemy({"jackal": 5, "kobold": 3, "soldier": 10, "gremlin": 5, "dragon": 20}))
+print(get_most_common_enemy({"jackal": 5, "kobold": 3, "soldier": 2, "gremlin": 10, "dragon": 1}))
+            
