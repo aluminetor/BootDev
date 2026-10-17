@@ -384,3 +384,55 @@ def filter_messages(messages):
         
         
 print(filter_messages(["dang it", "dang dang", "dang it again", "no dang here"]))
+
+# Asignación
+# Completa la get_even_and_odd_teamsfunción .
+
+# Acepta una lista de jugadores (cadenas que representan sus nombres) y devuelve dos listas en este orden :
+
+# Una nueva lista de todos los jugadores con índices pares en la lista original.
+# Una nueva lista de todos los jugadores con índices impares en la lista original.
+# Utiliza la sintaxis de segmentación con un "paso" para crear dos listas nuevas a partir de la playerslista. ¡No dudes en consultar tu libro de hechizos para obtener ayuda sobre la segmentación de listas!
+
+def get_even_and_odd_teams(players):
+
+    return players[::2],players[1::2]
+
+
+
+print(get_even_and_odd_teams(["Alice", "Bob", "Charlie", "David", "Eve", "Frank"]))
+
+"""
+Ingredientes de alquimia
+Fantasy Quest ha añadido una nueva habilidad de Alquimia.
+
+Asignación
+Completa la check_ingredient_matchfunción . Acepta dos listas de cadenas:
+
+recipe: La lista de ingredientes necesarios .
+inventory: La lista de ingredientes que tiene el personaje .
+Debe devolver dos valores:
+
+Un valor flotante que representa el porcentaje de ingredientes necesarios que tiene el personaje.
+Una nueva lista de ingredientes que le faltan al personaje pero que son necesarios.
+Supongamos que la recipelista no contendrá duplicados (las recetas solo requieren un ingrediente de cada tipo).
+
+Por ejemplo, si estas fueran las listas:
+"""
+
+def check_ingredient_match(recipe, inventory):
+    correct = 0
+    missing_ingredients = []
+    for ingredient in recipe:
+        if ingredient in inventory:
+            correct += 1
+        else:
+            missing_ingredients.append(ingredient)
+    percentage = correct / len(recipe) * 100
+    return percentage, missing_ingredients
+
+
+
+print(check_ingredient_match(["flour", "sugar", "eggs", "milk"], ["flour", "eggs", "butter"]))
+print(check_ingredient_match(["flour", "sugar", "eggs", "milk"], ["flour", "sugar", "eggs", "milk"]))
+print(check_ingredient_match(["flour", "sugar", "eggs", "milk"], ["butter", "vanilla"]))
