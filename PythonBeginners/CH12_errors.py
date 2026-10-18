@@ -153,3 +153,57 @@ except IndexError:
     print("Index error")
 
 
+def process_player_record(player_id):
+    try:
+        result = get_player_record(player_id)
+        return result
+    except IndexError:
+        return "index is too high"
+    except Exception as e:
+        return e
+
+# Don't edit below this line
+
+
+def get_player_record(player_id):
+    if player_id < 0:
+        raise Exception("negative ids not allowed")
+    players = [
+        {"name": "Slayer", "level": 128},
+        {"name": "Dorgoth", "level": 300},
+        {"name": "Saruman", "level": 4000},
+    ]
+    return players[player_id]
+
+print(process_player_record(0))
+print(process_player_record(3))
+print(process_player_record(-1))
+
+# Revisión de la presentación de excepciones
+# Como habrás notado, existen muchos tipos de excepciones. Muchas excepciones específicas están integradas en el lenguaje, como IndexErrory ZeroDivisionError, y (casi) todas las excepciones se consideran del Exceptiontipo padre. Lo que diferencia a las excepciones son sus tipos, no sus descripciones de cadena. Esto es importante saberlo al manejar errores de módulos importados.
+"""
+try:
+    raise Exception("zero division")
+except ZeroDivisionError as e:
+    print("zero")
+
+try:
+    raise Exception("zero division")
+except ZeroDivisionError as e:
+    print("zero")
+except Exception as e:
+    print("other")
+
+try:
+    10 / 0
+except Exception as e:
+    print("other")
+
+"""
+
+def purchase_item(price, gold_available):
+    if gold_available < price:
+        raise Exception("not enough gold")
+    return gold_available - price
+
+print(purchase_item(100, 200))

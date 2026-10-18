@@ -122,3 +122,38 @@ pet = {"name": "Milo", "age": 2}
 
 pet["age"] = 3
 print(pet["age"])
+
+# Corregir reservas de asientos
+# La reserve_seatsfunción debe convertir requesteduna cadena de texto a un número entero y devolver el número de asientos restantes.
+
+# El sistema actual de gestión de excepciones devuelve resultados incorrectos en lugar de generar errores útiles.
+
+# Comportamiento esperado
+# Si requestedno es un número entero, genere una excepción ValueErrorcon el mensaje seat count must be a whole number.
+# Si el número convertido es cero o negativo, genere una excepción ValueErrorcon el mensaje seat count must be positive.
+# Si no hay suficientes asientos, levante un ValueErrorcon el mensaje not enough seats.
+# De lo contrario, devuelva el número de asientos restantes.
+# Por ejemplo:
+def reserve_seats(requested, available):
+    try:
+        seat_count = int(requested)
+    except ValueError:
+        return "seat count must be a whole number"
+
+    if seat_count <= 0:
+        return "seat count must be positive"
+
+    if seat_count > available:
+        return "not enough seats"
+
+    return available - seat_count
+
+
+print("=========================")
+print(reserve_seats("3", 10))  # 7
+print(reserve_seats("three", 10))  # raises ValueError: seat count must be a whole number
+print(reserve_seats("12", 10))  # raises ValueError: not enough
+print(reserve_seats("0", 10))  # raises ValueError: seat count must be positive
+print(reserve_seats("-5", 10))  # raises ValueError: seat count must be positive
+print(reserve_seats("8", 8))  # 0
+print(reserve_seats("15", 40))  # 25
