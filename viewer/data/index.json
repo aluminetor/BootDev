@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T11:21:48-05:00",
+  "generatedAt": "2026-10-18T16:33:02-05:00",
   "home": {
     "path": "README.md",
     "markdown": "<div align=\"center\">\r\n\r\n# ⚔️ Chronicles of a Backend Apprentice ⚔️\r\n\r\n<img src=\"https://www.boot.dev/img/boots_running.gif\" alt=\"Boots Running\" width=\"220\"/>\r\n\r\n> *\"Code is the most powerful magic governing the realms of the web.\"*\r\n\r\n[![Boot.dev Profile](https://img.shields.io/badge/Boot.dev-aluminetor-8B5CF6?style=for-the-badge&logo=shield&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Adventurer Rank](https://img.shields.io/badge/Rank-Backend%20Apprentice-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Status](https://img.shields.io/badge/Quest%20Status-Active%20Grind-10B981?style=for-the-badge)](#)\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 🧙‍♂️ Adventurer Profile\r\n\r\n- **Hero Handle:** [`@aluminetor`](https://www.boot.dev/u/aluminetor)\r\n- **Guild:** [Boot.dev](https://www.boot.dev)\r\n- **Path / Class:** Backend Sorcerer (*Python, Go, Linux & Architecture*)\r\n- **Tome of Quests:** [boot.dev/u/aluminetor](https://www.boot.dev/u/aluminetor)\r\n\r\n---\r\n\r\n## 📜 Quest Prologue\r\n\r\nWelcome, traveler, to this digital grimoire. Here lie the battle logs, incantations, and artifacts forged throughout my journey across the realms of **[Boot.dev](https://www.boot.dev)**.\r\n\r\nMy objective is to conquer the core disciplines of **Backend Development**—unraveling algorithms, building distributed servers, and mastering the low-level foundations of modern systems.\r\n\r\n---\r\n\r\n## 🗺️ Quest Board & Progression\r\n\r\n| Quest / Course | Difficulty Rank | Grimoire (Language / Focus) | Status |\r\n| :--- | :---: | :---: | :---: |\r\n| **Learn Python** | 🟢 Novice | Python | 🛡️ Cleared |\r\n| **Learn Shell Scripting** | 🟢 Novice | Bash / Terminal | ⚔️ In Battle |\r\n| **Learn Git** | 🟢 Novice | Git / GitHub | 🛡️ Cleared |\r\n| **Learn Object-Oriented Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Functional Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Data Structures & Algorithms** | 🔴 Advanced | Python | ⏳ Queued |\r\n| **Learn Go** | 🟡 Intermediate | Golang | ⏳ Queued |\r\n| **Build HTTP Servers** | 🔴 Advanced | Go / REST APIs | ⏳ Queued |\r\n| **Learn SQL & Databases** | 🟡 Intermediate | PostgreSQL | ⏳ Queued |\r\n| **Learn Docker & Containers** | 🔴 Advanced | Docker | ⏳ Queued |\r\n\r\n---\r\n\r\n## 🛡️ Unlocked Spells & Arsenal\r\n\r\n<div align=\"center\">\r\n\r\n<img src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black\" />\r\n<img src=\"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white\" />\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 📂 Grimoire Directory Structure\r\n\r\n```text\r\n.\r\n├── 📁 PythonBeginners/      # Python lessons, chapters & challenges\r\n│   ├── 📜 CH01_firstbug.py\r\n│   ├── 📜 CH02_variables.py\r\n│   ├── 📜 CH03_functions.py\r\n│   └── ⚔️ Desafios.py\r\n├── 📁 viewer/               # Local, read-only learning dashboard\r\n│   ├── 🌐 index.html        # Viewer entry point\r\n│   ├── ⚙️ app.js            # Navigation and content rendering\r\n│   ├── 🛠️ build_index.py    # Generates viewer/data/index.json\r\n│   ├── 🎨 styles.css        # Dashboard styles\r\n│   └── 📁 data/             # Generated course index\r\n├── 📜 AGENTS.md             # Repository working guidelines\r\n└── 📜 README.md             # Project overview and progress\r\n"
@@ -2507,9 +2507,9 @@
           "number": 9,
           "title": "Lists",
           "path": "PythonBeginners/CH09_lists.py",
-          "modifiedAt": "2026-10-15T18:01:29-05:00",
-          "lineCount": 386,
-          "exerciseCount": 8,
+          "modifiedAt": "2026-10-17T08:32:46-05:00",
+          "lineCount": 439,
+          "exerciseCount": 9,
           "warnings": [],
           "exercises": [
             {
@@ -2854,7 +2854,7 @@
               "title": "Operaciones de lista – Contiene",
               "hasOwnTitle": true,
               "startLine": 206,
-              "endLine": 386,
+              "endLine": 403,
               "concepts": [
                 "variable",
                 "multiple-assignment",
@@ -3121,6 +3121,760 @@
                   "endLine": 386,
                   "text": "def filter_messages(messages):\n    filtered_messages = []\n    dang_counts = []\n\n    for message in messages:\n        words = message.split()\n        good_words = []\n        dangs = 0\n\n        for word in words:\n            if word == \"dang\":\n                dangs += 1\n            else:\n                good_words.append(word)\n\n        sentence = \" \".join(good_words)\n        filtered_messages.append(sentence)\n        dang_counts.append(dangs)\n\n    return filtered_messages, dang_counts\n\n\nprint(filter_messages([\"dang it\", \"dang dang\", \"dang it again\", \"no dang here\"]))",
                   "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 388,
+                  "endLine": 395,
+                  "text": "Asignación\nCompleta la get_even_and_odd_teamsfunción .\n\nAcepta una lista de jugadores (cadenas que representan sus nombres) y devuelve dos listas en este orden :\n\nUna nueva lista de todos los jugadores con índices pares en la lista original.\nUna nueva lista de todos los jugadores con índices impares en la lista original.\nUtiliza la sintaxis de segmentación con un \"paso\" para crear dos listas nuevas a partir de la playerslista. ¡No dudes en consultar tu libro de hechizos para obtener ayuda sobre la segmentación de listas!"
+                },
+                {
+                  "type": "code",
+                  "startLine": 397,
+                  "endLine": 403,
+                  "text": "def get_even_and_odd_teams(players):\n\n    return players[::2],players[1::2]\n\n\n\nprint(get_even_and_odd_teams([\"Alice\", \"Bob\", \"Charlie\", \"David\", \"Eve\", \"Frank\"]))",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 9,
+              "title": "Ingredientes de alquimia",
+              "hasOwnTitle": true,
+              "startLine": 405,
+              "endLine": 438,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "print",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return",
+                "multiple-return",
+                "inplace-operator"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 405,
+                  "endLine": 421,
+                  "text": "Fantasy Quest ha añadido una nueva habilidad de Alquimia.\n\nAsignación\nCompleta la check_ingredient_matchfunción . Acepta dos listas de cadenas:\n\nrecipe: La lista de ingredientes necesarios .\ninventory: La lista de ingredientes que tiene el personaje .\nDebe devolver dos valores:\n\nUn valor flotante que representa el porcentaje de ingredientes necesarios que tiene el personaje.\nUna nueva lista de ingredientes que le faltan al personaje pero que son necesarios.\nSupongamos que la recipelista no contendrá duplicados (las recetas solo requieren un ingrediente de cada tipo).\n\nPor ejemplo, si estas fueran las listas:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 423,
+                  "endLine": 438,
+                  "text": "def check_ingredient_match(recipe, inventory):\n    correct = 0\n    missing_ingredients = []\n    for ingredient in recipe:\n        if ingredient in inventory:\n            correct += 1\n        else:\n            missing_ingredients.append(ingredient)\n    percentage = correct / len(recipe) * 100\n    return percentage, missing_ingredients\n\n\n\nprint(check_ingredient_match([\"flour\", \"sugar\", \"eggs\", \"milk\"], [\"flour\", \"eggs\", \"butter\"]))\nprint(check_ingredient_match([\"flour\", \"sugar\", \"eggs\", \"milk\"], [\"flour\", \"sugar\", \"eggs\", \"milk\"]))\nprint(check_ingredient_match([\"flour\", \"sugar\", \"eggs\", \"milk\"], [\"butter\", \"vanilla\"]))",
+                  "boilerplateLines": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "CH10_dictionaries",
+          "kind": "chapter",
+          "number": 10,
+          "title": "Dictionaries",
+          "path": "PythonBeginners/CH10_dictionaries.py",
+          "modifiedAt": "2026-10-17T14:53:42-05:00",
+          "lineCount": 229,
+          "exerciseCount": 3,
+          "warnings": [],
+          "exercises": [
+            {
+              "index": 1,
+              "title": "Ejercicio 1",
+              "hasOwnTitle": false,
+              "startLine": 1,
+              "endLine": 52,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "f-string",
+                "print",
+                "function-def",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 1,
+                  "endLine": 7,
+                  "text": "Diccionarios\nEn Python, los diccionarios se utilizan para almacenar valores de datos en pares keyclave- valuevalor. Son una excelente manera de almacenar grupos de información.\n\nuse curly braces\nadd key-value pairs"
+                },
+                {
+                  "type": "code",
+                  "startLine": 8,
+                  "endLine": 12,
+                  "text": "car = {\n    \"brand\": \"Toyota\",\n    \"model\": \"Camry\",\n    \"year\": 2019,\n}",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 16,
+                  "endLine": 39,
+                  "text": "Aquí la carvariable se asigna a un diccionario {}que contiene las claves brand, modely year. Los valores correspondientes de las claves son Toyota, Camryy 2019.\n\nAsignación\nCompleta la get_character_recordfunción. Recibe como entradas individuales los caracteres name, server, level, y rank, y devuelve un diccionario con las siguientes claves de cadena:\n\n\"name\"\n\"server\"\n\"level\"\n\"rank\"\n\"id\"\nCrea y devuelve un diccionario con las claves anteriores.\n\nAsigne cada una de las cuatro entradas a la clave correspondiente, es decir, \"name\": name.\n\nA continuación, ¡no queremos dos personajes con el mismo nombre bloodwarrior123en el mismo servidor!\n\nPara la quinta clave, idcree un valor único de la siguiente manera:\n\nUtilice una f-string para concatenar las entradas namey con una en el medio. Por ejemplo, dado:server#\n\nnombre = \"bloodwarrior123\"\nservidor = \"servidor1\"\nEntonces el idcampo se establecería en bloodwarrior123#server1."
+                },
+                {
+                  "type": "code",
+                  "startLine": 41,
+                  "endLine": 52,
+                  "text": "def get_character_record(name, server, level, rank):\n\n    return {\n        \"name\": name,\n        \"server\": server,\n        \"level\": level,\n        \"rank\": rank,\n        \"id\": f\"{name}#{server}\"\n    }\n\n\nprint(get_character_record(\"bloodwarrior123\", \"server1\", 50, \"Champion\"))",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "Claves duplicadas",
+              "hasOwnTitle": true,
+              "startLine": 54,
+              "endLine": 149,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "boolean",
+                "print",
+                "function-def",
+                "parameter",
+                "return",
+                "inplace-operator"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 55,
+                  "endLine": 60,
+                  "text": "Dado que los diccionarios dependen de claves únicas, no se pueden tener dos claves iguales en el mismo diccionario. Si intentas usar la misma clave dos veces, el primer valor simplemente se sobrescribirá.\n\nAcceso a los valores del diccionario\nLos elementos del diccionario deben ser accesibles de alguna manera en el código; de lo contrario, no serían muy útiles.\n\nSe recupera un valor de un diccionario especificando su clave correspondiente entre corchetes. Los corchetes se parecen a la indexación de una lista."
+                },
+                {
+                  "type": "code",
+                  "startLine": 62,
+                  "endLine": 64,
+                  "text": "car = {\"make\": \"Toyota\", \"model\": \"Camry\"}\nprint(car[\"make\"])\nprint(car[\"model\"])",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 65,
+                  "endLine": 68,
+                  "text": "Prints: Toyota\n\nConfiguración de valores del diccionario\nNo es necesario crear un diccionario con valores predefinidos. Es común crear un diccionario vacío y luego rellenarlo con valores dinámicos. La sintaxis es la misma que para obtener datos de una clave; simplemente usa el operador de asignación ( =) para asignarle un valor."
+                },
+                {
+                  "type": "code",
+                  "startLine": 70,
+                  "endLine": 73,
+                  "text": "planets = {}\nplanets[\"Earth\"] = True\nplanets[\"Pluto\"] = False\nprint(planets[\"Pluto\"])",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 74,
+                  "endLine": 74,
+                  "text": "Prints False"
+                },
+                {
+                  "type": "code",
+                  "startLine": 76,
+                  "endLine": 79,
+                  "text": "full_names = [\"jack bronson\", \"jill mcarty\", \"john denver\"]\n\nnames_dict = {}\nfor full_name in full_names:",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 80,
+                  "endLine": 81,
+                  "text": ".split() returns a list of strings\nwhere each string is a single word from the original"
+                },
+                {
+                  "type": "code",
+                  "startLine": 82,
+                  "endLine": 82,
+                  "text": "    name_parts = full_name.split()",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 84,
+                  "endLine": 84,
+                  "text": "here we update the dictionary"
+                },
+                {
+                  "type": "code",
+                  "startLine": 85,
+                  "endLine": 87,
+                  "text": "    names_dict[name_parts[0]] = name_parts[1]\n\nprint(names_dict)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 88,
+                  "endLine": 88,
+                  "text": "Prints: {'jack': 'bronson', 'jill': 'mcarty', 'john': 'denver'}"
+                },
+                {
+                  "type": "code",
+                  "startLine": 90,
+                  "endLine": 93,
+                  "text": "full_names = [\"jack bronson\", \"james mcarty\", \"jack denver\"]\n\nnames_dict = {}\nfor full_name in full_names:",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 94,
+                  "endLine": 95,
+                  "text": ".split() returns a list of strings\nwhere each string is a single word from the original"
+                },
+                {
+                  "type": "code",
+                  "startLine": 96,
+                  "endLine": 101,
+                  "text": "    names = full_name.split()\n    first_name = names[0]\n    last_name = names[1]\n    names_dict[first_name] = last_name\n\nprint(names_dict)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 102,
+                  "endLine": 105,
+                  "text": "{'jack': 'denver', 'james': 'mcarty'}\n\nEliminar valores del diccionario\nPuede eliminar las claves existentes utilizando la delpalabra clave."
+                },
+                {
+                  "type": "code",
+                  "startLine": 107,
+                  "endLine": 111,
+                  "text": "names_dict = {\"jack\": \"bronson\", \"jill\": \"mcarty\", \"joe\": \"denver\"}\n\ndel names_dict[\"joe\"]\n\nprint(names_dict)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 112,
+                  "endLine": 118,
+                  "text": "Prints: {'jack': 'bronson', 'jill': 'mcarty'}\n\nEliminar claves que no existen\nTen en cuenta que si intentas eliminar una clave que no existe, recibirás un error .\n\nComprobando la existencia\nSi no está seguro de si una clave existe en un diccionario, utilice la inpalabra clave."
+                },
+                {
+                  "type": "code",
+                  "startLine": 120,
+                  "endLine": 122,
+                  "text": "cars = {\"ford\": \"f150\", \"toyota\": \"camry\"}\n\nprint(\"ford\" in cars)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 123,
+                  "endLine": 123,
+                  "text": "Prints: True"
+                },
+                {
+                  "type": "code",
+                  "startLine": 125,
+                  "endLine": 125,
+                  "text": "print(\"gmc\" in cars)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 126,
+                  "endLine": 137,
+                  "text": "Prints: False\n\nAsignación\nNecesitamos informar cuántos enemigos hay en las inmediaciones de nuestros jugadores, ¡pero ellos quieren saber qué tipo de enemigos son! Corrige la count_enemiesfunción. Acepta como entrada:\n\nenemy_names: una lista de cadenas\nDebe devolver un diccionario donde:\n\nLas claves son todos los nombres de los enemigos de la lista.\nLos valores son el número de veces que apareció cada enemigo en la lista.\nEjecuta el código en su estado actual. Generará un KeyError .\nCorrección del código: antes de actualizar el valor de una clave, compruebe si la clave ya existe en el diccionario. Si existe, incremente su valor. Si no existe, establezca esa clave en un valor nulo para 1crear su primera entrada en el diccionario."
+                },
+                {
+                  "type": "code",
+                  "startLine": 140,
+                  "endLine": 149,
+                  "text": "def count_enemies(enemy_names):\n    enemies_dict = {}\n    for enemy_name in enemy_names:\n        if enemy_name in enemies_dict:\n            enemies_dict[enemy_name] += 1\n        else:\n            enemies_dict[enemy_name] = 1\n    return enemies_dict\n\nprint(count_enemies([\"goblin\", \"goblin\", \"orc\", \"goblin\", \"troll\", \"orc\"]))",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Iterar sobre un diccionario en Python",
+              "hasOwnTitle": true,
+              "startLine": 152,
+              "endLine": 229,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "none",
+                "f-string",
+                "print",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 153,
+                  "endLine": 153,
+                  "text": "Podemos iterar sobre las claves de un diccionario usando la misma sintaxis sin índice que usamos para iterar sobre los valores de una lista. Usa cada clave entre corchetes para obtener su valor."
+                },
+                {
+                  "type": "code",
+                  "startLine": 155,
+                  "endLine": 159,
+                  "text": "fruit_sizes = {\"apple\": \"small\", \"banana\": \"large\", \"grape\": \"tiny\"}\n\nfor name in fruit_sizes:\n    size = fruit_sizes[name]\n    print(f\"name: {name}, size: {size}\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 161,
+                  "endLine": 163,
+                  "text": "name: apple, size: small\nname: banana, size: large\nname: grape, size: tiny"
+                },
+                {
+                  "type": "code",
+                  "startLine": 165,
+                  "endLine": 189,
+                  "text": "def get_most_common_enemy(enemies_dict):\n    max_so_far = float(\"-inf\")\n    most_common = None\n    for enemy_name in enemies_dict:\n        count = enemies_dict[enemy_name]\n        if count > max_so_far:\n            max_so_far = count\n            most_common = enemy_name\n    return most_common\n\n\n\n\nprint(get_most_common_enemy({\"jackal\": 2, \"gremlin\": 7}))\nprint(get_most_common_enemy({\"jackal\": 3}))\nprint(get_most_common_enemy({}))\nprint(get_most_common_enemy({\"kobold\": 5, \"soldier\": 5, \"gremlin\": 5, \"dragon\": 5}))\nprint(get_most_common_enemy({\"jackal\": 5, \"kobold\": 3, \"soldier\": 10, \"gremlin\": 5, \"dragon\": 20}))\nprint(get_most_common_enemy({\"jackal\": 5, \"kobold\": 3, \"soldier\": 2, \"gremlin\": 10, \"dragon\": 1}))\n\ndef get_quest_status(progress):\n    return progress[\"quest\"][\"bridge_run\"][\"status\"]\n\nprint(get_quest_status({\"quest\": {\"bridge_run\": {\"status\": \"in_progress\"}}}))\nprint(get_quest_status({\"quest\": {\"bridge_run\": {\"status\": \"complete\"}}}))",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 191,
+                  "endLine": 200,
+                  "text": "Asignación\nCompleta la mergefunción . Acepta dos diccionarios como entrada y devuelve un nuevo diccionario combinado que contiene todas las claves y valores de los diccionarios de entrada.\n\nExisten varias soluciones que utilizan funciones integradas de Python, pero para practicar solo usaremos bucles:\n\nCrea un diccionario vacío para almacenar el nuevo resultado combinado.\nItera sobre los pares clave/valor de dict1 y agrégalos al diccionario combinado.\nItera sobre los pares clave/valor de dict2 y agrégalos al diccionario combinado.\nDevuelve el diccionario recién fusionado.\nSi una clave existe en ambos diccionarios, el valor del segundo diccionario debe sobrescribir el valor del primero. Aquí tienes un ejemplo de uso:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 202,
+                  "endLine": 202,
+                  "text": "def merge(dict1, dict2):",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 203,
+                  "endLine": 203,
+                  "text": "implement this"
+                },
+                {
+                  "type": "code",
+                  "startLine": 204,
+                  "endLine": 204,
+                  "text": "    new_merge = {}",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 207,
+                  "endLine": 207,
+                  "text": "After merge is implemented:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 208,
+                  "endLine": 211,
+                  "text": "two_towers = {\"Frodo\": 56, \"Aragorn\": 10}\nrotk = {\"Aragorn\": 100, \"Gandalf\": 809}\nmerged_dict = merge(two_towers, rotk)\nprint(merged_dict)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 212,
+                  "endLine": 214,
+                  "text": "Output: {'Frodo': 56, 'Aragorn': 100, 'Gandalf': 809}\n\nObserva cómo se actualizó el valor de la clave Aragorn."
+                },
+                {
+                  "type": "code",
+                  "startLine": 215,
+                  "endLine": 229,
+                  "text": "def merge(dict1, dict2):\n    merged_dict = {}\n    for key in dict1:\n        merged_dict[key] = dict1[key]\n    for key in dict2:\n        merged_dict[key] = dict2[key]\n    return merged_dict\n\n\n\n\nprint(merge({\"Frodo\": 56, \"Aragorn\": 10}, {\"Aragorn\": 100, \"Gandalf\": 809}))\nprint(merge({\"Frodo\": 56, \"Aragorn\": 10}, {\"Gandalf\": 809}))\nprint(merge({\"Gandalf\": 56}, {\"Aragorn\": 100, \"Gandalf\": 809}))\nprint(merge({\"Frodo\": 56, \"Aragorn\": 10}, {}))",
+                  "boilerplateLines": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "CH11_sets",
+          "kind": "chapter",
+          "number": 11,
+          "title": "Sets",
+          "path": "PythonBeginners/CH11_sets.py",
+          "modifiedAt": "2026-10-17T15:32:24-05:00",
+          "lineCount": 136,
+          "exerciseCount": 4,
+          "warnings": [],
+          "exercises": [
+            {
+              "index": 1,
+              "title": "Ejercicio 1",
+              "hasOwnTitle": false,
+              "startLine": 1,
+              "endLine": 5,
+              "concepts": [
+                "variable",
+                "string",
+                "type-function",
+                "print"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 1,
+                  "endLine": 2,
+                  "text": "Conjuntos\nLos conjuntos son como las listas, pero no tienen un orden específico y garantizan la unicidad . Solo puede haber UNO de cada valor en un conjunto."
+                },
+                {
+                  "type": "code",
+                  "startLine": 3,
+                  "endLine": 5,
+                  "text": "fruits = {\"apple\", \"banana\", \"grape\"}\nprint(type(fruits))  # Prints: <class 'set'>\nprint(fruits)  # Prints: {'banana', 'grape', 'apple'}",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "Agregar valores",
+              "hasOwnTitle": true,
+              "startLine": 8,
+              "endLine": 82,
+              "concepts": [
+                "variable",
+                "string",
+                "print",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 9,
+                  "endLine": 9,
+                  "text": "Puedes .add()agregar valores a un conjunto. ¡Piensa en .add()algo similar append, pero para conjuntos!"
+                },
+                {
+                  "type": "code",
+                  "startLine": 10,
+                  "endLine": 12,
+                  "text": "fruits = {\"apple\", \"banana\", \"grape\"}\nfruits.add(\"pear\")\nprint(fruits)  # Prints: {'pear', 'banana', 'grape', 'apple'}",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 14,
+                  "endLine": 17,
+                  "text": "No se producirá ningún error si añade un elemento que ya está en el conjunto, y el conjunto permanecerá sin cambios.\n\nUn conjunto vacío\nDebido a que la sintaxis de corchetes vacíos {}crea un diccionario vacío, para crear un conjunto vacío , debe utilizar la set()función."
+                },
+                {
+                  "type": "code",
+                  "startLine": 18,
+                  "endLine": 20,
+                  "text": "fruits = set()\nfruits.add(\"pear\")\nprint(fruits)  # Prints: {'pear'}",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 23,
+                  "endLine": 23,
+                  "text": "Iteración de conjuntos"
+                },
+                {
+                  "type": "code",
+                  "startLine": 24,
+                  "endLine": 26,
+                  "text": "fruits = {\"apple\", \"banana\", \"grape\"}\nfor fruit in fruits:\n    print(fruit)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 27,
+                  "endLine": 35,
+                  "text": "Prints:\nbanana\ngrape\napple\n\nNota: Los conjuntos no están ordenados, por lo que no se garantiza el orden de iteración .\n\nConversión de colecciones\nLa set()función puede convertir una lista en un conjunto y list()viceversa:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 36,
+                  "endLine": 38,
+                  "text": "fruits = [\"apple\", \"banana\", \"apple\"]\nunique_fruits = set(fruits)\nfruits = list(unique_fruits)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 41,
+                  "endLine": 69,
+                  "text": "Asignación\nCompleta la remove_duplicatesfunción. Debe tomar una lista de hechizos que un jugador ha aprendido y devolver una nueva lista Listdonde haya como máximo una copia de cada título. Puedes lograr esto de al menos dos maneras:\nIteración:\n1. Crea un conjunto para rastrear los hechizos que se han visto\n2. Crea una lista para almacenar los hechizos únicos.\n3. Iterar sobre la lista\n  1. Si el hechizo no está en el conjunto, agréguelo al conjunto y a la lista.\n4. Devuelve la lista\nConversión de conjuntos:\n1. Convierte la lista en un conjunto\n\ndef remove_duplicates(spells):\n    seen = set()\n    deduped_spells = []\n    for spell in spells:\n        if spell not in seen:\n            seen.add(spell)\n            deduped_spells.append(spell)\n    return deduped_spells\n\ndef alt_remove_duplicates(spells):\n    return list(set(spells))\n\n# 2. Convierte el conjunto de nuevo en una lista y devuélvela.\n# ¡No tiene sentido aprender un hechizo dos veces! Una vez aprendido, se aprende para siempre."
+                },
+                {
+                  "type": "code",
+                  "startLine": 71,
+                  "endLine": 82,
+                  "text": "def remove_duplicates(spells):\n    trans = set(spells)\n    return sorted(list(trans))\n\n\nprint(remove_duplicates([\"fireball\", \"eldritch blast\", \"fireball\", \"eldritch blast\", \"chill touch\", \"eldritch blast\", \"chill touch\", \"chill touch\", \"fireball\", \"fireball\", \"shocking grasp\", \"fireball\", \"fireball\"]))\nprint(remove_duplicates([\"fireball\", \"fireball\", \"fireball\"]))\nprint(remove_duplicates([\"fireball\", \"eldritch blast\", \"chill touch\", \"shocking grasp\"]))\nprint(remove_duplicates([\"chill touch\", \"chill touch\", \"chill touch\"]))\nprint(remove_duplicates([\"shocking grasp\", \"shocking grasp\", \"shocking grasp\"]))\nprint(remove_duplicates([]))\nprint(remove_duplicates([\"eldritch blast\", \"eldritch blast\", \"eldritch blast\"]))",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Eliminación de valores",
+              "hasOwnTitle": true,
+              "startLine": 84,
+              "endLine": 113,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "print",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "multiple-return",
+                "inplace-operator"
+              ],
+              "segments": [
+                {
+                  "type": "code",
+                  "startLine": 86,
+                  "endLine": 88,
+                  "text": "fruits = {\"apple\", \"banana\", \"grape\"}\nfruits.remove(\"apple\")\nprint(fruits)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 89,
+                  "endLine": 100,
+                  "text": "Prints: {'banana', 'grape'}\n\nvocales\nEl equipo anti-spam de Fantasy Quest está realizando análisis de texto en los chats de los jugadores dentro del juego.\n\nAsignación\nCompleta la count_vowelsfunción . Recibe una cadena de texto y devuelve:\n\nEl número total de vocales en la cadena (cuenta todas las ocurrencias, no solo las únicas).\nUn conjunto de las vocales únicas que se encuentran en la cadena\nSolo nos interesan las 5 vocales: a, e, i, o, u, y sus versiones en mayúscula . Trata las vocales en mayúscula y minúscula como independientes. Por ejemplo, \"A\" y \"a\" no son lo mismo."
+                },
+                {
+                  "type": "code",
+                  "startLine": 102,
+                  "endLine": 113,
+                  "text": "def count_vowels(text):\n    vowels = {\"A\",\"a\",\"E\",\"e\",\"I\",\"i\",\"O\",\"o\",\"U\",\"u\"}\n    count = 0\n    unique = set()\n    for char in text:\n        if char in vowels:\n            count += 1\n            unique.add(char)\n    return count, unique\n\n\nprint(count_vowels(\"The quick brown fox jumps over the lazy dog.\"))",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "title": "Resta de conjuntos",
+              "hasOwnTitle": true,
+              "startLine": 115,
+              "endLine": 133,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "print",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 116,
+                  "endLine": 116,
+                  "text": "Puedes usar algunas de las operaciones matemáticas \"normales\" con conjuntos. Por ejemplo, puedes restar un conjunto de otro. Esto elimina todos los valores del segundo conjunto del primero."
+                },
+                {
+                  "type": "code",
+                  "startLine": 118,
+                  "endLine": 122,
+                  "text": "set1 = {\"apple\", \"banana\", \"grape\"}\nset2 = {\"apple\", \"banana\"}\nset3 = set1 - set2\n\nprint(set3)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 123,
+                  "endLine": 128,
+                  "text": "Prints: {'grape'}\n\nAsignación\nCompleta la find_missing_idsfunción . Acepta dos listas como entrada y devuelve un nuevo conjunto con todos los ID que están en la primera lista pero no en la segunda.\n\nNaturalmente, el resultado no debería tener identificadores duplicados."
+                },
+                {
+                  "type": "code",
+                  "startLine": 130,
+                  "endLine": 133,
+                  "text": "def find_missing_ids(first_ids, second_ids):\n    return set(first_ids) - set(second_ids)\n\nprint(find_missing_ids([1, 2, 3, 4, 5], [2, 4]))",
+                  "boilerplateLines": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "CH12_errors",
+          "kind": "chapter",
+          "number": 12,
+          "title": "Errors",
+          "path": "PythonBeginners/CH12_errors.py",
+          "modifiedAt": "2026-10-18T16:27:21-05:00",
+          "lineCount": 126,
+          "exerciseCount": 3,
+          "warnings": [],
+          "exercises": [
+            {
+              "index": 1,
+              "title": "Errores y excepciones en Python",
+              "hasOwnTitle": true,
+              "startLine": 1,
+              "endLine": 63,
+              "concepts": [
+                "string",
+                "integer",
+                "print",
+                "arithmetic",
+                "syntax-error",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "entrypoint"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 2,
+                  "endLine": 21,
+                  "text": "Si has llegado hasta aquí en el curso, probablemente te hayas encontrado con algunos errores en tu código de vez en cuando.\nEn Python, existen dos tipos principales de errores que se pueden distinguir:\n- Errores de sintaxis\n- Excepciones\n\nErrores de sintaxis\nProbablemente ya sepas qué son. Un error de sintaxis simplemente significa que el intérprete de Python te está indicando que tu código no se ajusta a la sintaxis correcta de Python.\nThis is not valid code, so it will error\n\nSi intento ejecutar esa frase como si fuera código válido, obtendré un error de sintaxis:\nthis is not valid code, so it will error\n      ^\nSyntaxError: invalid syntax\n\nExcepciones\nAunque tu código tenga la sintaxis correcta, aún podría generar un error al intentar ejecutarlo.\nLos errores detectados durante la ejecución se denominan \"excepciones\" y tu código puede gestionarlos adecuadamente.\nIncluso puedes generar tus propias excepciones cuando ocurran problemas en tu código.\nPython utiliza un patrón try-except para el manejo de errores:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 22,
+                  "endLine": 25,
+                  "text": "try:\n    10 / 0\nexcept Exception:\n    print(\"can't divide by zero\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 27,
+                  "endLine": 28,
+                  "text": "La división por cero genera una excepción, por lo que el bloque except se ejecuta.\nLa misma excepción puede ocurrir dentro de una función:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 29,
+                  "endLine": 30,
+                  "text": "def divide(a, b):\n    return a / b",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 32,
+                  "endLine": 35,
+                  "text": "El bloque try se ejecuta hasta que se produce una excepción o finaliza.\nSi se produce una excepción, la ejecución salta al bloque except, omitiendo el código restante en try.\nUtilice 'as' para acceder a los datos de la excepción:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 36,
+                  "endLine": 42,
+                  "text": "try:\n    divide(10, 0)\n    print(\"division complete\")\nexcept Exception as e:\n    print(e)\n\nprint(\"done\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 43,
+                  "endLine": 53,
+                  "text": "¿Qué imprime?\ndivision by zero\ndone\n\nUn bloque try/except permite que el programa gestione las excepciones de forma adecuada sin que se bloquee.\nColocar código dentro de un bloque try/except se suele denominar \"envolver\" el código en él.\n\nAsignación:\nUna de las llamadas get_player_record generará una excepción: player id not found\n1. Coloca las cinco llamadas a funciones existentes en un solo bloque try.\n2. Agregue un bloque except que imprima la excepción."
+                },
+                {
+                  "type": "code",
+                  "startLine": 55,
+                  "endLine": 63,
+                  "text": "def main():\n    try:\n        print(get_player_record(1))\n        print(get_player_record(2))\n        print(get_player_record(3))\n        print(get_player_record(4))\n        print(get_player_record(5))\n    except Exception as r:\n        print(r)",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "Don't edit below this",
+              "hasOwnTitle": true,
+              "startLine": 66,
+              "endLine": 81,
+              "concepts": [
+                "string",
+                "integer",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "multiple-return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "code",
+                  "startLine": 69,
+                  "endLine": 81,
+                  "text": "def get_player_record(player_id):\n    if player_id == 1:\n        return {\"name\": \"Slayer\", \"level\": 128}\n    if player_id == 2:\n        return {\"name\": \"Dorgoth\", \"level\": 300}\n    if player_id == 3:\n        return {\"name\": \"Saruman\", \"level\": 4000}\n    if player_id == 5:\n        return {\"name\": \"Gandalf\", \"level\": 5000}\n    raise Exception(\"player id not found\")\n\n\nmain()",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Cómo plantear tus propias excepciones",
+              "hasOwnTitle": true,
+              "startLine": 84,
+              "endLine": 125,
+              "concepts": [
+                "string",
+                "f-string",
+                "print",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 85,
+                  "endLine": 89,
+                  "text": "Por ejemplo, si un jugador intenta forjar una espada a partir de una barra de metal,\npodríamos impedirlo usando una función raisepara prevenir un error . Si el juego no tiene ciertos objetos, como una espada de oro,\nentonces los jugadores no deberían poder fabricar una espada a partir de barras de oro, aunque estas existan."
+                },
+                {
+                  "type": "code",
+                  "startLine": 90,
+                  "endLine": 97,
+                  "text": "def craft_sword(metal_bar: str):\n    if metal_bar == \"bronze\":\n        return \"bronze sword\"\n    if metal_bar == \"iron\":\n        return \"iron sword\"\n    if metal_bar == \"steel\":\n        return \"steel sword\"\n    raise Exception(\"invalid metal bar\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 101,
+                  "endLine": 104,
+                  "text": "No te dejes engañar por tus propias excepciones.\nComo regla general, no conviene capturar las excepciones que se generan dentro del mismo bloque de función, por ejemplo:\n\ndon't do this"
+                },
+                {
+                  "type": "code",
+                  "startLine": 105,
+                  "endLine": 115,
+                  "text": "def craft_sword(metal_bar):\n    try:\n        if metal_bar == \"bronze\":\n            return \"bronze sword\"\n        if metal_bar == \"iron\":\n            return \"iron sword\"\n        if metal_bar == \"steel\":\n            return \"steel sword\"\n        raise Exception(\"invalid metal bar\")\n    except Exception as e:\n        print(f\"An error occurred: {e}\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 117,
+                  "endLine": 119,
+                  "text": "En cambio, quien realiza la llamada debería gestionar cualquier posible error envolviendo la llamada a la función dentro de un bloque try/except.\n\ndo this"
+                },
+                {
+                  "type": "code",
+                  "startLine": 120,
+                  "endLine": 123,
+                  "text": "try:\n    craft_sword(\"gold bar\")\nexcept Exception as e:\n    print(e)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 125,
+                  "endLine": 125,
+                  "text": "Al generar la excepción en lugar de gestionarla internamente craft_sword, permitimos que quien llama decida cómo proceder. Puede que desee registrar el error, mostrar un mensaje al jugador o incluso provocar el cierre inesperado del programa."
                 }
               ]
             }
@@ -3134,9 +3888,9 @@
           "number": null,
           "title": "Desafios",
           "path": "PythonBeginners/Desafios.py",
-          "modifiedAt": "2026-10-15T10:34:43-05:00",
-          "lineCount": 110,
-          "exerciseCount": 4,
+          "modifiedAt": "2026-10-17T08:42:38-05:00",
+          "lineCount": 124,
+          "exerciseCount": 5,
           "warnings": [],
           "exercises": [
             {
@@ -3250,6 +4004,47 @@
                   "startLine": 83,
                   "endLine": 109,
                   "text": "Completa la safe_getfunción .\n\nDebe aceptar una lista y un índice. Devuelve el elemento en ese índice solo cuando el índice esté entre 0y la última posición válida en la lista.\n\nRegresar Nonecuando:\n\nEl índice es negativo\nEl índice es igual o mayor que la longitud de la lista.\nLa lista está vacía\nEjemplos:\n\nsafe_get([\"sword\", \"shield\", \"potion\"], 1)\n# \"shield\"\n\nsafe_get([\"sword\", \"shield\", \"potion\"], 5)\n# None\n\nUtilice la longitud de la lista y las comparaciones para comprobar el índice antes de indexar la lista.\n\ndef safe_get(items, index):\n    if index < 0 or index >= len(items):\n        return None\n    return items[index]"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "title": "Valores del diccionario",
+              "hasOwnTitle": true,
+              "startLine": 111,
+              "endLine": 124,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "print"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 111,
+                  "endLine": 114,
+                  "text": "Un diccionario de Python almacena valores bajo claves."
+                },
+                {
+                  "type": "code",
+                  "startLine": 115,
+                  "endLine": 117,
+                  "text": "pet = {\"name\": \"Milo\", \"age\": 2}\n\npet[\"age\"] = 3",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 118,
+                  "endLine": 120,
+                  "text": "Piensa en cómo se utiliza la misma clave para leer y cambiar su valor."
+                },
+                {
+                  "type": "code",
+                  "startLine": 121,
+                  "endLine": 124,
+                  "text": "pet = {\"name\": \"Milo\", \"age\": 2}\n\npet[\"age\"] = 3\nprint(pet[\"age\"])",
+                  "boilerplateLines": []
                 }
               ]
             }
