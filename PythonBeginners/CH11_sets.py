@@ -126,3 +126,11 @@ print(set3)
 # Completa la find_missing_idsfunción . Acepta dos listas como entrada y devuelve un nuevo conjunto con todos los ID que están en la primera lista pero no en la segunda.
 
 # Naturalmente, el resultado no debería tener identificadores duplicados.
+
+def find_missing_ids(first_ids, second_ids):
+    return set(first_ids) - set(second_ids)
+
+print(find_missing_ids([1, 2, 3, 4, 5], [2, 4]))
+
+
+
