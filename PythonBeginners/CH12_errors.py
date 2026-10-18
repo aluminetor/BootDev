@@ -127,4 +127,29 @@ except Exception as e:
 # Tipo de exepciones
 # Por ahora, lo importante es entender que existen diferentes tipos de excepciones y que podemos manejarlas de manera diferente según la situación. Algunas excepciones son más específicas, como ZeroDivisionError(que ocurre cuando se divide por cero) o IndexError(que ocurre cuando se intenta acceder a un elemento de la lista en un índice no válido, ya sea demasiado alto o demasiado bajo). Otras son más generales, como la base Exception.
 
+try:
+    10 / 0
+except ZeroDivisionError:
+    print("0 division")
+except Exception as e:
+    print(e)
+
+try:
+    nums = [0, 1]
+    print(nums[2])
+except IndexError:
+    print("index error")
+except Exception as e:
+    print(e)
+
+# Por qué ciertas excepciones vienen primero
+# En este caso, la excepción general capturará el error antes de que se IndexError pueda alcanzar, y el mensaje "Error de índice" nunca se imprimirá. ¡Siempre maneje primero la excepción más específica!
+try:
+    nums = [0, 1]
+    print(nums[2])
+except Exception:
+    print("An error occurred")
+except IndexError:
+    print("Index error")
+
 
