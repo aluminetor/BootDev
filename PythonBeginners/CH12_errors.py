@@ -6,7 +6,7 @@
 
 # Errores de sintaxis
 # Probablemente ya sepas qué son. Un error de sintaxis simplemente significa que el intérprete de Python te está indicando que tu código no se ajusta a la sintaxis correcta de Python.
-# this is not valid code, so it will error
+# This is not valid code, so it will error
 
 # Si intento ejecutar esa frase como si fuera código válido, obtendré un error de sintaxis:
 # this is not valid code, so it will error
@@ -26,8 +26,8 @@ except Exception:
 
 # La división por cero genera una excepción, por lo que el bloque except se ejecuta.
 # La misma excepción puede ocurrir dentro de una función:
-# def divide(a, b):
-#     return a / b
+def divide(a, b):
+    return a / b
 
 # El bloque try se ejecuta hasta que se produce una excepción o finaliza.
 # Si se produce una excepción, la ejecución salta al bloque except, omitiendo el código restante en try.
@@ -59,11 +59,11 @@ def main():
         print(get_player_record(3))
         print(get_player_record(4))
         print(get_player_record(5))
-    except Exception as e:
-        print(e)
+    except Exception as r:
+        print(r)
 
 
-# Don't edit below this line
+# Don't edit below this 
 
 
 def get_player_record(player_id):
@@ -79,3 +79,48 @@ def get_player_record(player_id):
 
 
 main()
+
+
+# Cómo plantear tus propias excepciones
+"""
+Por ejemplo, si un jugador intenta forjar una espada a partir de una barra de metal, 
+podríamos impedirlo usando una función raisepara prevenir un error . Si el juego no tiene ciertos objetos, como una espada de oro, 
+entonces los jugadores no deberían poder fabricar una espada a partir de barras de oro, aunque estas existan.
+"""
+def craft_sword(metal_bar: str):
+    if metal_bar == "bronze":
+        return "bronze sword"
+    if metal_bar == "iron":
+        return "iron sword"
+    if metal_bar == "steel":
+        return "steel sword"
+    raise Exception("invalid metal bar")
+
+
+
+# No te dejes engañar por tus propias excepciones.
+# Como regla general, no conviene capturar las excepciones que se generan dentro del mismo bloque de función, por ejemplo:
+
+# don't do this
+def craft_sword(metal_bar):
+    try:
+        if metal_bar == "bronze":
+            return "bronze sword"
+        if metal_bar == "iron":
+            return "iron sword"
+        if metal_bar == "steel":
+            return "steel sword"
+        raise Exception("invalid metal bar")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+# En cambio, quien realiza la llamada debería gestionar cualquier posible error envolviendo la llamada a la función dentro de un bloque try/except.
+
+# do this
+try:
+    craft_sword("gold bar")
+except Exception as e:
+    print(e)
+
+# Al generar la excepción en lugar de gestionarla internamente craft_sword, permitimos que quien llama decida cómo proceder. Puede que desee registrar el error, mostrar un mensaje al jugador o incluso provocar el cierre inesperado del programa.
+
