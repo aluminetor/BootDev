@@ -124,5 +124,7 @@ except Exception as e:
 
 # Al generar la excepción en lugar de gestionarla internamente craft_sword, permitimos que quien llama decida cómo proceder. Puede que desee registrar el error, mostrar un mensaje al jugador o incluso provocar el cierre inesperado del programa.
 
+# Tipo de exepciones
 # Por ahora, lo importante es entender que existen diferentes tipos de excepciones y que podemos manejarlas de manera diferente según la situación. Algunas excepciones son más específicas, como ZeroDivisionError(que ocurre cuando se divide por cero) o IndexError(que ocurre cuando se intenta acceder a un elemento de la lista en un índice no válido, ya sea demasiado alto o demasiado bajo). Otras son más generales, como la base Exception.
+
 
