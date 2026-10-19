@@ -13,6 +13,7 @@ apuntes de Boot.dev y no modifica los archivos originales de estudio.
 - Skill local `.agents/skills/sync-viewer/` creada para automatizar la sincronización.
 - `viewer/build_index.py` genera el índice a partir de `README.md` y las carpetas de estudio.
 - README actualizado con el certificado de Introduction to Python enlazado a Boot.dev.
+- README actualizado para reflejar la estructura actual de `PythonBeginners/`, `viewer/` y los archivos de configuración.
 
 ## Decisiones importantes
 

@@ -72,16 +72,35 @@ My objective is to conquer the core disciplines of **Backend Development**—unr
 
 ```text
 .
-├── 📁 PythonBeginners/      # Python lessons, chapters & challenges
-│   ├── 📜 CH01_firstbug.py
-│   ├── 📜 CH02_variables.py
-│   ├── 📜 CH03_functions.py
-│   └── ⚔️ Desafios.py
-├── 📁 viewer/               # Local, read-only learning dashboard
-│   ├── 🌐 index.html        # Viewer entry point
-│   ├── ⚙️ app.js            # Navigation and content rendering
-│   ├── 🛠️ build_index.py    # Generates viewer/data/index.json
-│   ├── 🎨 styles.css        # Dashboard styles
-│   └── 📁 data/             # Generated course index
-├── 📜 AGENTS.md             # Repository working guidelines
-└── 📜 README.md             # Project overview and progress
+├── 📁 PythonBeginners/           # Study material: Python chapters, notes & challenges
+│   ├── 📜 CH01_firstbug.py       # First bugs and program structure
+│   ├── 📜 CH02_variables.py      # Variables and data types
+│   ├── 📜 CH03_functions.py      # Functions
+│   ├── 📜 CH04_scope.py          # Scope
+│   ├── 📜 CH05_testing_debugging.py
+│   ├── 📜 CH06_computing.py      # Computing fundamentals
+│   ├── 📜 CH07_comparisons.py    # Comparisons and conditionals
+│   ├── 📜 CH08_loops.py          # Loops
+│   ├── 📜 CH09_lists.py          # Lists
+│   ├── 📜 CH10_dictionaries.py   # Dictionaries
+│   ├── 📜 CH11_sets.py            # Sets
+│   ├── 📜 CH12_errors.py          # Errors and exceptions
+│   ├── 📜 CH13_type_hints.py      # Type hints
+│   ├── 📜 CH14_practice.py       # Practice exercises
+│   ├── ⚔️ Desafios.py             # Additional challenges
+│   ├── 📖 WhyPython.md            # Why learn Python?
+│   └── 📖 ZenPython.md            # The Zen of Python
+├── 📁 viewer/                    # Local, read-only learning dashboard
+│   ├── 🌐 index.html             # Viewer entry point
+│   ├── ⚙️ app.js                 # Navigation and content rendering
+│   ├── 🎨 styles.css             # Dashboard layout and visual theme
+│   ├── 🛠️ build_index.py         # Builds the generated course index
+│   ├── 📖 spec.md                # Viewer behavior and data specification
+│   ├── 📚 glossary.json          # Glossary entries used by the viewer
+│   └── 📁 data/
+│       └── 📦 index.json         # Generated catalog of courses and chapters
+├── 📁 .agents/                   # Repository-local skills and workflows
+├── 📜 AGENTS.md                 # Working guidelines for the repository
+├── 📜 MEMORY.md                 # Project state and decisions
+├── 📜 skills-lock.json          # Locked skill configuration
+└── 📜 README.md                 # Project overview and learning progress
