@@ -204,3 +204,92 @@ print(join_strings(["Annie", "Reiner", "Bertholdt"]))
 #=====================================================#
 
 
+# Pruebas unitarias
+# Si terminas trabajando como programador, pasarás mucho tiempo escribiendo tus propias pruebas unitarias . Hasta ahora te hemos proporcionado pruebas unitarias , pero es útil saber cómo funcionan.
+
+# Cuando realizas tus propias pruebas, normalmente utilizas una biblioteca para escribir y ejecutar pruebas. Por ejemplo, en Python, pytest y unittest son bastante populares.
+
+# Pero también está bien escribir pruebas desde cero en ocasiones. En Boot.dev lo hacemos para que las pruebas se integren correctamente con nuestro entorno en línea. Ese es el propósito del main_test.pyarchivo: un conjunto de pruebas personalizado que hemos escrito para cada una de tus lecciones.
+
+# Asignación
+# Vamos a cambiar el enfoque: en main.pyencontrarás una función de solo lectura , casiavg_luck_boost correcta, llamada . Se utiliza en Fantasy Quest para calcular el aumento promedio de "suerte" otorgado a un grupo de jugadores cuando derrotan a un jefe, para determinar el botín que reciben.
+
+# La función se puede utilizar de la siguiente manera:
+
+luck_boosts: list[int] = [5, 3, 10]
+avg_boost: float = avg_luck_boost(luck_boosts)
+print(avg_boost)  # 6.0
+
+# Ejecuta las pruebas. ¡ Observa que todas pasan! Pero hay un problema... algunos comportamientos extraños no están cubiertos por los casos de prueba existentes.
+
+# ¿Qué sucede si ningún miembro del grupo tiene bonificación de suerte? La función intentará dividir por cero, es decir, por la longitud de la lista de entrada, y el programa fallará.
+
+# luck_boosts: list[int] = []
+# avg_boost: float = avg_luck_boost(luck_boosts)  # ZeroDivisionError
+
+# Lo que queremos que haga esta función si la lista de entrada está vacía es devolver 0.0. Añade ese resultado esperado a test_cases.py; corregiremos la función en la próxima lección.
+
+# Agregue un nuevo diccionario a la run_caseslista, con luck_boostsestablecido a una lista vacía y expected_avgestablecido a 0.0.
+"""
+def avg_luck_boost(luck_boosts: list[int]) -> float:
+    total = 0
+    for boost in luck_boosts:
+        total += boost
+    return total / len(luck_boosts)
+
+
+
+run_cases: list[dict[str, list[int] | float]] = [
+    {
+        "luck_boosts": [5, 3, 10],
+        "expected_avg": 6.0,
+    },
+    {
+        "luck_boosts": [7],
+        "expected_avg": 7.0,
+    },
+    {
+        "luck_boosts": [4, 4, 4],
+        "expected_avg": 4.0,
+    },
+    {
+        "luck_boosts": [2, 3],
+        "expected_avg": 2.5,
+    },
+    {
+        "luck_boosts": [],
+        "expected_avg": 0.0,
+    },
+]
+
+"""
+
+# Solucionar una prueba fallida
+# ¡Tenemos un caso de prueba fallido para nuestra avg_luck_boostfunción! Cuando se le pasa una lista vacía a la función, debería devolver 0.0. En cambio, intenta dividir por cero y falla.
+
+# Vamos a actualizar avg_luck_boostpara que todas las pruebas vuelvan a pasar.
+
+# A algunos programadores les gusta trabajar de esta manera; se llama " desarrollo guiado por pruebas " (TDD):
+
+# Crea una función básica.
+# Escribe pruebas que esperen el comportamiento correcto de esa función.
+# Ejecuta las pruebas (deberían fallar).
+# Implementa la función y ve actualizándola hasta que pase las pruebas.
+# El desarrollo guiado por pruebas (TDD) a veces es un tema controvertido, y no profundizaremos en ello aquí. Sin embargo, en cursos posteriores les brindaremos mucha más práctica con la escritura de pruebas.
+
+# Asignación
+# Corrige la avg_luck_boostfunción en main.py.
+
+# Al inicio de la función, compruebe si luck_boostsla lista está vacía. Si es así, simplemente retorna 0.0para evitar un error de división por cero.
+
+
+def avg_luck_boost(luck_boosts: list[int]) -> float:
+    if len(luck_boosts) == 0:
+        return 0.0
+    total = 0
+    for boost in luck_boosts:
+        total += boost
+    return total / len(luck_boosts)
+print(avg_luck_boost([5, 3, 10]))  # Output: 6.0
+print(avg_luck_boost([]))  # Output: 0.0
+
