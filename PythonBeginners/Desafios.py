@@ -136,17 +136,16 @@ print(pet["age"])
 # Por ejemplo:
 def reserve_seats(requested, available):
     try:
-        seat_count = int(requested)
+        requested_int = int(requested)
     except ValueError:
-        return "seat count must be a whole number"
+        raise ValueError("seat count must be a whole number")
 
-    if seat_count <= 0:
-        return "seat count must be positive"
+    if requested_int <= 0:
+        raise ValueError("seat count must be positive")
+    if requested_int > available:
+        raise ValueError("not enough seats")
 
-    if seat_count > available:
-        return "not enough seats"
-
-    return available - seat_count
+    return available - requested_int
 
 
 print("=========================")
@@ -157,3 +156,4 @@ print(reserve_seats("0", 10))  # raises ValueError: seat count must be positive
 print(reserve_seats("-5", 10))  # raises ValueError: seat count must be positive
 print(reserve_seats("8", 8))  # 0
 print(reserve_seats("15", 40))  # 25
+
