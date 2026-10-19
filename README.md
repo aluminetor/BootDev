@@ -57,7 +57,7 @@ My objective is to conquer the core disciplines of **Backend Development**—unr
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-
+[![Boot.dev Introduction to Python Course certificate](https://qvault-webapp-dynamic-assets.storage.googleapis.com/certificates/6ed6e9d3-a611-46c7-96a0-3c0a45adf7ff.jpeg?v=1792439209)](https://www.boot.dev/certificates/6ed6e9d3-a611-46c7-96a0-3c0a45adf7ff)
 </div>
 
 ---
