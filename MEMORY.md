@@ -12,6 +12,7 @@ apuntes de Boot.dev y no modifica los archivos originales de estudio.
 - Web estática sin framework ni build step (HTML, CSS moderno, JS ES modules).
 - Skill local `.agents/skills/sync-viewer/` creada para automatizar la sincronización.
 - `viewer/build_index.py` genera el índice a partir de `README.md` y las carpetas de estudio.
+- README actualizado con el certificado de Introduction to Python enlazado a Boot.dev.
 
 ## Decisiones importantes
 
