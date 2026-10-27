@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T16:33:02-05:00",
+  "generatedAt": "2026-10-27T15:11:22-05:00",
   "home": {
     "path": "README.md",
-    "markdown": "<div align=\"center\">\r\n\r\n# ⚔️ Chronicles of a Backend Apprentice ⚔️\r\n\r\n<img src=\"https://www.boot.dev/img/boots_running.gif\" alt=\"Boots Running\" width=\"220\"/>\r\n\r\n> *\"Code is the most powerful magic governing the realms of the web.\"*\r\n\r\n[![Boot.dev Profile](https://img.shields.io/badge/Boot.dev-aluminetor-8B5CF6?style=for-the-badge&logo=shield&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Adventurer Rank](https://img.shields.io/badge/Rank-Backend%20Apprentice-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Status](https://img.shields.io/badge/Quest%20Status-Active%20Grind-10B981?style=for-the-badge)](#)\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 🧙‍♂️ Adventurer Profile\r\n\r\n- **Hero Handle:** [`@aluminetor`](https://www.boot.dev/u/aluminetor)\r\n- **Guild:** [Boot.dev](https://www.boot.dev)\r\n- **Path / Class:** Backend Sorcerer (*Python, Go, Linux & Architecture*)\r\n- **Tome of Quests:** [boot.dev/u/aluminetor](https://www.boot.dev/u/aluminetor)\r\n\r\n---\r\n\r\n## 📜 Quest Prologue\r\n\r\nWelcome, traveler, to this digital grimoire. Here lie the battle logs, incantations, and artifacts forged throughout my journey across the realms of **[Boot.dev](https://www.boot.dev)**.\r\n\r\nMy objective is to conquer the core disciplines of **Backend Development**—unraveling algorithms, building distributed servers, and mastering the low-level foundations of modern systems.\r\n\r\n---\r\n\r\n## 🗺️ Quest Board & Progression\r\n\r\n| Quest / Course | Difficulty Rank | Grimoire (Language / Focus) | Status |\r\n| :--- | :---: | :---: | :---: |\r\n| **Learn Python** | 🟢 Novice | Python | 🛡️ Cleared |\r\n| **Learn Shell Scripting** | 🟢 Novice | Bash / Terminal | ⚔️ In Battle |\r\n| **Learn Git** | 🟢 Novice | Git / GitHub | 🛡️ Cleared |\r\n| **Learn Object-Oriented Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Functional Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Data Structures & Algorithms** | 🔴 Advanced | Python | ⏳ Queued |\r\n| **Learn Go** | 🟡 Intermediate | Golang | ⏳ Queued |\r\n| **Build HTTP Servers** | 🔴 Advanced | Go / REST APIs | ⏳ Queued |\r\n| **Learn SQL & Databases** | 🟡 Intermediate | PostgreSQL | ⏳ Queued |\r\n| **Learn Docker & Containers** | 🔴 Advanced | Docker | ⏳ Queued |\r\n\r\n---\r\n\r\n## 🛡️ Unlocked Spells & Arsenal\r\n\r\n<div align=\"center\">\r\n\r\n<img src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black\" />\r\n<img src=\"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white\" />\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 📂 Grimoire Directory Structure\r\n\r\n```text\r\n.\r\n├── 📁 PythonBeginners/      # Python lessons, chapters & challenges\r\n│   ├── 📜 CH01_firstbug.py\r\n│   ├── 📜 CH02_variables.py\r\n│   ├── 📜 CH03_functions.py\r\n│   └── ⚔️ Desafios.py\r\n├── 📁 viewer/               # Local, read-only learning dashboard\r\n│   ├── 🌐 index.html        # Viewer entry point\r\n│   ├── ⚙️ app.js            # Navigation and content rendering\r\n│   ├── 🛠️ build_index.py    # Generates viewer/data/index.json\r\n│   ├── 🎨 styles.css        # Dashboard styles\r\n│   └── 📁 data/             # Generated course index\r\n├── 📜 AGENTS.md             # Repository working guidelines\r\n└── 📜 README.md             # Project overview and progress\r\n"
+    "markdown": "<div align=\"center\">\r\n\r\n# ⚔️ Chronicles of a Backend Apprentice ⚔️\r\n\r\n<img src=\"https://www.boot.dev/img/boots_running.gif\" alt=\"Boots Running\" width=\"220\"/>\r\n\r\n> *\"Code is the most powerful magic governing the realms of the web.\"*\r\n\r\n[![Boot.dev Profile](https://img.shields.io/badge/Boot.dev-aluminetor-8B5CF6?style=for-the-badge&logo=shield&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Adventurer Rank](https://img.shields.io/badge/Rank-Backend%20Apprentice-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.boot.dev/u/aluminetor)\r\n[![Status](https://img.shields.io/badge/Quest%20Status-Active%20Grind-10B981?style=for-the-badge)](#)\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 🧙‍♂️ Adventurer Profile\r\n\r\n- **Hero Handle:** [`@aluminetor`](https://www.boot.dev/u/aluminetor)\r\n- **Guild:** [Boot.dev](https://www.boot.dev)\r\n- **Path / Class:** Backend Sorcerer (*Python, Go, Linux & Architecture*)\r\n- **Tome of Quests:** [boot.dev/u/aluminetor](https://www.boot.dev/u/aluminetor)\r\n\r\n---\r\n\r\n## 📜 Quest Prologue\r\n\r\nWelcome, traveler, to this digital grimoire. Here lie the battle logs, incantations, and artifacts forged throughout my journey across the realms of **[Boot.dev](https://www.boot.dev)**.\r\n\r\nMy objective is to conquer the core disciplines of **Backend Development**—unraveling algorithms, building distributed servers, and mastering the low-level foundations of modern systems.\r\n\r\n---\r\n\r\n## 🏅 Certificates\r\n\r\n[![Boot.dev Introduction to Python Course certificate](https://qvault-webapp-dynamic-assets.storage.googleapis.com/certificates/6ed6e9d3-a611-46c7-96a0-3c0a45adf7ff.jpeg?v=1792439209)](https://www.boot.dev/certificates/6ed6e9d3-a611-46c7-96a0-3c0a45adf7ff)\r\n\r\n---\r\n\r\n## 🗺️ Quest Board & Progression\r\n\r\n| Quest / Course | Difficulty Rank | Grimoire (Language / Focus) | Status |\r\n| :--- | :---: | :---: | :---: |\r\n| **Learn Python** | 🟢 Novice | Python | 🛡️ Cleared |\r\n| **Learn Shell Scripting** | 🟢 Novice | Bash / Terminal | ⚔️ In Battle |\r\n| **Learn Git** | 🟢 Novice | Git / GitHub | 🛡️ Cleared |\r\n| **Learn Object-Oriented Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Functional Programming** | 🟡 Intermediate | Python | ⏳ Queued |\r\n| **Learn Data Structures & Algorithms** | 🔴 Advanced | Python | ⏳ Queued |\r\n| **Learn Go** | 🟡 Intermediate | Golang | ⏳ Queued |\r\n| **Build HTTP Servers** | 🔴 Advanced | Go / REST APIs | ⏳ Queued |\r\n| **Learn SQL & Databases** | 🟡 Intermediate | PostgreSQL | ⏳ Queued |\r\n| **Learn Docker & Containers** | 🔴 Advanced | Docker | ⏳ Queued |\r\n\r\n---\r\n\r\n## 🛡️ Unlocked Spells & Arsenal\r\n\r\n<div align=\"center\">\r\n\r\n<img src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white\" />\r\n<img src=\"https://img.shields.io/badge/Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black\" />\r\n<img src=\"https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white\" />\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 📂 Grimoire Directory Structure\r\n\r\n```text\r\n.\r\n├── 📁 PythonBeginners/           # Study material: Python chapters, notes & challenges\r\n│   ├── 📜 CH01_firstbug.py       # First bugs and program structure\r\n│   ├── 📜 CH02_variables.py      # Variables and data types\r\n│   ├── 📜 CH03_functions.py      # Functions\r\n│   ├── 📜 CH04_scope.py          # Scope\r\n│   ├── 📜 CH05_testing_debugging.py\r\n│   ├── 📜 CH06_computing.py      # Computing fundamentals\r\n│   ├── 📜 CH07_comparisons.py    # Comparisons and conditionals\r\n│   ├── 📜 CH08_loops.py          # Loops\r\n│   ├── 📜 CH09_lists.py          # Lists\r\n│   ├── 📜 CH10_dictionaries.py   # Dictionaries\r\n│   ├── 📜 CH11_sets.py            # Sets\r\n│   ├── 📜 CH12_errors.py          # Errors and exceptions\r\n│   ├── 📜 CH13_type_hints.py      # Type hints\r\n│   ├── 📜 CH14_practice.py       # Practice exercises\r\n│   ├── ⚔️ Desafios.py             # Additional challenges\r\n│   ├── 📖 WhyPython.md            # Why learn Python?\r\n│   └── 📖 ZenPython.md            # The Zen of Python\r\n├── 📁 viewer/                    # Local, read-only learning dashboard\r\n│   ├── 🌐 index.html             # Viewer entry point\r\n│   ├── ⚙️ app.js                 # Navigation and content rendering\r\n│   ├── 🎨 styles.css             # Dashboard layout and visual theme\r\n│   ├── 🛠️ build_index.py         # Builds the generated course index\r\n│   ├── 📖 spec.md                # Viewer behavior and data specification\r\n│   ├── 📚 glossary.json          # Glossary entries used by the viewer\r\n│   └── 📁 data/\r\n│       └── 📦 index.json         # Generated catalog of courses and chapters\r\n├── 📁 .agents/                   # Repository-local skills and workflows\r\n├── 📜 AGENTS.md                 # Working guidelines for the repository\r\n├── 📜 MEMORY.md                 # Project state and decisions\r\n├── 📜 skills-lock.json          # Locked skill configuration\r\n└── 📜 README.md                 # Project overview and learning progress\r\n"
   },
   "glossary": [
     {
@@ -3710,9 +3710,9 @@
           "number": 12,
           "title": "Errors",
           "path": "PythonBeginners/CH12_errors.py",
-          "modifiedAt": "2026-10-18T16:27:21-05:00",
-          "lineCount": 126,
-          "exerciseCount": 3,
+          "modifiedAt": "2026-10-18T17:14:43-05:00",
+          "lineCount": 209,
+          "exerciseCount": 5,
           "warnings": [],
           "exercises": [
             {
@@ -3819,11 +3819,14 @@
               "title": "Cómo plantear tus propias excepciones",
               "hasOwnTitle": true,
               "startLine": 84,
-              "endLine": 125,
+              "endLine": 143,
               "concepts": [
+                "variable",
                 "string",
+                "integer",
                 "f-string",
                 "print",
+                "arithmetic",
                 "function-def",
                 "function-call",
                 "parameter",
@@ -3873,8 +3876,1119 @@
                 {
                   "type": "theory",
                   "startLine": 125,
+                  "endLine": 128,
+                  "text": "Al generar la excepción en lugar de gestionarla internamente craft_sword, permitimos que quien llama decida cómo proceder. Puede que desee registrar el error, mostrar un mensaje al jugador o incluso provocar el cierre inesperado del programa.\n\nTipo de exepciones\nPor ahora, lo importante es entender que existen diferentes tipos de excepciones y que podemos manejarlas de manera diferente según la situación. Algunas excepciones son más específicas, como ZeroDivisionError(que ocurre cuando se divide por cero) o IndexError(que ocurre cuando se intenta acceder a un elemento de la lista en un índice no válido, ya sea demasiado alto o demasiado bajo). Otras son más generales, como la base Exception."
+                },
+                {
+                  "type": "code",
+                  "startLine": 130,
+                  "endLine": 143,
+                  "text": "try:\n    10 / 0\nexcept ZeroDivisionError:\n    print(\"0 division\")\nexcept Exception as e:\n    print(e)\n\ntry:\n    nums = [0, 1]\n    print(nums[2])\nexcept IndexError:\n    print(\"index error\")\nexcept Exception as e:\n    print(e)",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "title": "Por qué ciertas excepciones vienen primero",
+              "hasOwnTitle": true,
+              "startLine": 145,
+              "endLine": 180,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "print",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 146,
+                  "endLine": 146,
+                  "text": "En este caso, la excepción general capturará el error antes de que se IndexError pueda alcanzar, y el mensaje \"Error de índice\" nunca se imprimirá. ¡Siempre maneje primero la excepción más específica!"
+                },
+                {
+                  "type": "code",
+                  "startLine": 147,
+                  "endLine": 180,
+                  "text": "try:\n    nums = [0, 1]\n    print(nums[2])\nexcept Exception:\n    print(\"An error occurred\")\nexcept IndexError:\n    print(\"Index error\")\n\n\ndef process_player_record(player_id):\n    try:\n        result = get_player_record(player_id)\n        return result\n    except IndexError:\n        return \"index is too high\"\n    except Exception as e:\n        return e\n\n# Don't edit below this line\n\n\ndef get_player_record(player_id):\n    if player_id < 0:\n        raise Exception(\"negative ids not allowed\")\n    players = [\n        {\"name\": \"Slayer\", \"level\": 128},\n        {\"name\": \"Dorgoth\", \"level\": 300},\n        {\"name\": \"Saruman\", \"level\": 4000},\n    ]\n    return players[player_id]\n\nprint(process_player_record(0))\nprint(process_player_record(3))\nprint(process_player_record(-1))",
+                  "boilerplateLines": [
+                    165
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "title": "Revisión de la presentación de excepciones",
+              "hasOwnTitle": true,
+              "startLine": 182,
+              "endLine": 209,
+              "concepts": [
+                "string",
+                "integer",
+                "print",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 183,
+                  "endLine": 202,
+                  "text": "Como habrás notado, existen muchos tipos de excepciones. Muchas excepciones específicas están integradas en el lenguaje, como IndexErrory ZeroDivisionError, y (casi) todas las excepciones se consideran del Exceptiontipo padre. Lo que diferencia a las excepciones son sus tipos, no sus descripciones de cadena. Esto es importante saberlo al manejar errores de módulos importados.\n\ntry:\n    raise Exception(\"zero division\")\nexcept ZeroDivisionError as e:\n    print(\"zero\")\n\ntry:\n    raise Exception(\"zero division\")\nexcept ZeroDivisionError as e:\n    print(\"zero\")\nexcept Exception as e:\n    print(\"other\")\n\ntry:\n    10 / 0\nexcept Exception as e:\n    print(\"other\")"
+                },
+                {
+                  "type": "code",
+                  "startLine": 204,
+                  "endLine": 209,
+                  "text": "def purchase_item(price, gold_available):\n    if gold_available < price:\n        raise Exception(\"not enough gold\")\n    return gold_available - price\n\nprint(purchase_item(100, 200))",
+                  "boilerplateLines": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "CH13_type_hints",
+          "kind": "chapter",
+          "number": 13,
+          "title": "Type hints",
+          "path": "PythonBeginners/CH13_type_hints.py",
+          "modifiedAt": "2026-10-19T13:48:52-05:00",
+          "lineCount": 373,
+          "exerciseCount": 10,
+          "warnings": [],
+          "exercises": [
+            {
+              "index": 1,
+              "title": "Ejercicio 1",
+              "hasOwnTitle": false,
+              "startLine": 1,
+              "endLine": 40,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "float",
+                "boolean",
+                "none",
+                "dynamic-typing",
+                "f-string",
+                "print",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 1,
+                  "endLine": 17,
+                  "text": "Capítulo 13: sugerencias de tipo.\n\nLas sugerencias de tipo documentan los valores que reciben y devuelven las\nfunciones. Ayudan a leer el código, mejorar el autocompletado y detectar\nerrores antes de ejecutar el programa.\n\nAlgunas funciones aceptan números; otras aceptan cadenas. Algunas devuelven\nlistas, diccionarios, booleanos o None.\n\nCuando un programa crece, es fácil olvidar el tipo de una variable:\n- ¿level es un str?\n- ¿get_item() siempre devuelve un nombre o a veces devuelve None?\n- ¿inventory es una lista de cadenas o un diccionario con cantidades?\n\nLas sugerencias de tipo permiten escribir esas expectativas en el código."
+                },
+                {
+                  "type": "code",
+                  "startLine": 20,
+                  "endLine": 24,
+                  "text": "def get_damage(weapon: dict, level: int) -> int:\n    return weapon[\"damage\"] + (level * 2)\n\n\nprint(get_damage({\"name\": \"sword\", \"damage\": 10}, 5))",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 26,
+                  "endLine": 33,
+                  "text": "weapon: dict, level: int y -> int son sugerencias de tipo. Indican qué\nvalores espera y devuelve la función, pero no cambian el tipado dinámico de\nPython ni rechazan automáticamente valores incorrectos.\n\nLas sugerencias de tipo sirven para:\n- Hacer que el código sea más fácil de leer.\n- Ayudar al editor a autocompletar y avisar de errores.\n- Facilitar la detección de errores antes de ejecutar el código."
+                },
+                {
+                  "type": "code",
+                  "startLine": 36,
+                  "endLine": 40,
+                  "text": "def surface_area_of_cube(edge_length: float) -> str:\n    return f\"The surface area of the cube is {6 * edge_length ** 2}.\"\n\n\nprint(surface_area_of_cube(3.5))",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "Tipos básicos",
+              "hasOwnTitle": true,
+              "startLine": 43,
+              "endLine": 66,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "float",
+                "boolean"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 43,
+                  "endLine": 48,
+                  "text": "Para agregar una sugerencia de tipo a una variable, se colocan dos puntos\ndespués del nombre y el tipo antes del signo igual y del valor."
+                },
+                {
+                  "type": "code",
+                  "startLine": 50,
+                  "endLine": 53,
+                  "text": "character_name: str = \"Sir Galahad\"\ncharacter_level: int = 7\ncharacter_health: float = 72.5\nhas_magic: bool = True",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 55,
+                  "endLine": 56,
+                  "text": "En declaraciones simples, la sugerencia puede ser redundante porque las\nherramientas infieren el tipo a partir del valor:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 57,
+                  "endLine": 57,
+                  "text": "character_health = 72.5",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 59,
+                  "endLine": 61,
+                  "text": "Asignación:\nEl código de configuración de personajes de Fantasy Quest funciona, pero los\ntipos de variables deben coincidir con sus valores. No cambies los valores."
+                },
+                {
+                  "type": "code",
+                  "startLine": 63,
+                  "endLine": 66,
+                  "text": "character_name: str = \"Gandalf\"\ncharacter_level: int = 80\ncharacter_health: float = 99.5\nhas_magic: bool = True",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Parámetros de la función",
+              "hasOwnTitle": true,
+              "startLine": 69,
+              "endLine": 111,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "float",
+                "boolean",
+                "f-string",
+                "print",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 69,
+                  "endLine": 74,
+                  "text": "Los parámetros también pueden tener sugerencias de tipo. La sintaxis consiste\nen colocar dos puntos después del nombre del parámetro y escribir el tipo."
+                },
+                {
+                  "type": "code",
+                  "startLine": 77,
+                  "endLine": 82,
+                  "text": "def greet_player(name: str):\n    print(f\"Welcome, {name}!\")\n\n\ndef add_gold(current_gold: int, found_gold: int):\n    return current_gold + found_gold",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 85,
+                  "endLine": 95,
+                  "text": "Agregar sugerencias a variables puede ser redundante debido a la inferencia\nde tipos, pero agregarlas a los parámetros ayuda al autocompletado y a la\ncomprobación de errores.\n\nAsignación:\nAgrega sugerencias de tipo a los parámetros de get_character_status:\n- name debe ser str.\n- level debe ser int.\n- health debe ser float.\n- has_magic debe ser bool.\nNo modifiques el cuerpo de la función."
+                },
+                {
+                  "type": "code",
+                  "startLine": 98,
+                  "endLine": 111,
+                  "text": "def get_character_status(\n    name: str, level: int, health: float, has_magic: bool\n):\n    status = f\"{name} is level {level} with {health} HP\"\n\n    if has_magic:\n        status += \", and can cast spells\"\n    else:\n        status += \", and cannot cast spells\"\n\n    return status\n\n\nprint(get_character_status(\"Gandalf\", 80, 99.5, True))",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "title": "Tipos de retorno",
+              "hasOwnTitle": true,
+              "startLine": 114,
+              "endLine": 150,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "boolean",
+                "f-string",
+                "print",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 114,
+                  "endLine": 120,
+                  "text": "También se puede anotar el tipo que se espera que devuelva una función. El\ntipo de retorno va después de la lista de parámetros y antes de los dos puntos.\nSe usa -> en lugar de : porque no depende del nombre de una variable interna."
+                },
+                {
+                  "type": "code",
+                  "startLine": 123,
+                  "endLine": 128,
+                  "text": "def add_gold(current_gold: int, found_gold: int) -> int:\n    return current_gold + found_gold\n\n\ndef get_greeting(player_name: str) -> str:\n    return f\"Welcome, {player_name}!\"",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 131,
+                  "endLine": 134,
+                  "text": "Asignación:\nFantasy Quest utiliza descripciones de artículos en los menús de las tiendas.\nAgrega una sugerencia str de retorno a get_item_description.\nNo cambies el cuerpo de la función."
+                },
+                {
+                  "type": "code",
+                  "startLine": 137,
+                  "endLine": 150,
+                  "text": "def get_item_description(\n    item_name: str, damage: int, is_magical: bool\n) -> str:\n    description = f\"{item_name} deals {damage} damage\"\n\n    if is_magical:\n        description += \" and glows with arcane power\"\n    else:\n        description += \" and has no magical properties\"\n\n    return description\n\n\nprint(get_item_description(\"Sword of Destiny\", 15, True))",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "title": "Corrección de sugerencias de tipo",
+              "hasOwnTitle": true,
+              "startLine": 153,
+              "endLine": 175,
+              "concepts": [
+                "string",
+                "integer",
+                "f-string",
+                "print",
+                "function-def",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 153,
+                  "endLine": 158,
+                  "text": "El tipo anotado debe coincidir con lo que realmente hace el código. Una\nfunción que devuelve una cadena debe tener str como tipo de retorno."
+                },
+                {
+                  "type": "code",
+                  "startLine": 161,
+                  "endLine": 165,
+                  "text": "def get_quest_reward(quest_name: str, quest_xp: int) -> str:\n    return f\"You've earned {quest_xp} XP for completing the {quest_name} quest!\"\n\n\nprint(get_quest_reward(\"Dragon Slayer\", 500))",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 167,
+                  "endLine": 171,
+                  "text": "Una sugerencia incorrecta puede ser confusa y el editor puede advertirlo.\n\nAsignación:\nLa función de saludo de Fantasy Quest funciona, pero su sugerencia de retorno\nes incorrecta. Cámbiala a str sin modificar el cuerpo de la función."
+                },
+                {
+                  "type": "code",
+                  "startLine": 174,
+                  "endLine": 175,
+                  "text": "def get_greeting(player_name: str) -> str:\n    return f\"Welcome, {player_name}!\"",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 6,
+              "title": "Listas y conjuntos",
+              "hasOwnTitle": true,
+              "startLine": 178,
+              "endLine": 211,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "float",
+                "print",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 178,
+                  "endLine": 186,
+                  "text": "Además de str, int, float y bool, se pueden anotar tipos de contenedores:\nlist es una secuencia mutable, set una colección de valores únicos, dict una\ncolección de pares clave-valor y tuple una secuencia inmutable.\n\nAl indicar un contenedor, se especifica también el tipo de valores que contiene."
+                },
+                {
+                  "type": "code",
+                  "startLine": 189,
+                  "endLine": 190,
+                  "text": "inventory: list[str] = [\"Iron Sword\", \"Healing Potion\"]\nunique_items: set[str] = {\"Iron Sword\", \"Healing Potion\"}",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 192,
+                  "endLine": 195,
+                  "text": "Asignación:\nFantasy Quest tiene una función que elimina nombres de objetos duplicados.\nAgrega list[str] al parámetro inventory y set[str] al tipo de retorno.\nNo modifiques el cuerpo de la función."
+                },
+                {
+                  "type": "code",
+                  "startLine": 198,
+                  "endLine": 211,
+                  "text": "def get_unique_items(inventory: list[str]) -> set[str]:\n    unique_items = set()\n\n    for item in inventory:\n        unique_items.add(item)\n\n    return unique_items\n\n\nprint(\n    get_unique_items(\n        [\"Iron Sword\", \"Healing Potion\", \"Iron Sword\", \"Healing Potion\", \"Iron Sword\"]\n    )\n)",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 7,
+              "title": "Sugerencias para diccionarios",
+              "hasOwnTitle": true,
+              "startLine": 214,
+              "endLine": 243,
+              "concepts": [
+                "string",
+                "integer",
+                "print",
+                "function-def",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 214,
+                  "endLine": 223,
+                  "text": "Los diccionarios asignan claves a valores, por lo que sus sugerencias incluyen\nambos tipos: dict[key_type, value_type].\n\nEn dict[str, int], las claves son cadenas y los valores son números enteros.\nLos tipos de clave más comunes son str e int; los valores pueden ser de\ncualquier tipo."
+                },
+                {
+                  "type": "code",
+                  "startLine": 226,
+                  "endLine": 229,
+                  "text": "item_counts: dict[str, int] = {\n    \"Wooden Arrow\": 30,\n    \"Small Amethyst\": 2,\n}",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 231,
+                  "endLine": 237,
+                  "text": "Asignación:\nFantasy Quest registra la cantidad de cada objeto del inventario.\nAgrega estas sugerencias de tipo a get_item_count:\n- item_counts debe ser dict[str, int].\n- item_name debe ser str.\n- El retorno debe ser int.\nNo modifiques el cuerpo de la función."
+                },
+                {
+                  "type": "code",
+                  "startLine": 239,
+                  "endLine": 243,
+                  "text": "def get_item_count(item_counts: dict[str, int], item_name: str) -> int:\n    if item_name in item_counts:\n        return item_counts[item_name]\n    return 0\nprint(get_item_count({\"Wooden Arrow\": 30, \"Small Amethyst\": 2}, \"Wooden Arrow\"))",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 8,
+              "title": "Sugerencias de tuplas",
+              "hasOwnTitle": true,
+              "startLine": 245,
+              "endLine": 277,
+              "concepts": [
+                "string",
+                "integer",
+                "float",
+                "print",
+                "function-def",
+                "parameter",
+                "return",
+                "multiple-return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 246,
+                  "endLine": 246,
+                  "text": "Las listas y los conjuntos suelen contener múltiples valores del mismo tipo:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 248,
+                  "endLine": 248,
+                  "text": "inventory: list[str] = [\"Black Knight Halberd\", \"Skull Lantern\", \"Notched Whip\"]",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 250,
+                  "endLine": 250,
+                  "text": "Pero las tuplas son un pequeño grupo fijo de valores donde cada posición tiene su propio significado. Debido a que son fijos, es bastante común que esos valores sean de diferentes tipos. Por ejemplo, un botín podría tener un nombre de objeto y una cantidad:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 252,
+                  "endLine": 252,
+                  "text": "drop: tuple[str, int] = (\"Garnet Mark\", 2)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 254,
+                  "endLine": 259,
+                  "text": "tuple[str, int]medio:\n\nHay dos valores en la tupla\nEl primer valor es una cadena\nEl segundo valor es un número entero.\nUna tupla puede tener cualquier número de valores, aunque 2y 3son los más comunes. Aquí hay un ejemplo que representa los HP, MP y resistencia de un personaje:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 261,
+                  "endLine": 261,
+                  "text": "stats: tuple[int, float, int] = (100, 42.5, 75)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 263,
+                  "endLine": 270,
+                  "text": "La sugerencia de tipo tuple[int, float, int]nos indica que se trata de una tupla de tres valores: un entero, un número decimal y otro entero.\n\nAsignación\nFantasy Quest utiliza el botín obtenido para determinar qué objetos recibe el jugador tras derrotar a un enemigo en combate. Añade sugerencias de tipo a la get_loot_dropfunción.\n\nAgregue una intsugerencia de tipo al enemy_levelparámetro.\nAgregue una tuple[str, int]sugerencia sobre el tipo de retorno.\nNo modifique el cuerpo de la función."
+                },
+                {
+                  "type": "code",
+                  "startLine": 272,
+                  "endLine": 277,
+                  "text": "def get_loot_drop(enemy_level: int)-> tuple[str, int]:\n    if enemy_level > 10:\n        return \"Emerald Brome\", 1\n\n    return \"Smokestone Chip\", 3\nprint(get_loot_drop(12))",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 9,
+              "title": "Tipos de contenedores específicos",
+              "hasOwnTitle": true,
+              "startLine": 280,
+              "endLine": 309,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "print",
+                "function-def",
+                "parameter",
+                "return",
+                "multiple-return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 281,
+                  "endLine": 281,
+                  "text": "Es posible indicar el tipo de un contenedor simplemente especificando su tipo:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 283,
+                  "endLine": 283,
+                  "text": "items: list = [\"Black Firebomb\", \"Titanite Chunk\"]",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 285,
+                  "endLine": 285,
+                  "text": "Esto dice itemsque es una lista, ¡pero no nos dice qué tipo de valores contiene! Suponiendo que sabes lo que hay dentro, lo mejor es ser específico:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 287,
+                  "endLine": 287,
+                  "text": "items: list[str] = [\"Black Firebomb\", \"Titanite Chunk\"]",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 289,
+                  "endLine": 299,
+                  "text": "Dicho esto, las sugerencias de tipo de contenedor sin especificar el tipo no son incorrectas . A veces, realmente no se sabe qué tipos de valores contendrá un contenedor, o la sugerencia de tipo específica sería demasiado compleja para ser útil. Esto se observa ocasionalmente con dictlos contenedores. ¡Simplemente proporcione sugerencias de tipo claras siempre que sea posible!\n\nAsignación\nLa función de resumen de recompensas de Fantasy Quest ya incluye sugerencias de tipo, pero algunos tipos de contenedores son demasiado vagos. Haga que las sugerencias de tipo de contenedor sean más específicas.\n\nActualización itemsde lista list[str].\nObserva que antes de agregar la sugerencia, el first_itemtipo de información sobre herramientas de la variable es \"Desconocido\". Después de agregar la sugerencia, Python puede inferir que first_itemes un tipo strporque está en la itemslista.\n\nActualización item_countsde dicta dict[str, int].\nActualiza el tipo de retorno de la función de tuplea tuple[str, int].\nNo modifique el cuerpo de la función."
+                },
+                {
+                  "type": "code",
+                  "startLine": 301,
+                  "endLine": 309,
+                  "text": "def get_reward_summary(items: list[str], item_counts: dict[str,int]) -> tuple[str,int]:\n    total_items = 0\n\n    for count in item_counts.values():\n        total_items += count\n\n    first_item = items[0]\n    return first_item, total_items\nprint(get_reward_summary([\"Black Firebomb\", \"Titanite Chunk\"], {\"Black Firebomb\": 1, \"Titanite Chunk\": 2}))",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 10,
+              "title": "Tipos anidados",
+              "hasOwnTitle": true,
+              "startLine": 312,
+              "endLine": 373,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "boolean",
+                "none",
+                "print",
+                "function-def",
+                "parameter",
+                "return",
+                "logical-operators",
+                "bitwise-operators",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 313,
+                  "endLine": 315,
+                  "text": "Hemos visto tipos de contenedores relativamente simples como list[str], pero pueden volverse más complejos cuando un contenedor contiene otro contenedor . Es decir, es posible tener tipos de contenedores anidados .\n\nUn diccionario, por ejemplo, podría relacionar el nombre de cada personaje con su lista de hechizos :"
+                },
+                {
+                  "type": "code",
+                  "startLine": 317,
+                  "endLine": 320,
+                  "text": "character_spells: dict[str, list[str]] = {\n    \"Gandalf\": [\"Fireball\", \"Light\"],\n    \"Frodo\": [\"Hide\"],\n}",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 321,
+                  "endLine": 331,
+                  "text": "Leemos dict[str, list[str]]desde afuera hacia adentro:\n\nEs un diccionario ( dict)\nCada clave es una cadena ( str)\nCada valor es una lista de cadenas ( list[str])\n\nValores opcionales\nA veces trabajamos con variables que pueden o no tener un \"valor real\". Por ejemplo, un personaje puede tener una bonificación de daño, o puede que no. Si no la tiene , podemos representar esa falta de valor con None.\n\nEl |operador indica que un valor puede ser de varios tipos:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 333,
+                  "endLine": 333,
+                  "text": "damage_bonus: int | None",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 335,
+                  "endLine": 335,
+                  "text": "Eso significa damage_bonusque puede ser un número entero (la cantidad de bonificación) o None . Por otro ejemplo, una función podría devolver un hechizo preparado si hay uno listo, o Nonesi no hay ningún hechizo preparado:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 337,
+                  "endLine": 341,
+                  "text": "def get_prepared_spell(has_spell: bool) -> str | None:\n    if has_spell:\n        return \"Fireball\"\n\n    return None",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 343,
+                  "endLine": 349,
+                  "text": "Asignación\nLos personajes de Fantasy Quest que tienen monturas propias pueden invocarlas desde una distancia limitada. Si el personaje no tiene montura, o si la montura está demasiado lejos para ser invocada, la función devuelve un valor nulo None. Añade sugerencias de tipo a la summon_mountfunción.\n\nAgregue una boolsugerencia de tipo al has_mountparámetro.\nAgregue una intsugerencia de tipo al distanceparámetro.\nAgregue una str | Nonesugerencia sobre el tipo de retorno.\nNo modifique el cuerpo de la función."
+                },
+                {
+                  "type": "code",
+                  "startLine": 351,
+                  "endLine": 373,
+                  "text": "def summon_mount(has_mount: bool, distance: int)-> str | None:\n    if not has_mount:\n        return None\n\n    if distance > 420:\n        return None\n\n    return \"Battle Horse\"\n\nprint(summon_mount(True, 400))\nprint(summon_mount(False, 400))\n\ndef summarize_quest_rewards(\n    completed_quests: list[str], quest_rewards: dict[str, int]\n) -> list[tuple[str, int]]:\n    summary: list[tuple[str, int]] = []\n    for quest_name in completed_quests:\n        if quest_name in quest_rewards:\n            quest_xp: tuple[str, int] =(quest_name,quest_rewards[quest_name])\n            summary.append(quest_xp)\n\n    return summary\nprint(summarize_quest_rewards([\"Dragon Slayer\", \"Goblin Hunt\"], {\"Dragon Slayer\": 500, \"Goblin Hunt\": 200}))",
+                  "boilerplateLines": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "CH14_practice",
+          "kind": "chapter",
+          "number": 14,
+          "title": "Practice",
+          "path": "PythonBeginners/CH14_practice.py",
+          "modifiedAt": "2026-10-19T14:26:49-05:00",
+          "lineCount": 295,
+          "exerciseCount": 15,
+          "warnings": [],
+          "exercises": [
+            {
+              "index": 1,
+              "title": "Suma de números",
+              "hasOwnTitle": true,
+              "startLine": 1,
+              "endLine": 16,
+              "concepts": [
+                "variable",
+                "integer",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 2,
+                  "endLine": 9,
+                  "text": "En este capítulo vamos a afianzar los conceptos que hemos aprendido mediante la resolución de una serie de problemas prácticos.\n\nAsignación\nCompleta la number_sumfunción. Debe sumar todos los números desde 1hasta ny devolver el resultado. Si nes menor que 1, devuelve 0. Por ejemplo:\n\nnumber_sum(5) -> 1+2+3+4+5 -> 15\nnumber_sum(3) -> 1+2+3 -> 6\nRecuerda que la rangeletra a no incluirá el último número."
+                },
+                {
+                  "type": "code",
+                  "startLine": 11,
+                  "endLine": 16,
+                  "text": "def number_sum(n: int) -> int:\n    number_sum = 0\n    for number in range(1, n + 1):\n        number_sum +=number\n\n    return number_sum",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "title": "Encuentra Min",
+              "hasOwnTitle": true,
+              "startLine": 20,
+              "endLine": 38,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "float",
+                "print",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "bitwise-operators",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 21,
+                  "endLine": 21,
+                  "text": "En este problema necesitarás una forma de representar el número más grande posible: infinito . En Python, puedes usar esta constante para representar el infinito positivo:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 23,
+                  "endLine": 23,
+                  "text": "my_infinity: float = float(\"inf\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 25,
+                  "endLine": 30,
+                  "text": "Asignación\nEscribe una funciónfind_min() que encuentre el número más pequeño en una lista. Si la lista está vacía, devuelve float(\"inf\"). Por ejemplo:\n\nfind_min([1, 3, -1, 2]) -> -1\nfind_min([18, 3, 7, 2]) -> 2\nIntenta hacerlo sin funciones integradas como min()o sorted()."
+                },
+                {
+                  "type": "code",
+                  "startLine": 32,
+                  "endLine": 38,
+                  "text": "def find_min(nums: list[int]) -> int | float:\n    min: float = float(\"inf\")\n    for num in nums:\n        if num < min:\n            min = num\n    return min\nprint(find_min([1, 3, -1, 2]))  # Output: -1",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "title": "Eliminar números no enteros",
+              "hasOwnTitle": true,
+              "startLine": 42,
+              "endLine": 45,
+              "concepts": [
+                "variable",
+                "integer"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 43,
+                  "endLine": 45,
+                  "text": "type()La función integrada se puede utilizar para obtener el tipo de una variable. Por ejemplo:\n\ntype(1) is int"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "title": "True",
+              "hasOwnTitle": true,
+              "startLine": 46,
+              "endLine": 48,
+              "concepts": [],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 48,
+                  "endLine": 48,
+                  "text": "type(\"1\") is str"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "title": "True",
+              "hasOwnTitle": true,
+              "startLine": 49,
+              "endLine": 51,
+              "concepts": [
+                "float"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 51,
+                  "endLine": 51,
+                  "text": "type(1.0) == float"
+                }
+              ]
+            },
+            {
+              "index": 6,
+              "title": "True",
+              "hasOwnTitle": true,
+              "startLine": 52,
+              "endLine": 54,
+              "concepts": [
+                "integer"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 54,
+                  "endLine": 54,
+                  "text": "type(\"seventy-six\") == int"
+                }
+              ]
+            },
+            {
+              "index": 7,
+              "title": "False",
+              "hasOwnTitle": true,
+              "startLine": 55,
+              "endLine": 61,
+              "concepts": [
+                "integer"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 57,
+                  "endLine": 61,
+                  "text": "Asignación\nCompleta la remove_nonints()función. Recibe una lista y devuelve una nueva lista, pero sin los tipos que no sean enteros.\n\nnew_list: list[int] = remove_nonints([\"1\", 1, \"3\", \"400\", 4, 500])\nprint(new_list)"
+                }
+              ]
+            },
+            {
+              "index": 8,
+              "title": "[1, 4, 500]",
+              "hasOwnTitle": true,
+              "startLine": 62,
+              "endLine": 73,
+              "concepts": [
+                "string",
+                "integer",
+                "type-function",
+                "print",
+                "is-operator",
+                "function-def",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 64,
+                  "endLine": 64,
+                  "text": "No modifique la numslista de entrada. Devuelva una nueva lista con solo los números enteros."
+                },
+                {
+                  "type": "code",
+                  "startLine": 66,
+                  "endLine": 73,
+                  "text": "def remove_nonints(nums: list[object]) -> list[int]:\n    new_nums: list[int] = []\n    for num in nums:\n        if type(num) is int:\n            new_nums.append(num)\n    return new_nums\n\nprint(remove_nonints([\"1\", 1, \"3\", \"400\", 4, 500]))  # Output: [1, 4, 500]",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 9,
+              "title": "Ejercicio 9",
+              "hasOwnTitle": false,
+              "startLine": 74,
+              "endLine": 97,
+              "concepts": [
+                "variable",
+                "integer",
+                "print",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 75,
+                  "endLine": 91,
+                  "text": "Factorial\nUn factorial es el producto (resultado de la multiplicación) de todos los enteros positivos menores o iguales a un número dado. Por ejemplo:\n\n1! = 1 = 1\n2! = 2 * 1 = 2\n3! = 3 * 2 * 1 = 6\n4! = 4 * 3 * 2 * 1 = 24\n5! = 5 * 4 * 3 * 2 * 1 = 120\nTambién existe un caso especial para el cero:\n\n0! = 1\nEs simplemente 1 una definición de los expertos en matemáticas (los que viven en la torre de marfil).\n\nAsignación\nCompleta la factorial()función. Debe devolver el factorial de un número dado.\n\nEn matemáticas, el !símbolo representa un factorial, pero no es un operador factorial válido en Python. Utilice un bucle y la multiplicación para calcular el resultado correcto."
+                },
+                {
+                  "type": "code",
+                  "startLine": 92,
+                  "endLine": 97,
+                  "text": "def factorial(num: int) -> int:\n    result = 1\n    for i in range(1, num + 1):\n        result *= i\n    return result\nprint(factorial(5))  # Output: 120",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 10,
+              "title": "Suma de área",
+              "hasOwnTitle": true,
+              "startLine": 101,
+              "endLine": 121,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "print",
+                "function-def",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 102,
+                  "endLine": 113,
+                  "text": "El área de un rectángulo se calcula multiplicando su altura por su anchura. Por ejemplo, el área de un rectángulo con una altura de 3y una anchura de 5es:\n\n3 * 5 = 15\n\nAsignación\nCompleta la area_sum()función. Acepta una lista de rectángulos, donde cada rectángulo es un diccionario que tiene la siguiente estructura:\n\nrectangle: dict[str, int] = {\"height\": 5, \"width\": 6}\n\nLa función debe calcular el área de cada rectángulo y devolver la suma de todas las áreas ."
+                },
+                {
+                  "type": "code",
+                  "startLine": 115,
+                  "endLine": 121,
+                  "text": "def area_sum(rectangles: list[dict[str, int]]) -> int:\n    sum = 0\n    for rectangle in rectangles:\n        sum += rectangle[\"height\"] * rectangle[\"width\"]\n    return sum\n\nprint(area_sum([{\"height\": 5, \"width\": 6}, {\"height\": 3, \"width\": 4}]))  # Output: 42",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 11,
+              "title": "División de listas",
+              "hasOwnTitle": true,
+              "startLine": 124,
+              "endLine": 147,
+              "concepts": [
+                "integer",
+                "float",
+                "print",
+                "arithmetic"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 125,
                   "endLine": 125,
-                  "text": "Al generar la excepción en lugar de gestionarla internamente craft_sword, permitimos que quien llama decida cómo proceder. Puede que desee registrar el error, mostrar un mensaje al jugador o incluso provocar el cierre inesperado del programa."
+                  "text": "Recuerda que en Python puedes dividir dos números usando el /operador. Por ejemplo:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 127,
+                  "endLine": 128,
+                  "text": "print(6 / 2)  # 3.0\nprint(8 / 4)  # 2.0",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 130,
+                  "endLine": 130,
+                  "text": "También puedes iterar sobre cada elemento de una lista usando un for inbucle. Por ejemplo:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 132,
+                  "endLine": 134,
+                  "text": "numbers: list[int] = [1, 7, 3, 2, 5]\nfor num in numbers:\n    print(num)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 135,
+                  "endLine": 147,
+                  "text": "1\n7\n3\n2\n5\n\nAsignación\nCompleta la divide_list()función. Recibe como entrada una lista y un número, y debe devolver una nueva lista que contenga todos los elementos de la lista original después de dividirlos por el segundo valor de entrada .\n\nPor ejemplo:\n\ndivided_list: list[float] = divide_list([6, 8, 10], 2)\nprint(divided_list)"
+                }
+              ]
+            },
+            {
+              "index": 12,
+              "title": "[3.0, 4.0, 5.0]",
+              "hasOwnTitle": true,
+              "startLine": 148,
+              "endLine": 158,
+              "concepts": [
+                "integer",
+                "print",
+                "arithmetic",
+                "function-def",
+                "parameter",
+                "return",
+                "binary-numbers"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 150,
+                  "endLine": 150,
+                  "text": "No redondee los números decimales resultantes; simplemente devuélvalos tal cual."
+                },
+                {
+                  "type": "code",
+                  "startLine": 152,
+                  "endLine": 158,
+                  "text": "def divide_list(nums: list[int], divisor: int) -> list[float]:\n    new_list: list[float] = []\n    for num in nums:\n        new_list.append(num / divisor)\n    return new_list\n\nprint(divide_list([6, 8, 10], 2))  # Output: [3.0, 4.0, 5.0]",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 13,
+              "title": "Unir cuerdas",
+              "hasOwnTitle": true,
+              "startLine": 161,
+              "endLine": 203,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "concatenation",
+                "print",
+                "function-def",
+                "parameter",
+                "return"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 162,
+                  "endLine": 162,
+                  "text": "El +operador en Python se puede usar para concatenar (combinar) cadenas. Por ejemplo:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 164,
+                  "endLine": 164,
+                  "text": "print(\"hello\" + \" \" + \"world\")",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 165,
+                  "endLine": 165,
+                  "text": "hello world"
+                },
+                {
+                  "type": "code",
+                  "startLine": 167,
+                  "endLine": 169,
+                  "text": "author: str = \"Tolkien\"\nmessage: str = \"The \" + \"world never deserved \" + author\nprint(message)",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 170,
+                  "endLine": 187,
+                  "text": "The world never deserved Tolkien\n\nAsignación\nCompleta la join_strings()función. Recibe una lista de cadenas y devuelve una nueva cadena individual.\n\nLa nueva cadena es la concatenación de todas las cadenas de entrada de la lista, una tras otra, en orden, separadas por una coma . Si la lista está vacía, devuelve una cadena vacía. Por ejemplo:\n\nstring_list: list[str] = [\"Annie\", \"Reiner\", \"Bertholdt\"]\njoined_string: str = join_strings(string_list)\nprint(joined_string)\n# \"Annie,Reiner,Bertholdt\"\n\nstring_list = [\"Eren\", \"Mikasa\", \"Armin\"]\njoined_string = join_strings(string_list)\nprint(joined_string)\n# \"Eren,Mikasa,Armin\"\n\nNo utilice el método integrado .join()... estamos intentando aprender cómo funciona esto manualmente ."
+                },
+                {
+                  "type": "code",
+                  "startLine": 190,
+                  "endLine": 196,
+                  "text": "def join_strings(strings: list[str]) -> str:\n    joined = \"\"\n    for s in strings:\n        joined += s + \",\"\n    return joined[:-1] #La sintaxis concat[:-1] es una operación de rebanado ( slicing ) en Python, y lo que hace es crear una copia de la cadena excluyendo el último caracter .\n\nprint(join_strings([\"Annie\", \"Reiner\", \"Bertholdt\"]))",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 197,
+                  "endLine": 203,
+                  "text": "La sintaxis general del rebanado es secuencia[inicio:fin]:\n\ninicio: Si se deja vacío (antes de los dos puntos :), Python asume que empieza desde el índice 0.\nfin: Indica hasta dónde llegar (sin incluir ese índice). En Python, los índices negativos cuentan desde el final hacia atrás. Por lo tanto, -1hace referencia al último elemento.\nAl escribir [:-1], te estás diciendo Python:\n\n\"Toma todos los caracteres desde el principio ( 0) hasta el último elemento ( -1), sin incluirlo.\""
+                }
+              ]
+            },
+            {
+              "index": 14,
+              "title": "Pruebas unitarias",
+              "hasOwnTitle": true,
+              "startLine": 207,
+              "endLine": 265,
+              "concepts": [
+                "integer",
+                "float",
+                "print",
+                "function-call",
+                "return",
+                "unit-test"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 208,
+                  "endLine": 217,
+                  "text": "Si terminas trabajando como programador, pasarás mucho tiempo escribiendo tus propias pruebas unitarias . Hasta ahora te hemos proporcionado pruebas unitarias , pero es útil saber cómo funcionan.\n\nCuando realizas tus propias pruebas, normalmente utilizas una biblioteca para escribir y ejecutar pruebas. Por ejemplo, en Python, pytest y unittest son bastante populares.\n\nPero también está bien escribir pruebas desde cero en ocasiones. En Boot.dev lo hacemos para que las pruebas se integren correctamente con nuestro entorno en línea. Ese es el propósito del main_test.pyarchivo: un conjunto de pruebas personalizado que hemos escrito para cada una de tus lecciones.\n\nAsignación\nVamos a cambiar el enfoque: en main.pyencontrarás una función de solo lectura , casiavg_luck_boost correcta, llamada . Se utiliza en Fantasy Quest para calcular el aumento promedio de \"suerte\" otorgado a un grupo de jugadores cuando derrotan a un jefe, para determinar el botín que reciben.\n\nLa función se puede utilizar de la siguiente manera:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 219,
+                  "endLine": 221,
+                  "text": "luck_boosts: list[int] = [5, 3, 10]\navg_boost: float = avg_luck_boost(luck_boosts)\nprint(avg_boost)  # 6.0",
+                  "boilerplateLines": []
+                },
+                {
+                  "type": "theory",
+                  "startLine": 223,
+                  "endLine": 265,
+                  "text": "Ejecuta las pruebas. ¡ Observa que todas pasan! Pero hay un problema... algunos comportamientos extraños no están cubiertos por los casos de prueba existentes.\n\n¿Qué sucede si ningún miembro del grupo tiene bonificación de suerte? La función intentará dividir por cero, es decir, por la longitud de la lista de entrada, y el programa fallará.\n\nluck_boosts: list[int] = []\navg_boost: float = avg_luck_boost(luck_boosts)  # ZeroDivisionError\n\nLo que queremos que haga esta función si la lista de entrada está vacía es devolver 0.0. Añade ese resultado esperado a test_cases.py; corregiremos la función en la próxima lección.\n\nAgregue un nuevo diccionario a la run_caseslista, con luck_boostsestablecido a una lista vacía y expected_avgestablecido a 0.0.\n\ndef avg_luck_boost(luck_boosts: list[int]) -> float:\n    total = 0\n    for boost in luck_boosts:\n        total += boost\n    return total / len(luck_boosts)\n\nrun_cases: list[dict[str, list[int] | float]] = [\n    {\n        \"luck_boosts\": [5, 3, 10],\n        \"expected_avg\": 6.0,\n    },\n    {\n        \"luck_boosts\": [7],\n        \"expected_avg\": 7.0,\n    },\n    {\n        \"luck_boosts\": [4, 4, 4],\n        \"expected_avg\": 4.0,\n    },\n    {\n        \"luck_boosts\": [2, 3],\n        \"expected_avg\": 2.5,\n    },\n    {\n        \"luck_boosts\": [],\n        \"expected_avg\": 0.0,\n    },\n]"
+                }
+              ]
+            },
+            {
+              "index": 15,
+              "title": "Solucionar una prueba fallida",
+              "hasOwnTitle": true,
+              "startLine": 267,
+              "endLine": 294,
+              "concepts": [
+                "variable",
+                "integer",
+                "float",
+                "print",
+                "arithmetic",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 268,
+                  "endLine": 283,
+                  "text": "¡Tenemos un caso de prueba fallido para nuestra avg_luck_boostfunción! Cuando se le pasa una lista vacía a la función, debería devolver 0.0. En cambio, intenta dividir por cero y falla.\n\nVamos a actualizar avg_luck_boostpara que todas las pruebas vuelvan a pasar.\n\nA algunos programadores les gusta trabajar de esta manera; se llama \" desarrollo guiado por pruebas \" (TDD):\n\nCrea una función básica.\nEscribe pruebas que esperen el comportamiento correcto de esa función.\nEjecuta las pruebas (deberían fallar).\nImplementa la función y ve actualizándola hasta que pase las pruebas.\nEl desarrollo guiado por pruebas (TDD) a veces es un tema controvertido, y no profundizaremos en ello aquí. Sin embargo, en cursos posteriores les brindaremos mucha más práctica con la escritura de pruebas.\n\nAsignación\nCorrige la avg_luck_boostfunción en main.py.\n\nAl inicio de la función, compruebe si luck_boostsla lista está vacía. Si es así, simplemente retorna 0.0para evitar un error de división por cero."
+                },
+                {
+                  "type": "code",
+                  "startLine": 286,
+                  "endLine": 294,
+                  "text": "def avg_luck_boost(luck_boosts: list[int]) -> float:\n    if len(luck_boosts) == 0:\n        return 0.0\n    total = 0\n    for boost in luck_boosts:\n        total += boost\n    return total / len(luck_boosts)\nprint(avg_luck_boost([5, 3, 10]))  # Output: 6.0\nprint(avg_luck_boost([]))  # Output: 0.0",
+                  "boilerplateLines": []
                 }
               ]
             }
@@ -3888,9 +5002,9 @@
           "number": null,
           "title": "Desafios",
           "path": "PythonBeginners/Desafios.py",
-          "modifiedAt": "2026-10-17T08:42:38-05:00",
-          "lineCount": 124,
-          "exerciseCount": 5,
+          "modifiedAt": "2026-10-18T19:34:57-05:00",
+          "lineCount": 159,
+          "exerciseCount": 6,
           "warnings": [],
           "exercises": [
             {
@@ -4044,6 +5158,40 @@
                   "startLine": 121,
                   "endLine": 124,
                   "text": "pet = {\"name\": \"Milo\", \"age\": 2}\n\npet[\"age\"] = 3\nprint(pet[\"age\"])",
+                  "boilerplateLines": []
+                }
+              ]
+            },
+            {
+              "index": 6,
+              "title": "Corregir reservas de asientos",
+              "hasOwnTitle": true,
+              "startLine": 126,
+              "endLine": 158,
+              "concepts": [
+                "variable",
+                "string",
+                "integer",
+                "print",
+                "arithmetic",
+                "function-def",
+                "function-call",
+                "parameter",
+                "return",
+                "comparison-operators"
+              ],
+              "segments": [
+                {
+                  "type": "theory",
+                  "startLine": 127,
+                  "endLine": 136,
+                  "text": "La reserve_seatsfunción debe convertir requesteduna cadena de texto a un número entero y devolver el número de asientos restantes.\n\nEl sistema actual de gestión de excepciones devuelve resultados incorrectos en lugar de generar errores útiles.\n\nComportamiento esperado\nSi requestedno es un número entero, genere una excepción ValueErrorcon el mensaje seat count must be a whole number.\nSi el número convertido es cero o negativo, genere una excepción ValueErrorcon el mensaje seat count must be positive.\nSi no hay suficientes asientos, levante un ValueErrorcon el mensaje not enough seats.\nDe lo contrario, devuelva el número de asientos restantes.\nPor ejemplo:"
+                },
+                {
+                  "type": "code",
+                  "startLine": 137,
+                  "endLine": 158,
+                  "text": "def reserve_seats(requested, available):\n    try:\n        requested_int = int(requested)\n    except ValueError:\n        raise ValueError(\"seat count must be a whole number\")\n\n    if requested_int <= 0:\n        raise ValueError(\"seat count must be positive\")\n    if requested_int > available:\n        raise ValueError(\"not enough seats\")\n\n    return available - requested_int\n\n\nprint(\"=========================\")\nprint(reserve_seats(\"3\", 10))  # 7\nprint(reserve_seats(\"three\", 10))  # raises ValueError: seat count must be a whole number\nprint(reserve_seats(\"12\", 10))  # raises ValueError: not enough\nprint(reserve_seats(\"0\", 10))  # raises ValueError: seat count must be positive\nprint(reserve_seats(\"-5\", 10))  # raises ValueError: seat count must be positive\nprint(reserve_seats(\"8\", 8))  # 0\nprint(reserve_seats(\"15\", 40))  # 25",
                   "boilerplateLines": []
                 }
               ]
