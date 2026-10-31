@@ -23,7 +23,7 @@
 
 ---
 
-## 📜 Quest Prologue
+## 📜 Quest Prologe
 
 Welcome, traveler, to this digital grimoire. Here lie the battle logs, incantations, and artifacts forged throughout my journey across the realms of **[Boot.dev](https://www.boot.dev)**.
 
