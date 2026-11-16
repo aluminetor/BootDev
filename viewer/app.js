@@ -340,9 +340,41 @@ function renderFileView(file) {
     for (const exercise of file.exercises) children.push(renderExercise(exercise));
   }
 
+  const pager = renderChapterPager(file);
+  if (pager) children.push(pager);
+
   elements.view.replaceChildren(...children);
   document.title = `${file.title} | Apuntes BootDev`;
   observeExercises();
+}
+
+function renderChapterPager(file) {
+  const index = state.files.indexOf(file);
+  if (index === -1) return null;
+  const previous = state.files[index - 1] ?? null;
+  const next = state.files[index + 1] ?? null;
+  if (!previous && !next) return null;
+
+  const nav = createElement("nav", {
+    className: "chapter-pager",
+    attrs: { "aria-label": "Navegación entre capítulos" },
+  });
+  nav.append(
+    previous ? renderPagerLink(previous, "← Anterior", "is-prev") : createElement("span"),
+    next ? renderPagerLink(next, "Siguiente →", "is-next") : createElement("span"),
+  );
+  return nav;
+}
+
+function renderPagerLink(file, directionLabel, extraClass) {
+  const label = file.kind === "chapter" ? `${padNumber(file.number)} · ${file.title}` : file.title;
+  return createElement("a", {
+    className: `pager-link ${extraClass}`,
+    attrs: { href: buildHash(file) },
+  }, [
+    createElement("span", { className: "pager-direction", text: directionLabel }),
+    createElement("span", { className: "pager-title", text: label }),
+  ]);
 }
 
 function renderChapterHeader(file) {
@@ -1129,6 +1161,7 @@ function collectElements() {
     sidebarBackdrop: "sidebar-backdrop",
     mobileTitle: "mobile-title",
     indexInfo: "index-info",
+    backToTop: "back-to-top",
     toast: "toast",
   };
   for (const [name, id] of Object.entries(ids)) elements[name] = document.getElementById(id);
@@ -1180,6 +1213,17 @@ function bindEvents() {
   });
 
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateThemeButton);
+
+  const updateBackToTop = () => {
+    if (!elements.backToTop) return;
+    elements.backToTop.hidden = window.scrollY < 420;
+  };
+  window.addEventListener("scroll", updateBackToTop, { passive: true });
+  elements.backToTop?.addEventListener("click", () => {
+    const behavior = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+    window.scrollTo({ top: 0, behavior });
+  });
+  updateBackToTop();
 }
 
 async function init() {
