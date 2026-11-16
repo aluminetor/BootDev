@@ -1171,6 +1171,45 @@ function isTypingTarget(target) {
   return target instanceof HTMLElement && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName));
 }
 
+function getVisibleTreeItems() {
+  return [...elements.tree.querySelectorAll("summary, a")].filter((el) => el.offsetParent !== null);
+}
+
+function handleTreeKeydown(event) {
+  if (!["ArrowDown", "ArrowUp", "Home", "End"].includes(event.key)) return;
+  const items = getVisibleTreeItems();
+  if (!items.length) return;
+  const currentIndex = items.indexOf(document.activeElement);
+  let targetIndex = 0;
+
+  if (event.key === "ArrowDown") {
+    targetIndex = currentIndex === -1 ? 0 : Math.min(currentIndex + 1, items.length - 1);
+  } else if (event.key === "ArrowUp") {
+    targetIndex = currentIndex <= 0 ? 0 : currentIndex - 1;
+  } else if (event.key === "End") {
+    targetIndex = items.length - 1;
+  }
+
+  event.preventDefault();
+  items[targetIndex].focus();
+}
+
+function handleSearchResultsKeydown(event) {
+  if (event.key !== "ArrowDown" && event.key !== "ArrowUp") return;
+  const links = [...elements.searchResults.querySelectorAll("a")];
+  if (!links.length) return;
+  const currentIndex = links.indexOf(document.activeElement);
+  event.preventDefault();
+
+  if (event.key === "ArrowDown") {
+    links[Math.min(currentIndex + 1, links.length - 1)].focus();
+  } else if (currentIndex <= 0) {
+    elements.searchInput.focus();
+  } else {
+    links[currentIndex - 1].focus();
+  }
+}
+
 function bindEvents() {
   window.addEventListener("hashchange", () => handleRoute());
 
@@ -1180,10 +1219,21 @@ function bindEvents() {
   }, SEARCH_DEBOUNCE_MS);
   elements.searchInput.addEventListener("input", debouncedSearch);
   elements.searchInput.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowDown" && !elements.searchResults.hidden) {
+      const firstResult = elements.searchResults.querySelector("a");
+      if (firstResult) {
+        event.preventDefault();
+        firstResult.focus();
+      }
+      return;
+    }
     if (event.key !== "Escape") return;
     if (elements.searchInput.value) clearSearch();
     else toggleConceptFilter(null);
   });
+
+  elements.tree.addEventListener("keydown", handleTreeKeydown);
+  elements.searchResults.addEventListener("keydown", handleSearchResultsKeydown);
 
   elements.clearFilter.addEventListener("click", () => toggleConceptFilter(state.conceptId));
 
