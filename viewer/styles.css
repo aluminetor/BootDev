@@ -679,11 +679,34 @@ mark {
   font-style: italic;
 }
 
-.exercise-lines {
+.exercise-meta {
   justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.exercise-lines {
   font-family: var(--font-code);
   font-size: var(--text-xs);
   color: var(--color-faint);
+}
+
+.exercise-link-button {
+  padding: 0 var(--space-2);
+  border: var(--rule-width) solid transparent;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-faint);
+  font-family: var(--font-code);
+  font-size: var(--text-sm);
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.exercise-link-button:hover {
+  border-color: var(--color-rule);
+  color: var(--color-accent);
 }
 
 .concept-chips {
@@ -858,6 +881,7 @@ mark {
     gap: var(--space-3);
   }
 
+  .exercise-meta,
   .exercise-lines {
     justify-self: start;
   }

@@ -337,7 +337,7 @@ function renderFileView(file) {
   } else if (!file.exercises.length) {
     children.push(renderNotice("Este fichero está vacío", "No contiene teoría ni código para mostrar."));
   } else {
-    for (const exercise of file.exercises) children.push(renderExercise(exercise));
+    for (const exercise of file.exercises) children.push(renderExercise(file, exercise));
   }
 
   const pager = renderChapterPager(file);
@@ -415,7 +415,7 @@ function renderMetaItem(label, value) {
   return createElement("div", {}, [createElement("dt", { text: label }), createElement("dd", { text: value })]);
 }
 
-function renderExercise(exercise) {
+function renderExercise(file, exercise) {
   const headingId = `exercise-${exercise.index}-title`;
   const section = createElement("section", {
     className: "exercise",
@@ -434,11 +434,30 @@ function renderExercise(exercise) {
     className: "exercise-lines",
     text: `líneas ${exercise.startLine}–${exercise.endLine}`,
   });
+  const copyLinkButton = createElement("button", {
+    className: "exercise-link-button",
+    text: "#",
+    attrs: {
+      type: "button",
+      title: "Copiar enlace al ejercicio",
+      "aria-label": `Copiar enlace a ${exercise.title}`,
+    },
+  });
+  copyLinkButton.addEventListener("click", () => copyExerciseLink(file, exercise));
 
-  section.append(createElement("div", { className: "exercise-head" }, [title, lines]));
+  const meta = createElement("div", { className: "exercise-meta" }, [lines, copyLinkButton]);
+  section.append(createElement("div", { className: "exercise-head" }, [title, meta]));
   if (exercise.concepts.length) section.append(renderConceptChips(exercise.concepts));
   for (const step of groupSegmentsIntoSteps(exercise.segments)) section.append(renderStep(step));
   return section;
+}
+
+async function copyExerciseLink(file, exercise) {
+  const hash = buildHash(file, exercise.index);
+  const url = `${window.location.origin}${window.location.pathname}${hash}`;
+  if (window.location.hash !== hash) window.history.replaceState(null, "", hash);
+  const ok = await writeToClipboard(url);
+  showToast(ok ? "Enlace del ejercicio copiado" : "No se pudo copiar el enlace");
 }
 
 function renderConceptChips(conceptIds) {
