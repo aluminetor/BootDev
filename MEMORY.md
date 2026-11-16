@@ -5,12 +5,12 @@ apuntes de Boot.dev y no modifica los archivos originales de estudio.
 
 ## Estado actual
 
-- Visor funcional en `viewer/`: `index.html`, `styles.css`, `app.js` y `data/index.json`.
+- Visor funcional en `viewer/`: `index.html`, `styles.css`, `app.js`, `build_index.py`, `test_build_index.py` y `data/index.json`.
 - Catálogo indexado: 1 curso, 14 capítulos + 1 archivo de retos, 102 ejercicios y 42 conceptos de glosario.
-- Capítulos recientes: `CH13_type_hints.py` (10 ejercicios) y `CH14_practice.py` (15 ejercicios) completados e indexados (102 ejercicios totales).
-- Se creó `CH13_type_hints_organized.py` en la raíz como copia organizada del capítulo; el original en `PythonBeginners/` permanece intacto.
+- Pruebas unitarias en `viewer/test_build_index.py` (stdlib `unittest`, 9 pruebas pasando).
+- Navegación mejorada: paginación Anterior/Siguiente entre capítulos, botón "Volver arriba", teclado en árbol/búsqueda y botón para copiar enlace de cada ejercicio.
 - Web estática sin framework ni build step (HTML, CSS moderno, JS ES modules).
-- Skill local `.agents/skills/sync-viewer/` creada para automatizar la sincronización.
+- Skill local `.agents/skills/sync-viewer/` para automatizar la sincronización.
 - `viewer/build_index.py` genera el índice a partir de `README.md` y las carpetas de estudio.
 - README actualizado con el certificado de Introduction to Python enlazado a Boot.dev.
 - README actualizado para reflejar la estructura actual de `PythonBeginners/`, `viewer/` y los archivos de configuración.
@@ -32,5 +32,6 @@ apuntes de Boot.dev y no modifica los archivos originales de estudio.
 
 ## Próximos pasos
 
+- Ejecutar `python -m unittest discover -s viewer -v` tras cambiar `viewer/build_index.py`.
 - Usar la skill `sync-viewer` tras añadir o modificar ejercicios de estudio.
 - Verificar en `http://localhost:8000/viewer/` y validar en consola de DevTools (sin 404 ni errores JS).
